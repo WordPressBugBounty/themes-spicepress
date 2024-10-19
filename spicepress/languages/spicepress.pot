@@ -1,0 +1,1607 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SpicePress\n"
+"POT-Creation-Date: 2022-12-30 14:22+0530\n"
+"PO-Revision-Date: 2019-04-09 11:22+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:14
+msgid "Oops! Page not found"
+msgstr ""
+
+#: 404.php:15
+msgid "4"
+msgstr ""
+
+#: 404.php:16
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr ""
+
+#: 404.php:17
+msgid "Go Back"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:71
+#: admin/inc/include-companion.php:41 admin/inc/plugin-include-control.php:40
+msgid "Installing"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:72
+#: admin/inc/include-companion.php:42 admin/inc/plugin-include-control.php:41
+#: functions/customizer-notify/spicepress-customizer-notify.php:111
+msgid "Activating"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:73
+#: admin/inc/include-companion.php:43 admin/inc/plugin-include-control.php:42
+msgid "Error"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:112
+msgid "View Theme Info"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:122
+#, php-format
+msgid "About %1$s %2$s"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:123
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:136
+#, php-format
+msgid ""
+"SpicePress theme is installed. To take full advantage of the features this "
+"theme has to offer visit our %1$s welcome page %2$s"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:137
+msgid "Get started with SpicePress theme"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:235
+#: admin/tab-pages/getting-started.php:20
+msgid "Getting Started"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:240
+#: functions/customizer/customizer_recommended_plugin.php:16
+msgid "Recommended Actions"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:248
+msgid "Support"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:330
+#, php-format
+msgid "Install %s now"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:332
+#: admin/inc/include-companion.php:81
+msgid "Install and activate"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:349
+#, php-format
+msgid "Activate %s now"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:351
+#: class-tgm-plugin-activation.php:2726
+#: functions/customizer/customizer_recommended_plugin.php:19
+msgid "Activate"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:354
+#: class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:467 functions.php:217
+msgid "Spice Box"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:471
+msgid ""
+"To access the advanced Frontpage sections and the other features, please "
+"install & activate the Spice Box plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:474 functions.php:207
+msgid "Contact Form 7"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:478
+msgid ""
+"To display the contact form, please install & activate the Contact Form 7 "
+"plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:481 functions.php:222
+msgid "WooCommerce"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:485
+msgid ""
+"To create a shop page you just need to install this plugin & activate it."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:488 functions.php:227
+msgid "Spice Post Slider"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:492
+msgid ""
+"To display the posts in beautiful slider with multiple options you just "
+"need to install & activate this plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:495 functions.php:232
+msgid "Spice Social Share"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:499
+msgid ""
+"To add social share buttons to your posts you just need to install & "
+"activate this plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:502 functions.php:237
+msgid "Seo Optimized Images"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:506
+msgid ""
+"It is recommended that you install & activate the Seo Optimized Images "
+"plugin to dynamically insert SEO Friendly alt attributes and title "
+"attributes to your Images."
+msgstr ""
+
+#: admin/inc/include-companion.php:79
+msgid ""
+"To take advantage of this theme's features in the customizer you need to "
+"install the SpiceBox plugin."
+msgstr ""
+
+#: admin/inc/include-companion.php:80
+msgid "Install SpiceBox Now"
+msgstr ""
+
+#: admin/inc/include-companion.php:80 admin/inc/include-companion.php:97
+msgid "SpiceBox"
+msgstr ""
+
+#: admin/inc/include-companion.php:96
+msgid ""
+"You have installed the SpiceBox plugin. To take advantage of this theme's "
+"features in the customizer, you need to activate it."
+msgstr ""
+
+#: admin/inc/include-companion.php:97
+msgid "Activate SpiceBox now"
+msgstr ""
+
+#: admin/inc/include-companion.php:98
+msgid "Activate now"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:10
+msgid "About the SpicePress theme"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:16
+msgid ""
+"This theme is ideal for creating corporate and business websites. The PRO "
+"version has tons of features: a homepage with many sections where you can "
+"feature unlimited sliders, portfolios, user reviews, latest news, "
+"services, calls to action and much more. Each section in the HomePage "
+"template is carefully designed to fit to all business requirements."
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:18
+msgid ""
+"You can use this theme for any type of activity. SpicePress is compatible "
+"with popular plugins like WPML and Polylang. To help you create an "
+"effective and impactful web presence, SpicePress has predefined versions "
+"of many pages: Contact, Services, Portfolios, About Us and Blog."
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:23
+msgid ""
+"To take full advantage of all the features this theme has to offer, "
+"install and activate the SpiceBox plugin. Go to Customize and install the "
+"SpiceBox plugin."
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:25
+msgid "Go to the Customizer"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:31
+msgid "SpicePress theme"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:37
+msgid "Useful Links"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:42
+msgid "Lite Demo"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:48
+msgid "PRO Demo"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:54
+msgid "Theme Support"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:60
+msgid "Your feedback is valuable to us"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:66
+msgid "Premium Theme Details"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:72
+msgid "Free vs Pro"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:78
+#: admin/tab-pages/useful_plugins.php:18
+#: admin/tab-pages/useful_plugins.php:20
+msgid "Changelog"
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:11
+#: admin/tab-pages/useful_plugins.php:13
+msgid "Contact Support"
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:12
+msgid ""
+"We want to make sure you have the best experience using this theme, and "
+"that is why we have gathered all the necessary information here for you. "
+"We hope you will enjoy using this theme as much as we enjoy creating great "
+"products."
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:19
+msgid ""
+"Want to get the list of the latest theme changes? Just consult our "
+"changelog below to get a taste of the recent fixes and features "
+"implemented."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural ""
+"The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:386 class-tgm-plugin-activation.php:827
+#: class-tgm-plugin-activation.php:2533 class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:387 class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update "
+"or activate."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:934 class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files "
+"are not packaged in a folder."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1121 class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2327
+msgid "Required Update Not Available"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Updates Available <span class=\"count\">(%s)</span>"
+msgid_plural "Updates Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2952
+msgid "The following plugin is activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3509 class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3509 class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on "
+"some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: comments.php:6
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:18
+msgid "Reply"
+msgstr ""
+
+#: comments.php:27
+msgid "Posted on"
+msgstr ""
+
+#: comments.php:30
+msgid "Edit"
+msgstr ""
+
+#: comments.php:33
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:52
+msgid "No comments so far"
+msgstr ""
+
+#: comments.php:52
+msgid "1 comment so far"
+msgstr ""
+
+#: comments.php:52
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:60
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:61
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:62
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:67 comments.php:113
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:79
+msgid "Name"
+msgstr ""
+
+#: comments.php:80
+msgid "Email"
+msgstr ""
+
+#: comments.php:92
+msgid "Message"
+msgstr ""
+
+#: comments.php:93
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:93
+msgid "Logout of this account"
+msgstr ""
+
+#: comments.php:93
+msgid "Log out"
+msgstr ""
+
+#: comments.php:95
+msgid "Send Message"
+msgstr ""
+
+#: comments.php:99
+msgid "Leave a Reply"
+msgstr ""
+
+#: content-page.php:24 content-single.php:34 content.php:41 content.php:45
+#: content.php:53 functions/template-tags.php:53
+#: functions/template-tags.php:263 index-news.php:60
+#: template/template-page-full-width.php:29
+msgid "Read More"
+msgstr ""
+
+#: footer.php:5
+msgid ""
+"Proudly powered by <a href=\"https://wordpress.org\">WordPress</a> | "
+"Theme: <a href=\"https://spicethemes.com\" rel=\"nofollow\">SpicePress</a> "
+"by SpiceThemes"
+msgstr ""
+
+#: footer.php:23
+msgid "Proudly powered by"
+msgstr ""
+
+#: footer.php:23
+msgid "https://wordpress.org"
+msgstr ""
+
+#: footer.php:23
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:23
+msgid "| Theme:"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: footer.php:23
+msgid "https://spicethemes.com"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: footer.php:23
+msgid "SpicePress"
+msgstr ""
+
+#: footer.php:23
+msgid "by SpiceThemes"
+msgstr ""
+
+#: functions.php:68
+msgid "Page"
+msgstr ""
+
+#: functions.php:114
+#: functions/customizer/customizer_color_back_settings.php:159
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:212
+msgid "Instagram Feed"
+msgstr ""
+
+#: functions/breadcrumbs/breadcrumbs.php:52
+#: functions/breadcrumbs/breadcrumbs.php:57
+#: functions/breadcrumbs/breadcrumbs.php:125
+#: functions/breadcrumbs/breadcrumbs.php:128
+#: functions/menu/default_menu_walker.php:23 index.php:23 index.php:32
+msgid "Home"
+msgstr ""
+
+#: functions/breadcrumbs/breadcrumbs.php:60
+#: functions/breadcrumbs/breadcrumbs.php:131
+msgid "Archive by category"
+msgstr ""
+
+#: functions/breadcrumbs/breadcrumbs.php:64
+#: functions/breadcrumbs/breadcrumbs.php:65
+#: functions/breadcrumbs/breadcrumbs.php:70
+#: functions/breadcrumbs/breadcrumbs.php:75
+#: functions/breadcrumbs/breadcrumbs.php:135
+#: functions/breadcrumbs/breadcrumbs.php:136
+#: functions/breadcrumbs/breadcrumbs.php:141
+#: functions/breadcrumbs/breadcrumbs.php:146
+msgid "Y"
+msgstr ""
+
+#: functions/breadcrumbs/breadcrumbs.php:65
+#: functions/breadcrumbs/breadcrumbs.php:136
+msgid "m"
+msgstr ""
+
+#: functions/breadcrumbs/breadcrumbs.php:65
+#: functions/breadcrumbs/breadcrumbs.php:71
+#: functions/breadcrumbs/breadcrumbs.php:136
+#: functions/breadcrumbs/breadcrumbs.php:142
+msgid "F"
+msgstr ""
+
+#: functions/breadcrumbs/breadcrumbs.php:66
+#: functions/breadcrumbs/breadcrumbs.php:137
+msgid "d"
+msgstr ""
+
+#: functions/breadcrumbs/breadcrumbs.php:114
+#: functions/breadcrumbs/breadcrumbs.php:185
+msgid "Error 404"
+msgstr ""
+
+#: functions/customizer/customizer-pro.php:12
+msgid "UPGRADE TO PRO"
+msgstr ""
+
+#: functions/customizer/customizer-pro.php:19
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: functions/customizer/customizer_blog_option_settings.php:19
+msgid "Spicepress Theme Blog Option"
+msgstr ""
+
+#: functions/customizer/customizer_blog_option_settings.php:31
+msgid "Blog Page"
+msgstr ""
+
+#: functions/customizer/customizer_blog_option_settings.php:39
+msgid "excerpt"
+msgstr ""
+
+#: functions/customizer/customizer_blog_option_settings.php:46
+msgid "Choose Options"
+msgstr ""
+
+#: functions/customizer/customizer_blog_option_settings.php:50
+msgid "Excerpt"
+msgstr ""
+
+#: functions/customizer/customizer_blog_option_settings.php:51
+msgid "Full Content"
+msgstr ""
+
+#: functions/customizer/customizer_blog_option_settings.php:66
+msgid "Excerpt Length"
+msgstr ""
+
+#: functions/customizer/customizer_blog_option_settings.php:85
+msgid "Single Post"
+msgstr ""
+
+#: functions/customizer/customizer_blog_option_settings.php:100
+msgid "Hide/Show Categroy"
+msgstr ""
+
+#: functions/customizer/customizer_blog_option_settings.php:115
+msgid "Hide/Show Date"
+msgstr ""
+
+#: functions/customizer/customizer_blog_option_settings.php:130
+msgid "Hide/Show Author Name"
+msgstr ""
+
+#: functions/customizer/customizer_blog_option_settings.php:145
+msgid "Hide/Show Tag"
+msgstr ""
+
+#: functions/customizer/customizer_blog_option_settings.php:159
+msgid "Hide/Show Author Details"
+msgstr ""
+
+#: functions/customizer/customizer_bredcrumbs_settings.php:5
+msgid "Archive Page Title"
+msgstr ""
+
+#: functions/customizer/customizer_bredcrumbs_settings.php:14
+#: functions/customizer/customizer_bredcrumbs_settings.php:20
+#: functions/template-tags.php:178
+msgid "Archive"
+msgstr ""
+
+#: functions/customizer/customizer_bredcrumbs_settings.php:28
+#: functions/customizer/customizer_bredcrumbs_settings.php:34
+#: functions/template-tags.php:196
+msgid "Category"
+msgstr ""
+
+#: functions/customizer/customizer_bredcrumbs_settings.php:42
+#: functions/template-tags.php:202
+msgid "All posts by"
+msgstr ""
+
+#: functions/customizer/customizer_bredcrumbs_settings.php:48
+msgid "Author"
+msgstr ""
+
+#: functions/customizer/customizer_bredcrumbs_settings.php:56
+#: functions/customizer/customizer_bredcrumbs_settings.php:62
+#: functions/template-tags.php:35 functions/template-tags.php:132
+#: functions/template-tags.php:208
+msgid "Tag"
+msgstr ""
+
+#: functions/customizer/customizer_bredcrumbs_settings.php:71
+#: functions/template-tags.php:228
+msgid "Search results for"
+msgstr ""
+
+#: functions/customizer/customizer_bredcrumbs_settings.php:77
+#: searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: functions/customizer/customizer_bredcrumbs_settings.php:85
+#: functions/customizer/customizer_bredcrumbs_settings.php:91
+#: functions/template-tags.php:238
+msgid "404"
+msgstr ""
+
+#: functions/customizer/customizer_bredcrumbs_settings.php:100
+#: functions/customizer/customizer_bredcrumbs_settings.php:106
+#: functions/template-tags.php:214
+msgid "Shop"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:11
+msgid "Colors & Background"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:15
+msgid "Background Image"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:16
+#: functions/customizer/customizer_color_back_settings.php:22
+msgid "Note: This setting will only work on the Boxed layout."
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:21
+#: functions/customizer/customizer_color_back_settings.php:280
+msgid "Background Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:30
+#: functions/customizer/customizer_typography.php:60
+msgid "Header"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:47
+#: functions/customizer/customizer_color_back_settings.php:204
+#: functions/customizer/customizer_color_back_settings.php:462
+#: functions/customizer/customizer_color_back_settings.php:643
+msgid "Click here to apply these settings"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:61
+#: functions/customizer/customizer_typography.php:87
+msgid "Site Title"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:87
+#: functions/customizer/customizer_color_back_settings.php:426
+#: functions/customizer/customizer_color_back_settings.php:589
+#: functions/customizer/customizer_color_back_settings.php:679
+msgid "Link Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:99
+#: functions/customizer/customizer_color_back_settings.php:228
+#: functions/customizer/customizer_color_back_settings.php:316
+#: functions/customizer/customizer_color_back_settings.php:438
+#: functions/customizer/customizer_color_back_settings.php:618
+#: functions/customizer/customizer_color_back_settings.php:691
+msgid "Link Hover Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:113
+#: functions/customizer/customizer_typography.php:142
+msgid "Site Tagline"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:139
+#: functions/customizer/customizer_color_back_settings.php:577
+#: functions/customizer/customizer_color_back_settings.php:667
+msgid "Text Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:151
+msgid "Text Hover Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:172
+#: functions/customizer/customizer_typography.php:197
+msgid "Menus"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:216
+#: functions/customizer/customizer_color_back_settings.php:304
+msgid "Text/Link Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:240
+msgid "Active Link Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:254
+#: functions/customizer/customizer_typography.php:252
+msgid "Submenus"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:292
+msgid "Background Hover Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:328
+msgid "Link Active Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:336
+#: functions/customizer/customizer_typography.php:302
+msgid "Banner"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:349
+msgid "Banner Title"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:375
+#: functions/customizer/customizer_color_back_settings.php:565
+#: functions/customizer/customizer_color_back_settings.php:655
+msgid "Title Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:389
+#: functions/customizer/customizer_typography.php:384
+msgid "Breadcrumb Title"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:402
+msgid "Click here to apply below settings"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:447
+#: functions/customizer/customizer_typography.php:571
+msgid "Content"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:474
+msgid "H1 Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:486
+msgid "H2 Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:498
+msgid "H3 Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:510
+msgid "H4 Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:522
+msgid "H5 Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:534
+msgid "H6 Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:546
+msgid "Paragraph Text Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:554
+msgid "Sidebar"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:606
+msgid "Click here to apply below setting"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:627
+msgid "Footer Widget"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:153
+msgid "General Settings"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:159
+msgid "Header Layout"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:175
+msgid "Header layout with logo placing"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:196
+msgid "Menu Breakpoint Setting"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:211
+msgid "Menu breakpoint"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:212
+msgid "Enter the Min. Size 200px and Max Size 6000px"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:235
+msgid "Animation Setting"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:247
+msgid "Disable animation effect in desktop"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:259
+msgid "Disable animation effect on mobile devices"
+msgstr ""
+
+#: functions/customizer/customizer_recommended_plugin.php:12
+#, php-format
+msgid ""
+"Install and activate %s plugin for taking full advantage of all the "
+"features this theme has to offer."
+msgstr ""
+
+#: functions/customizer/customizer_recommended_plugin.php:17
+msgid "Recommended Plugin"
+msgstr ""
+
+#: functions/customizer/customizer_recommended_plugin.php:18
+msgid "Install and Activate"
+msgstr ""
+
+#: functions/customizer/customizer_recommended_plugin.php:20
+msgid "Deactivate"
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:17
+msgid "Homepage Section Settings"
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:22
+msgid "Latest News Settings"
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:31
+msgid "Enable Home News section"
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:35
+msgid "ON"
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:36
+msgid "OFF"
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:43
+msgid "Turpis Mollis"
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:48
+#: functions/customizer/customizer_typography.php:1073
+msgid "Title"
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:55 index-news.php:11
+msgid ""
+"Sea summo mazim ex, ea errem eleifend definitionem vim. Ut nec hinc dolor "
+"possim mei ludus efficiendi ei sea summo mazim ex."
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:60
+msgid "Description"
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:78
+msgid "Enable post meta values, like author name, date, comments, etc."
+msgstr ""
+
+#: functions/customizer/customizer_theme_style.php:8
+msgid "Theme Style Settings"
+msgstr ""
+
+#: functions/customizer/customizer_theme_style.php:19
+msgid "Theme Layout"
+msgstr ""
+
+#: functions/customizer/customizer_theme_style.php:54
+msgid "Layout style"
+msgstr ""
+
+#: functions/customizer/customizer_theme_style.php:72
+msgid "Enable custom color skin"
+msgstr ""
+
+#: functions/customizer/customizer_theme_style.php:86
+msgid "Skin Color"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:12
+msgid "Performance(Google Font)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:26
+msgid "Load Google Fonts Locally?"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:41
+msgid "Typography Settings"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:74
+msgid "Enable Header typography"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:112
+#: functions/customizer/customizer_typography.php:167
+#: functions/customizer/customizer_typography.php:222
+#: functions/customizer/customizer_typography.php:277
+#: functions/customizer/customizer_typography.php:354
+#: functions/customizer/customizer_typography.php:411
+#: functions/customizer/customizer_typography.php:491
+#: functions/customizer/customizer_typography.php:546
+#: functions/customizer/customizer_typography.php:623
+#: functions/customizer/customizer_typography.php:680
+#: functions/customizer/customizer_typography.php:737
+#: functions/customizer/customizer_typography.php:793
+#: functions/customizer/customizer_typography.php:849
+#: functions/customizer/customizer_typography.php:905
+#: functions/customizer/customizer_typography.php:963
+#: functions/customizer/customizer_typography.php:1019
+#: functions/customizer/customizer_typography.php:1099
+#: functions/customizer/customizer_typography.php:1179
+#: functions/customizer/customizer_typography.php:1236
+#: functions/customizer/customizer_typography.php:1293
+#: functions/customizer/customizer_typography.php:1372
+#: functions/customizer/customizer_typography.php:1427
+#: functions/customizer/customizer_typography.php:1505
+#: functions/customizer/customizer_typography.php:1560
+msgid "Font family"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:127
+#: functions/customizer/customizer_typography.php:182
+#: functions/customizer/customizer_typography.php:237
+#: functions/customizer/customizer_typography.php:292
+#: functions/customizer/customizer_typography.php:369
+#: functions/customizer/customizer_typography.php:426
+#: functions/customizer/customizer_typography.php:506
+#: functions/customizer/customizer_typography.php:561
+#: functions/customizer/customizer_typography.php:638
+#: functions/customizer/customizer_typography.php:695
+#: functions/customizer/customizer_typography.php:752
+#: functions/customizer/customizer_typography.php:808
+#: functions/customizer/customizer_typography.php:864
+#: functions/customizer/customizer_typography.php:921
+#: functions/customizer/customizer_typography.php:978
+#: functions/customizer/customizer_typography.php:1034
+#: functions/customizer/customizer_typography.php:1114
+#: functions/customizer/customizer_typography.php:1194
+#: functions/customizer/customizer_typography.php:1251
+#: functions/customizer/customizer_typography.php:1308
+#: functions/customizer/customizer_typography.php:1387
+#: functions/customizer/customizer_typography.php:1442
+#: functions/customizer/customizer_typography.php:1520
+#: functions/customizer/customizer_typography.php:1575
+msgid "Font size (px)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:316
+msgid "Enable Banner typography"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:329
+msgid "Page Title"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:437
+msgid "Homepage Section"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:451
+msgid "Enable Homepage sections typography"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:464
+msgid "Section Title"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:521
+msgid "Section Description"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:585
+msgid "Enable Content typography"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:598
+#: functions/customizer/customizer_typography.php:1152
+msgid "Heading 1 (H1)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:654
+#: functions/customizer/customizer_typography.php:1210
+msgid "Heading 2 (H2)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:711
+#: functions/customizer/customizer_typography.php:1267
+msgid "Heading 3 (H3)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:768
+msgid "Heading 4 (H4)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:824
+msgid "Heading 5 (H5)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:880
+msgid "Heading 6 (H6)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:938
+msgid "Paragraph"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:994
+msgid "Button Text"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1045
+msgid "Blog / Archive / Single Post"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1059
+msgid "Enable Blog / Archive / Single Post typography"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1124
+msgid "Shop Page"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1138
+msgid "Enable shop page typography"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1153
+msgid "Only for product detail page"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1211
+msgid "Only for product title in Shop Page"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1268
+msgid "Only for Product checkout page"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1319
+msgid "Sidebar Widgets"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1333
+msgid "Enable Sidebar Widgets typography"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1347
+msgid "Sidebar Widget Title"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1402
+msgid "Sidebar Widget Content"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1452
+msgid "Footer Widgets"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1466
+msgid "Enable Footer Widget typography"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1480
+msgid "Footer Widget Title"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1535
+msgid "Footer Widget Content"
+msgstr ""
+
+#: functions/template-tags.php:25 functions/template-tags.php:117
+msgid "By"
+msgstr ""
+
+#: functions/template-tags.php:31 functions/template-tags.php:125
+msgid "in"
+msgstr ""
+
+#: functions/template-tags.php:184 functions/template-tags.php:188
+#: functions/template-tags.php:192 functions/template-tags.php:198
+#: functions/template-tags.php:204 functions/template-tags.php:210
+#: functions/template-tags.php:216 functions/template-tags.php:232
+#: functions/template-tags.php:242
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: functions/template-tags.php:272
+msgid "previous page"
+msgstr ""
+
+#: functions/template-tags.php:272
+msgid "next page"
+msgstr ""
+
+#: functions/widgets/sidebars.php:8 functions/widgets/sidebars.php:10
+msgid "Sidebar widget area"
+msgstr ""
+
+#: functions/widgets/sidebars.php:18 functions/widgets/sidebars.php:20
+msgid "Footer widget left area"
+msgstr ""
+
+#: functions/widgets/sidebars.php:28 functions/widgets/sidebars.php:30
+msgid "Footer widget central area"
+msgstr ""
+
+#: functions/widgets/sidebars.php:38 functions/widgets/sidebars.php:40
+msgid "Footer widget right area"
+msgstr ""
+
+#: functions/widgets/sidebars.php:50 functions/widgets/sidebars.php:52
+msgid "WooCommerce sidebar widget area"
+msgstr ""
+
+#: functions/widgets/sidebars.php:61 functions/widgets/sidebars.php:63
+msgid "Contact template sidebar"
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: header/header-navbar.php:27 header/header-navbar.php:38
+#: header/header-navbar.php:69 header/header-navbar.php:116
+msgid "Toggle navigation"
+msgstr ""
+
+#: index-news.php:10
+msgid "Turpis mollis"
+msgstr ""
+
+#: search.php:29
+msgid "Nothing found"
+msgstr ""
+
+#: search.php:30
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with "
+"some different keywords."
+msgstr ""
+
+#: searchform.php:2
+msgid "Search here"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://spicethemes.com/spicepress-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"SpicePress is a responsive and fully customizable business template. It is "
+"a perfect solution for creative and corporate websites, restaurants, "
+"wedding planners, law firms, finance, consulting, travel, photography, "
+"recipes, design, sport/medical shops, startups, online agencies, "
+"portfolios, E-commerce (WooCommerce), and freelancers. The advanced admin "
+"panel will enable you to personalize SpicePress without any technical "
+"information. SpicePress is translation ready and supports popular plugins "
+"like WPML, Polylang, WooCommerce and Contact Form 7. Check out also "
+"SpicePress PRO, the premium version, which has a lot more to offer."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "spicethemes"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Business Template"
+msgstr ""
