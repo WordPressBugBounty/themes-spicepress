@@ -42,8 +42,8 @@
 		//Single Post Next&Previous Navigation link.
 				the_post_navigation(
 				array(
-				'prev_text' => '<span class="nav-subtitle"><i class="fa fa-angle-double-left"></i>' . esc_html__( 'Previous:', 'appointment' ) . '</span> <span class="nav-title">%title</span>',
-				'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'appointment' ) . '<i class="fa fa-angle-double-right"></i></span> <span class="nav-title">%title</span>',
+				'prev_text' => '<span class="nav-subtitle"><i class="fa fa-angle-double-left"></i>' . esc_html__( 'Previous:', 'spicepress' ) . '</span> <span class="nav-title">%title</span>',
+				'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'spicepress' ) . '<i class="fa fa-angle-double-right"></i></span> <span class="nav-title">%title</span>',
 				)
 				);
 		?>

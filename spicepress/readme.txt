@@ -2,8 +2,8 @@
 
 Contributors: spicethemes
 Requires at least: 4.5
-Tested up to: 6.4
-Stable tag: 2.2
+Tested up to: 6.7
+Stable tag: 2.2.1
 Requires PHP: 5.4
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 License: GNU General Public License v2 or later
@@ -28,10 +28,13 @@ In WordPress 5.8, the default widget title is showing in the H2 tag if you want 
 
 == License ==
 
-SpicePress WordPress Theme, Copyright (C) 2018-2023, SpiceThemes
+SpicePress WordPress Theme, Copyright (C) 2018-2025, SpiceThemes
 SpicePress is distributed under the terms of the GNU GPL
 
 == Changelog ==
+
+@Version 2.2.1
+* Fixed customizer styling isssue.
 
 @Version 2.2
 * Updated font-awesome library.

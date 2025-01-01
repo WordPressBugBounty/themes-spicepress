@@ -319,3 +319,13 @@ function spicepress_sanitize_select( $input, $setting ) {
 		//return input if valid or return default option
 		return ( array_key_exists( $input, $choices ) ? $input : $setting->default );
 }
+
+function spicepress_customizer_inline_styles() { ?>
+	<style>
+	    #customize-controls #customize-theme-controls .accordion-section-title button.accordion-trigger {
+	      height: auto ;
+	    }
+	</style>
+<?PHP
+}
+add_action('customize_controls_print_styles', 'spicepress_customizer_inline_styles');
