@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SpicePress\n"
-"POT-Creation-Date: 2022-12-30 14:22+0530\n"
+"POT-Creation-Date: 2025-01-10 13:36+0530\n"
 "PO-Revision-Date: 2019-04-09 11:22+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -84,7 +84,7 @@ msgid "Getting Started"
 msgstr ""
 
 #: admin/inc/class-spicethemes-about-page.php:240
-#: functions/customizer/customizer_recommended_plugin.php:16
+#: functions/customizer/customizer_recommended_plugin.php:14
 msgid "Recommended Actions"
 msgstr ""
 
@@ -109,7 +109,7 @@ msgstr ""
 
 #: admin/inc/class-spicethemes-about-page.php:351
 #: class-tgm-plugin-activation.php:2726
-#: functions/customizer/customizer_recommended_plugin.php:19
+#: functions/customizer/customizer_recommended_plugin.php:17
 msgid "Activate"
 msgstr ""
 
@@ -118,7 +118,7 @@ msgstr ""
 msgid "Active"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:467 functions.php:217
+#: admin/inc/class-spicethemes-about-page.php:467 functions.php:219
 msgid "Spice Box"
 msgstr ""
 
@@ -128,7 +128,7 @@ msgid ""
 "install & activate the Spice Box plugin."
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:474 functions.php:207
+#: admin/inc/class-spicethemes-about-page.php:474 functions.php:209
 msgid "Contact Form 7"
 msgstr ""
 
@@ -138,7 +138,7 @@ msgid ""
 "plugin."
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:481 functions.php:222
+#: admin/inc/class-spicethemes-about-page.php:481 functions.php:224
 msgid "WooCommerce"
 msgstr ""
 
@@ -147,7 +147,7 @@ msgid ""
 "To create a shop page you just need to install this plugin & activate it."
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:488 functions.php:227
+#: admin/inc/class-spicethemes-about-page.php:488 functions.php:229
 msgid "Spice Post Slider"
 msgstr ""
 
@@ -157,7 +157,7 @@ msgid ""
 "need to install & activate this plugin."
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:495 functions.php:232
+#: admin/inc/class-spicethemes-about-page.php:495 functions.php:234
 msgid "Spice Social Share"
 msgstr ""
 
@@ -167,7 +167,7 @@ msgid ""
 "activate this plugin."
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:502 functions.php:237
+#: admin/inc/class-spicethemes-about-page.php:502 functions.php:239
 msgid "Seo Optimized Images"
 msgstr ""
 
@@ -817,9 +817,17 @@ msgstr ""
 
 #: content-page.php:24 content-single.php:34 content.php:41 content.php:45
 #: content.php:53 functions/template-tags.php:53
-#: functions/template-tags.php:263 index-news.php:60
+#: functions/template-tags.php:260 index-news.php:60
 #: template/template-page-full-width.php:29
 msgid "Read More"
+msgstr ""
+
+#: content-single.php:45
+msgid "Previous:"
+msgstr ""
+
+#: content-single.php:46
+msgid "Next:"
 msgstr ""
 
 #: footer.php:5
@@ -859,62 +867,62 @@ msgstr ""
 msgid "by SpiceThemes"
 msgstr ""
 
-#: functions.php:68
+#: functions.php:69
 msgid "Page"
 msgstr ""
 
-#: functions.php:114
+#: functions.php:115
 #: functions/customizer/customizer_color_back_settings.php:159
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:212
+#: functions.php:214
 msgid "Instagram Feed"
 msgstr ""
 
-#: functions/breadcrumbs/breadcrumbs.php:52
-#: functions/breadcrumbs/breadcrumbs.php:57
-#: functions/breadcrumbs/breadcrumbs.php:125
-#: functions/breadcrumbs/breadcrumbs.php:128
+#: functions/breadcrumbs/breadcrumbs.php:84
+#: functions/breadcrumbs/breadcrumbs.php:89
+#: functions/breadcrumbs/breadcrumbs.php:157
+#: functions/breadcrumbs/breadcrumbs.php:160
 #: functions/menu/default_menu_walker.php:23 index.php:23 index.php:32
 msgid "Home"
 msgstr ""
 
-#: functions/breadcrumbs/breadcrumbs.php:60
-#: functions/breadcrumbs/breadcrumbs.php:131
+#: functions/breadcrumbs/breadcrumbs.php:92
+#: functions/breadcrumbs/breadcrumbs.php:163
 msgid "Archive by category"
 msgstr ""
 
-#: functions/breadcrumbs/breadcrumbs.php:64
-#: functions/breadcrumbs/breadcrumbs.php:65
-#: functions/breadcrumbs/breadcrumbs.php:70
-#: functions/breadcrumbs/breadcrumbs.php:75
-#: functions/breadcrumbs/breadcrumbs.php:135
-#: functions/breadcrumbs/breadcrumbs.php:136
-#: functions/breadcrumbs/breadcrumbs.php:141
-#: functions/breadcrumbs/breadcrumbs.php:146
+#: functions/breadcrumbs/breadcrumbs.php:96
+#: functions/breadcrumbs/breadcrumbs.php:97
+#: functions/breadcrumbs/breadcrumbs.php:102
+#: functions/breadcrumbs/breadcrumbs.php:107
+#: functions/breadcrumbs/breadcrumbs.php:167
+#: functions/breadcrumbs/breadcrumbs.php:168
+#: functions/breadcrumbs/breadcrumbs.php:173
+#: functions/breadcrumbs/breadcrumbs.php:178
 msgid "Y"
 msgstr ""
 
-#: functions/breadcrumbs/breadcrumbs.php:65
-#: functions/breadcrumbs/breadcrumbs.php:136
+#: functions/breadcrumbs/breadcrumbs.php:97
+#: functions/breadcrumbs/breadcrumbs.php:168
 msgid "m"
 msgstr ""
 
-#: functions/breadcrumbs/breadcrumbs.php:65
-#: functions/breadcrumbs/breadcrumbs.php:71
-#: functions/breadcrumbs/breadcrumbs.php:136
-#: functions/breadcrumbs/breadcrumbs.php:142
+#: functions/breadcrumbs/breadcrumbs.php:97
+#: functions/breadcrumbs/breadcrumbs.php:103
+#: functions/breadcrumbs/breadcrumbs.php:168
+#: functions/breadcrumbs/breadcrumbs.php:174
 msgid "F"
 msgstr ""
 
-#: functions/breadcrumbs/breadcrumbs.php:66
-#: functions/breadcrumbs/breadcrumbs.php:137
+#: functions/breadcrumbs/breadcrumbs.php:98
+#: functions/breadcrumbs/breadcrumbs.php:169
 msgid "d"
 msgstr ""
 
-#: functions/breadcrumbs/breadcrumbs.php:114
-#: functions/breadcrumbs/breadcrumbs.php:185
+#: functions/breadcrumbs/breadcrumbs.php:146
+#: functions/breadcrumbs/breadcrumbs.php:217
 msgid "Error 404"
 msgstr ""
 
@@ -930,51 +938,55 @@ msgstr ""
 msgid "Spicepress Theme Blog Option"
 msgstr ""
 
-#: functions/customizer/customizer_blog_option_settings.php:31
-msgid "Blog Page"
-msgstr ""
-
-#: functions/customizer/customizer_blog_option_settings.php:39
-msgid "excerpt"
-msgstr ""
-
-#: functions/customizer/customizer_blog_option_settings.php:46
-msgid "Choose Options"
-msgstr ""
-
-#: functions/customizer/customizer_blog_option_settings.php:50
-msgid "Excerpt"
+#: functions/customizer/customizer_blog_option_settings.php:32
+msgid "Logo Width"
 msgstr ""
 
 #: functions/customizer/customizer_blog_option_settings.php:51
-msgid "Full Content"
+msgid "Blog Page"
+msgstr ""
+
+#: functions/customizer/customizer_blog_option_settings.php:59
+msgid "excerpt"
 msgstr ""
 
 #: functions/customizer/customizer_blog_option_settings.php:66
+msgid "Choose Options"
+msgstr ""
+
+#: functions/customizer/customizer_blog_option_settings.php:70
+msgid "Excerpt"
+msgstr ""
+
+#: functions/customizer/customizer_blog_option_settings.php:71
+msgid "Full Content"
+msgstr ""
+
+#: functions/customizer/customizer_blog_option_settings.php:86
 msgid "Excerpt Length"
 msgstr ""
 
-#: functions/customizer/customizer_blog_option_settings.php:85
+#: functions/customizer/customizer_blog_option_settings.php:105
 msgid "Single Post"
 msgstr ""
 
-#: functions/customizer/customizer_blog_option_settings.php:100
+#: functions/customizer/customizer_blog_option_settings.php:120
 msgid "Hide/Show Categroy"
 msgstr ""
 
-#: functions/customizer/customizer_blog_option_settings.php:115
+#: functions/customizer/customizer_blog_option_settings.php:135
 msgid "Hide/Show Date"
 msgstr ""
 
-#: functions/customizer/customizer_blog_option_settings.php:130
+#: functions/customizer/customizer_blog_option_settings.php:150
 msgid "Hide/Show Author Name"
 msgstr ""
 
-#: functions/customizer/customizer_blog_option_settings.php:145
+#: functions/customizer/customizer_blog_option_settings.php:165
 msgid "Hide/Show Tag"
 msgstr ""
 
-#: functions/customizer/customizer_blog_option_settings.php:159
+#: functions/customizer/customizer_blog_option_settings.php:179
 msgid "Hide/Show Author Details"
 msgstr ""
 
@@ -984,18 +996,18 @@ msgstr ""
 
 #: functions/customizer/customizer_bredcrumbs_settings.php:14
 #: functions/customizer/customizer_bredcrumbs_settings.php:20
-#: functions/template-tags.php:178
+#: functions/template-tags.php:175
 msgid "Archive"
 msgstr ""
 
 #: functions/customizer/customizer_bredcrumbs_settings.php:28
 #: functions/customizer/customizer_bredcrumbs_settings.php:34
-#: functions/template-tags.php:196
+#: functions/template-tags.php:193
 msgid "Category"
 msgstr ""
 
 #: functions/customizer/customizer_bredcrumbs_settings.php:42
-#: functions/template-tags.php:202
+#: functions/template-tags.php:199
 msgid "All posts by"
 msgstr ""
 
@@ -1005,13 +1017,13 @@ msgstr ""
 
 #: functions/customizer/customizer_bredcrumbs_settings.php:56
 #: functions/customizer/customizer_bredcrumbs_settings.php:62
-#: functions/template-tags.php:35 functions/template-tags.php:132
-#: functions/template-tags.php:208
+#: functions/template-tags.php:35 functions/template-tags.php:130
+#: functions/template-tags.php:205
 msgid "Tag"
 msgstr ""
 
 #: functions/customizer/customizer_bredcrumbs_settings.php:71
-#: functions/template-tags.php:228
+#: functions/template-tags.php:225
 msgid "Search results for"
 msgstr ""
 
@@ -1022,13 +1034,13 @@ msgstr ""
 
 #: functions/customizer/customizer_bredcrumbs_settings.php:85
 #: functions/customizer/customizer_bredcrumbs_settings.php:91
-#: functions/template-tags.php:238
+#: functions/template-tags.php:235
 msgid "404"
 msgstr ""
 
 #: functions/customizer/customizer_bredcrumbs_settings.php:100
 #: functions/customizer/customizer_bredcrumbs_settings.php:106
-#: functions/template-tags.php:214
+#: functions/template-tags.php:211
 msgid "Shop"
 msgstr ""
 
@@ -1230,22 +1242,44 @@ msgstr ""
 msgid "Disable animation effect on mobile devices"
 msgstr ""
 
-#: functions/customizer/customizer_recommended_plugin.php:12
+#: functions/customizer/customizer_general_settings.php:268
+msgid "Breadcrumb settings"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:282
+msgid "Breadcrumb type"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:283
+msgid ""
+"If you use other than \"default\" one you will need to install and "
+"activate respective plugins"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:283
+msgid "and"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:288
+msgid "Default"
+msgstr ""
+
+#: functions/customizer/customizer_recommended_plugin.php:10
 #, php-format
 msgid ""
 "Install and activate %s plugin for taking full advantage of all the "
 "features this theme has to offer."
 msgstr ""
 
-#: functions/customizer/customizer_recommended_plugin.php:17
+#: functions/customizer/customizer_recommended_plugin.php:15
 msgid "Recommended Plugin"
 msgstr ""
 
-#: functions/customizer/customizer_recommended_plugin.php:18
+#: functions/customizer/customizer_recommended_plugin.php:16
 msgid "Install and Activate"
 msgstr ""
 
-#: functions/customizer/customizer_recommended_plugin.php:20
+#: functions/customizer/customizer_recommended_plugin.php:18
 msgid "Deactivate"
 msgstr ""
 
@@ -1505,29 +1539,35 @@ msgstr ""
 msgid "Footer Widget Content"
 msgstr ""
 
-#: functions/template-tags.php:25 functions/template-tags.php:117
+#: functions/template-tags.php:25 functions/template-tags.php:116
 msgid "By"
 msgstr ""
 
-#: functions/template-tags.php:31 functions/template-tags.php:125
+#: functions/template-tags.php:31 functions/template-tags.php:123
 msgid "in"
 msgstr ""
 
-#: functions/template-tags.php:184 functions/template-tags.php:188
-#: functions/template-tags.php:192 functions/template-tags.php:198
-#: functions/template-tags.php:204 functions/template-tags.php:210
-#: functions/template-tags.php:216 functions/template-tags.php:232
-#: functions/template-tags.php:242
+#: functions/template-tags.php:181 functions/template-tags.php:185
+#: functions/template-tags.php:189 functions/template-tags.php:195
+#: functions/template-tags.php:201 functions/template-tags.php:207
+#: functions/template-tags.php:213 functions/template-tags.php:229
+#: functions/template-tags.php:239
 #, php-format
 msgid "%1$s %2$s"
 msgstr ""
 
-#: functions/template-tags.php:272
+#: functions/template-tags.php:269
 msgid "previous page"
 msgstr ""
 
-#: functions/template-tags.php:272
+#: functions/template-tags.php:269
 msgid "next page"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: functions/template-tags.php:950
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
 #: functions/widgets/sidebars.php:8 functions/widgets/sidebars.php:10
@@ -1594,8 +1634,10 @@ msgid ""
 "portfolios, E-commerce (WooCommerce), and freelancers. The advanced admin "
 "panel will enable you to personalize SpicePress without any technical "
 "information. SpicePress is translation ready and supports popular plugins "
-"like WPML, Polylang, WooCommerce and Contact Form 7. Check out also "
-"SpicePress PRO, the premium version, which has a lot more to offer."
+"like WPML, Polylang, WooCommerce and Contact Form 7. This theme is fully "
+"GDPR-compliant and doesn’t use any external Google Fonts. All fonts are "
+"locally hosted. Check out also SpicePress PRO, the premium version, which "
+"has a lot more to offer."
 msgstr ""
 
 #. Author of the plugin/theme

@@ -3,7 +3,7 @@
 Contributors: spicethemes
 Requires at least: 4.5
 Tested up to: 6.7
-Stable tag: 2.2.1
+Stable tag: 2.2.2
 Requires PHP: 5.4
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 License: GNU General Public License v2 or later
@@ -33,8 +33,11 @@ SpicePress is distributed under the terms of the GNU GPL
 
 == Changelog ==
 
+@Version 2.2.2
+* Fixed error notice issue.
+
 @Version 2.2.1
-* Fixed customizer styling isssue.
+* Fixed customizer styling issue.
 
 @Version 2.2
 * Updated font-awesome library.
@@ -317,4 +320,4 @@ License - CC0 Public domain
 Source - https://stocksnap.io/photo/people-girls-Y2AHVPYB51
 
 * Images on /images folder
-Copyright (C) 2024, SpcieThemes and available as [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
+Copyright (C) 2025, SpcieThemes and available as [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)

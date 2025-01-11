@@ -34,14 +34,14 @@ require( ST_THEME_FUNCTIONS_PATH .'/customizer/customizer-alpha-color-picker/cla
 require( ST_TEMPLATE_DIR .'/inc/customizer/customizer-slider/customizer-slider.php');
 
 //About Theme
-    $theme = wp_get_theme(); // gets the current theme
-	if ( 'SpicePress' == $theme->name) {
-	  if ( is_admin() ) {
-		  
-        require ST_TEMPLATE_DIR . '/admin/admin-init.php';
-		
-			}
-	}
+add_action( 'init', function() {
+    $theme = wp_get_theme(); // Gets the current theme
+    if ( 'SpicePress' == $theme->name ) {
+        if ( is_admin() ) {
+            require ST_TEMPLATE_DIR . '/admin/admin-init.php';
+        }
+    }
+});
 
 // set default content width
 if ( ! isset( $content_width ) ) {
