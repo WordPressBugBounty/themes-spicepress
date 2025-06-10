@@ -1,6 +1,7 @@
 .spicepress-nav-tabs {
     margin: 30px 0 0;
     border-bottom: 1px solid #dedede;
+    padding-left: 0rem;
 }
 .spicepress-nav-tabs:after {
     clear: both;

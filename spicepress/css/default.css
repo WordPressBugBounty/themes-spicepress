@@ -398,3 +398,5 @@ color: #ce1b28 !important;
 /*  25.0 Post Navigation
 /*===================================================================================*/
 .post .edit-link a:hover,.post .nav-title:hover,.post a:hover .nav-subtitle{color: #ce1b28;}
+
+body a{color: #ce1b28;}

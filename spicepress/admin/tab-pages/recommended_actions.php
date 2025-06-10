@@ -4,6 +4,7 @@
 ?>
 <div id="recommended_actions" class="spicepress-tab-pane panel-close">
 	<div class="action-list">
+		<div class="row">
 		<?php if($spicepress_actions): foreach ($spicepress_actions as $key => $spicepress_actions_val): ?>
 		<div class="col-md-6">
 		<div class="action" id="<?php echo esc_attr($spicepress_actions_val['id']); ?>">
@@ -19,12 +20,13 @@
 			<?php endif; ?>
 			</div>
 			<div class="action-inner">
-				<h3 class="action-title"><?php echo esc_html($spicepress_actions_val['title']); ?></h3>
+				<h5 class="action-title"><?php echo esc_html($spicepress_actions_val['title']); ?></h5>
 				<div class="action-desc"><?php echo esc_html($spicepress_actions_val['desc']); ?></div>
 				<?php echo wp_kses_post($spicepress_actions_val['link']); ?>
 			</div>
 		</div>
 		</div>
 		<?php endforeach; endif; ?>
+	  </div>
 	</div>
 </div>

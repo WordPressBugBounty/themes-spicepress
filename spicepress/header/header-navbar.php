@@ -4,7 +4,7 @@ if($spicepress_header_logo_placing == 'center'){ ?>
 <header class="desktop-header-center">
 <?php } ?>
 <!--Logo & Menu Section-->	
-<nav class="<?php if($spicepress_header_logo_placing == 'center'){ echo 'navbar-center-fullwidth'; }?> navbar navbar-custom <?php echo esc_html($spicepress_header_logo_placing);?>">
+<nav class="<?php if($spicepress_header_logo_placing == 'center'){ echo 'navbar-center-fullwidth'; }?> navbar navbar-custom <?php if($spicepress_header_logo_placing != 'center'){ echo 'navbar-expand-lg'; }?> <?php echo esc_html($spicepress_header_logo_placing);?>">
 	<div class="container-fluid p-l-r-0">
 		<!-- Brand and toggle get grouped for better mobile display -->
 	<?php 	
@@ -23,23 +23,17 @@ if($spicepress_header_logo_placing == 'center'){ ?>
 					<p class="site-description"><?php echo $spicepress_description; ?></p>
 				<?php endif; ?>
 			</div>
-			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse">
-				<span class="sr-only"><?php echo esc_html__('Toggle navigation','spicepress'); ?></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
 		</div>
 	<?php } if($spicepress_header_logo_placing == 'right'){  ?>
 
 
         <div class="navbar-header align-right">
-		    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse">
-				<span class="sr-only"><?php echo esc_html__('Toggle navigation','spicepress'); ?></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
 			<?php the_custom_logo(); ?>
 			<div class="site-branding-text align-right">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -65,12 +59,9 @@ if($spicepress_header_logo_placing == 'center'){ ?>
 				</div>
 			</div>
 			
-			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse">
-				<span class="sr-only"><?php echo esc_html__('Toggle navigation','spicepress'); ?></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
 	
 	<?php } ?>
 
@@ -90,6 +81,8 @@ if($spicepress_header_logo_placing == 'center'){ ?>
 </nav>	
 <!--/Logo & Menu Section-->	
 
+
+
 <?php if($spicepress_header_logo_placing == 'center'){ ?>
 </header>
 <?php } ?>
@@ -99,7 +92,7 @@ if($spicepress_header_logo_placing == 'center'){ ?>
 <header class="mobile-header-center">
 
 <!--Logo & Menu Section-->	
-<nav class="navbar navbar-custom <?php echo esc_html($spicepress_header_logo_placing);?>">
+<nav class="navbar navbar-custom navbar-expand-lg <?php echo esc_html($spicepress_header_logo_placing);?>">
 	<div class="container-fluid p-l-r-0">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
@@ -112,12 +105,9 @@ if($spicepress_header_logo_placing == 'center'){ ?>
 					<p class="site-description"><?php echo $spicepress_description; ?></p>
 				<?php endif; ?>
 			</div>
-			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse">
-				<span class="sr-only"><?php echo esc_html__('Toggle navigation','spicepress'); ?></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
 		</div>
 		
 
@@ -126,7 +116,7 @@ if($spicepress_header_logo_placing == 'center'){ ?>
 					<?php wp_nav_menu( array(
 								'theme_location' => 'primary',
 								'container'  => 'nav-collapse collapse navbar-inverse-collapse',
-								'menu_class' => 'nav navbar-nav navbar-right',
+								'menu_class' => 'nav navbar-nav navbar-right float-end',
 								'fallback_cb' => 'spicepress_fallback_page_menu',
 								'walker' => new Spicepress_nav_walker() 
 							) ); 

@@ -13,13 +13,11 @@ if ( $post->post_content!=="" )
 <section class="about-section">		
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 col-sm-12 col-xs-12">
 				<?php 
 				the_post();
 				the_content();
 				wp_link_pages( );
-				?>
-			</div>	
+				?>	
 		</div>
 	</div>
 </section>

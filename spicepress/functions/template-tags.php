@@ -134,7 +134,7 @@ function spicepress_single_post_category_content()
 <?php } } endif;
 // avator class
 function spicepress_gravatar_class($class) {
-    $spicepress_class = str_replace("class='avatar", "class='img-responsive img-circle", $class);
+    $spicepress_class = str_replace("class='avatar", "class='img-responsive rounded-circle", $class);
     return $spicepress_class;
 }
 add_filter('get_avatar','spicepress_gravatar_class');
@@ -145,7 +145,7 @@ function spicepress_author_meta()
 { ?>
 <article class="blog-author wow fadeInDown animated" data-wow-delay="0.4s">
 	<div class="media">
-		<div class="pull-left">
+		<div class="float-start">
 			<?php echo get_avatar( get_the_author_meta('ID'), 200); ?>
 		</div>
 		<div class="media-body">
@@ -306,11 +306,19 @@ $link_color = esc_attr(get_theme_mod('link_color'));
 		border-bottom: none;	
 		box-shadow: none !important;
 		border: none;
-	}		
+	}
+		body.rtl .caret {position: absolute;left: 0;right: auto;}
+		body.rtl .navbar-custom .nav li.dropdown a {display: block;}
+		body.rtl .navbar-custom .dropdown-menu {text-align: right;}
+		body.rtl .navbar-expand-lg .navbar-toggler {float: left;}
+		body.rtl .site-branding-text {float: right;}
+		body.rtl .navbar-custom.right.navbar-expand-lg .navbar-toggler {float: right;}
+   }		
 }
 
 @media (min-width: <?php echo $spicepress_menu_breakpoint; ?>px) {
 .navbar-nav li button { display: none;} 
+.navbar-nav {flex-direction: unset;}
 }
 
 @media (min-width: <?php echo $spicepress_menu_breakpoint; ?>px){
@@ -379,7 +387,7 @@ $link_color = esc_attr(get_theme_mod('link_color'));
 	padding: 26px 30px 26px 15px;
 }
 .site-branding-text { float: left; margin: 0; padding: 13px 50px 13px 0; }
-.site-title { height: auto; font-size: 1.875rem; line-height: 1.3; font-weight: 600; margin: 0; padding: 0px; }
+.site-title { height: auto; font-size: 1.875rem; line-height: 1.5; font-weight: 600; margin: 0; padding: 0px; }
 .site-description { padding: 0; margin: 0; }
 .navbar-custom .navbar-nav li { margin: 0px; padding: 0; }
 .navbar-custom .navbar-nav li > a {
@@ -393,7 +401,11 @@ $link_color = esc_attr(get_theme_mod('link_color'));
 .navbar-custom .navbar-nav li > a > i {
     padding-left: 5px;
 }
-
+@media (min-width: 768px) {body.rtl .navbar-custom .navbar-brand:not(body.rtl .navbar-custom.right .navbar-brand) {padding: 20px 0px 20px 50px;float: right;}}
+@media (min-width: 501px){
+body.rtl .site-branding-text:not(body.rtl .navbar-custom.right .site-branding-text) {float: right;padding: 17px 0px 17px 50px;}
+body.rtl .site-branding-text.align-right,body.rtl .navbar-brand.align-right {float: left;margin-right: 50px;margin-left: 0;}
+}
 /*Dropdown Menu*/
 .navbar-custom .dropdown-menu {
 	border-radius: 0;
@@ -472,11 +484,13 @@ $link_color = esc_attr(get_theme_mod('link_color'));
 	}
 	.navbar-custom .navbar-nav > li {
 		float: left;
+		display: block;
+		position: relative;
 	}
 	.navbar-header {
 		float: left;
 	}
-	.navbar-toggle {
+	.navbar-toggler {
 		display: none;
 	}
 }
@@ -486,6 +500,7 @@ $link_color = esc_attr(get_theme_mod('link_color'));
 @media (min-width: 768px){
 	.navbar-custom .navbar-brand {
 		padding: 20px 50px 20px 0;
+		margin: 0;
 	}
 }
 @media (min-width: <?php echo $spicepress_menu_breakpoint; ?>px) {
@@ -593,16 +608,27 @@ $link_color = esc_attr(get_theme_mod('link_color'));
 	}
 	.navbar-header { padding: 0px 15px; float: none; }
 	.navbar-custom .navbar-brand { padding: 20px 50px 20px 0px; }
-	.navbar-toggle { display: block; margin: 24px 15px 24px 0; padding: 9px 0px; }
+	.navbar-expand-lg .navbar-toggler {display: block;margin: 24px 15px 24px 0;padding: 5px 10px;float: right;}
 	.site-branding-text { padding: 17px 50px 17px 15px; }
 	.navbar-collapse { border-top: 1px solid transparent; box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
 	.navbar-collapse.collapse { display: none!important; }
 	.navbar-custom .navbar-nav { background-color: #21202e; float: none!important; margin: 0px }
 	.navbar-custom .navbar-nav > li { float: none; }
-	.navbar-collapse.collapse.in { display: block!important; }
+	.navbar-collapse.collapse.show { display: block!important; }
 	.collapsing { overflow: hidden!important; }
-	
-}
+	.navbar-toggler {display: block;margin: 24px 15px 24px 0;padding: 5px 10px;float: right;}
+    .navbar-header {width: 100%;display: block;}
+	.navbar > .container-fluid{flex-wrap: wrap;}
+	.navbar-toggler:focus{box-shadow: 0 0 0 0.1px;}
+	.navbar-collapse.collapse,.navbar-collapse.collapsing { padding: 0 15px; }
+	.navbar-custom .navbar-nav li > a {padding: 10px 0px 10px 0px;}
+	.caret {display: inline-block;width: 0;height: 0;margin-left: 2px;vertical-align: middle;border-top: 4px dashed;border-right: 4px solid transparent;
+	        border-left: 4px solid transparent;}
+	.dropdown-toggle::after {display: none;} 
+	.navbar-expand-lg .navbar-nav {flex-direction: column;}   
+	.navbar-expand-lg .navbar-nav .dropdown-menu {position: unset;}   
+    .navbar-expand-lg .navbar-collapse {flex-basis: unset;display: none !important;} 
+	}
 @media (max-width: <?php echo $spicepress_menu_breakpoint; ?>px) { 
 	.navbar-custom .dropdown a > i.fa {
 		font-size: 0.938rem;
@@ -618,9 +644,9 @@ $link_color = esc_attr(get_theme_mod('link_color'));
 	.navbar-custom .navbar-brand { padding: 20px 50px 20px 15px; }
 }
 @media (max-width: 500px) { 
-	.navbar-custom .navbar-brand { float: none; display: block; text-align: center; padding: 25px 15px 12px 15px; }
+	.navbar-custom .navbar-brand { float: none; display: block; text-align: center; padding: 25px 15px 12px 15px;margin:0 auto !important; }
 	.navbar-custom .navbar-brand img { margin: 0 auto; }
-	.site-branding-text { padding: 17px 15px 17px 15px; float: none; text-align: center; }
+	.site-branding-text { padding: 17px 15px 17px 15px; float: none !important; text-align: center; }
 	.navbar-toggle { float: none; margin: 10px auto 25px; }	
 }
 
@@ -780,6 +806,7 @@ body.page-template-template-overlaped .header-overlapped {
 @media (min-width: 768px){
 	.navbar-custom .navbar-brand {
 		padding: 20px 50px 20px 0;
+		float: left;
 	}
 }
 /** BELOW MAX-WIDTH MEDIA QUERIES **/
@@ -791,12 +818,12 @@ body.page-template-template-overlaped .header-overlapped {
 	.navbar-custom .navbar-brand { float: none; display: block; text-align: center; padding: 20px 15px 25px 15px; }
 	.navbar-custom .navbar-brand img { margin: 0 auto; }
 	.site-branding-text { padding: 17px 15px 17px 15px; float: none; text-align: center; }
-	.navbar-toggle { float: none; margin: 10px auto 25px; }
+	.navbar-toggler { float: none; margin: 10px auto 25px; }
 	/*Navbar Overlapped*/
 	.navbar-overlapped { position: relative; background-color: #21202e; border-bottom: 1px solid #4c4a5f; }
-	.navbar-overlapped .navbar-collapse.in { bottom: 0px; }
+	.navbar-overlapped .navbar-collapse.show { bottom: 0px; }
 	.navbar-overlapped .navbar-collapse { bottom: 0px; }	
-	.navbar-overlapped.stiky-header .navbar-toggle { float: none; margin: 10px auto 25px; }
+	.navbar-overlapped.stiky-header .navbar-toggler { float: none; margin: 10px auto 25px; }
 	.navbar-overlapped.stiky-header .site-branding-text { 
 		padding: 17px 15px 17px 15px; 
 		float: none; 
@@ -842,11 +869,12 @@ body.page-template-template-overlaped .header-overlapped {
 @media (min-width: <?php echo $spicepress_menu_breakpoint+1; ?>px) {
 	.navbar-header.align-right {
 		float: right;
+		order:2;
 	}
 	.navbar-header.align-right ~ .navbar-collapse { padding-left: 0; }
 }
 @media (max-width: <?php echo $spicepress_menu_breakpoint; ?>px) {  
-	.navbar-header.align-right .navbar-toggle { 
+	.navbar-header.align-right .navbar-toggler { 
 		float: left;
 		margin-left: 15px;
 	}
@@ -896,7 +924,7 @@ body.page-template-template-overlaped .header-overlapped {
 .navbar-center-fullwidth .container-fluid {
 	padding-left: 0px;
 	padding-right: 0px;
-	width: auto;
+	width: 100%;
 }
 @media (min-width: <?php echo $spicepress_menu_breakpoint+1; ?>px) {
 	.navbar-center-fullwidth .logo-area { 
@@ -935,7 +963,6 @@ body.page-template-template-overlaped .header-overlapped {
     margin-top: 10px;
     margin-bottom: 8px;
 }
-
 </style>
 <?php } 
 //Edit link 

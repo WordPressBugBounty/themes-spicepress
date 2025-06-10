@@ -15,6 +15,7 @@ if( !function_exists('spicepress_scripts_function'))
 		
 		// css
 		wp_enqueue_style('bootstrap', ST_TEMPLATE_DIR_URI . '/css/bootstrap.css');
+		wp_style_add_data( 'bootstrap', 'rtl', 'replace' );
 		wp_enqueue_style('spicepress-style', get_stylesheet_uri() );
         wp_style_add_data( 'spicepress-style', 'rtl', 'replace' );
 		

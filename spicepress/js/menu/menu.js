@@ -171,7 +171,7 @@
          * Navbar collapse on click
          /* ---------------------------------------------- */
 
-        jQuery(document).on('click','.navbar-collapse.in',function(e) {
+        jQuery(document).on('click','.navbar-collapse.show',function(e) {
             if( jQuery(e.target).is('a') && jQuery(e.target).attr('class') != 'dropdown-toggle' ) {
                 jQuery(this).collapse('hide');
             }
