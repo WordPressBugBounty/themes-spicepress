@@ -504,7 +504,15 @@ function spicepress_recommended_plugins_array($plugins){
             'function' => 'sobw_fs',
 			'class'    => '',
             'desc'     => esc_html__('It is recommended that you install & activate the Seo Optimized Images plugin to dynamically insert SEO Friendly alt attributes and title attributes to your Images.', 'spicepress'),
-		);	
+		);
+		$plugins[] = array(
+			'name'     => esc_html__('Spice Blocks','spicepress'),
+            'slug'     => 'spice-blocks',
+            'function' => 'sb_fs',
+			'class'    => '',
+            'desc'     => esc_html__('Spice Blocks Plugin is a block plugin that is compatible with all WordPress themes. In plugin block controls are given, that’s help to develop a beautiful WordPress theme.', 'spicepress'),
+		);
+
 	return $plugins;
 }
 add_filter('spicepress_recommended_plugins', 'spicepress_recommended_plugins_array');
