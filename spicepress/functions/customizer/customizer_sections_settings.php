@@ -10,12 +10,33 @@ function spicepress_sections_settings( $wp_customize ){
 
 $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' : 'refresh';
 
-/* Sections Settings */
+	/* Sections Settings */
 	$wp_customize->add_panel( 'section_settings', array(
 		'priority'       => 126,
 		'capability'     => 'edit_theme_options',
 		'title'      => esc_html__('Homepage Section Settings','spicepress'),
 	) );
+
+
+	//Page editor Section
+	$wp_customize->add_section('spicepress_gutenberg_editor_section',array(
+				'title' => esc_html__('Gutenberg Editor settings','spicepress'),
+				'panel' => 'section_settings',
+				'priority'       => 2,
+	));
+
+
+	// Enable editor section
+	$wp_customize->add_setting( 'gutenberg_editor_section_enable' , array( 'default' => 'on',  'sanitize_callback' => 'spicepress_sanitize_radio',) );
+	$wp_customize->add_control(	'gutenberg_editor_section_enable' , array(
+			'label'    => esc_html__( 'Enable Page Editor', 'spicepress' ),
+			'section'  => 'spicepress_gutenberg_editor_section',
+			'type'     => 'radio',
+			'choices' => array(
+				'on'=>esc_html__('ON', 'spicepress'),
+				'off'=>esc_html__('OFF', 'spicepress')
+			)
+	));
 
 	//Latest News Section
 	$wp_customize->add_section('spicepress_latest_news_section',array(

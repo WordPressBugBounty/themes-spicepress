@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SpicePress\n"
-"POT-Creation-Date: 2025-06-26 16:09+0530\n"
+"POT-Creation-Date: 2025-07-31 12:49+0530\n"
 "PO-Revision-Date: 2019-04-09 11:22+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1298,42 +1298,52 @@ msgstr ""
 msgid "Homepage Section Settings"
 msgstr ""
 
-#: functions/customizer/customizer_sections_settings.php:22
-msgid "Latest News Settings"
+#: functions/customizer/customizer_sections_settings.php:23
+msgid "Gutenberg Editor settings"
 msgstr ""
 
-#: functions/customizer/customizer_sections_settings.php:31
-msgid "Enable Home News section"
-msgstr ""
-
-#: functions/customizer/customizer_sections_settings.php:35
-msgid "ON"
+#: functions/customizer/customizer_sections_settings.php:32
+msgid "Enable Page Editor"
 msgstr ""
 
 #: functions/customizer/customizer_sections_settings.php:36
+#: functions/customizer/customizer_sections_settings.php:56
+msgid "ON"
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:37
+#: functions/customizer/customizer_sections_settings.php:57
 msgid "OFF"
 msgstr ""
 
 #: functions/customizer/customizer_sections_settings.php:43
+msgid "Latest News Settings"
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:52
+msgid "Enable Home News section"
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:64
 msgid "Turpis Mollis"
 msgstr ""
 
-#: functions/customizer/customizer_sections_settings.php:48
+#: functions/customizer/customizer_sections_settings.php:69
 #: functions/customizer/customizer_typography.php:1073
 msgid "Title"
 msgstr ""
 
-#: functions/customizer/customizer_sections_settings.php:55 index-news.php:11
+#: functions/customizer/customizer_sections_settings.php:76 index-news.php:11
 msgid ""
 "Sea summo mazim ex, ea errem eleifend definitionem vim. Ut nec hinc dolor "
 "possim mei ludus efficiendi ei sea summo mazim ex."
 msgstr ""
 
-#: functions/customizer/customizer_sections_settings.php:60
+#: functions/customizer/customizer_sections_settings.php:81
 msgid "Description"
 msgstr ""
 
-#: functions/customizer/customizer_sections_settings.php:78
+#: functions/customizer/customizer_sections_settings.php:99
 msgid "Enable post meta values, like author name, date, comments, etc."
 msgstr ""
 
@@ -1648,10 +1658,6 @@ msgstr ""
 
 #. Author of the plugin/theme
 msgid "spicethemes"
-msgstr ""
-
-#. Template Name of the plugin/theme
-msgid "Gutenberg Business Template"
 msgstr ""
 
 #. Template Name of the plugin/theme
