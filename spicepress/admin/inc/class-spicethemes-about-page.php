@@ -6,18 +6,18 @@
 if (!class_exists('SpicePress_About_Page')) {
 	class SpicePress_About_Page {
 
-		protected static $instance;
-		private $options;
-		private $version = '1.0.0';
-		private $theme;
-		private $demo_link;
-		private $docs_link;
-		private $rate_link;
-		private $theme_page;
-		private $pro_link;
-		private $tabs;
-		private $action_count;
-		private $recommended_actions;
+		public static $instance;
+		public $options;
+		public $version = '1.0.0';
+		public $theme;
+		public $demo_link;
+		public $docs_link;
+		public $rate_link;
+		public $theme_page;
+		public $pro_link;
+		public $tabs;
+		public $action_count;
+		public $recommended_actions;
 
 		public static function get_instance() {
 
@@ -42,6 +42,7 @@ if (!class_exists('SpicePress_About_Page')) {
 
 			/* load welcome screen */
 			add_action( 'spicepress_info_screen', array( $this, 'getting_started' ),10 );
+			add_action( 'spicepress_info_screen', array( $this, 'starter_sites' ),10 );
 			add_action( 'spicepress_info_screen', array( $this, 'github' ),40 );
 			add_action( 'spicepress_info_screen', array( $this, 'recommended_actions' ),50 );
 			}
@@ -52,12 +53,14 @@ if (!class_exists('SpicePress_About_Page')) {
 	 */
 	public function style_and_scripts( $hook_suffix ) {
 
-		if ( 'appearance_page_spicepress-welcome' == $hook_suffix ) {
+		if ( 'appearance_page_spicepress-welcome' == $hook_suffix || 'admin_page_spice-settings-importer' == $hook_suffix || 'themes.php' == $hook_suffix) {
 
 
 			wp_enqueue_style( 'spicepress-info-screen-css', ST_TEMPLATE_DIR_URI . '/admin/assets/css/welcome.css' );
 
-			wp_enqueue_style( 'spicepress-info-css', ST_TEMPLATE_DIR_URI . '/css/bootstrap.css' );
+			if ( 'themes.php' != $hook_suffix) {
+				wp_enqueue_style( 'spicepress-info-css', ST_TEMPLATE_DIR_URI . '/css/bootstrap.css' );
+			}
 
 			wp_enqueue_style('spicepress-theme-info-style', ST_TEMPLATE_DIR_URI . '/admin/assets/css/welcome-page-styles.css');
 
@@ -212,6 +215,14 @@ if (!class_exists('SpicePress_About_Page')) {
 	 * Contribute
 	 *
 	 */
+	public function starter_sites() {
+		require_once( ST_TEMPLATE_DIR . '/admin/tab-pages/starter-sites.php' );
+	}
+
+	/**
+	 * Contribute
+	 *
+	 */
 	public function github() {
 		require_once( ST_TEMPLATE_DIR . '/admin/tab-pages/useful_plugins.php' );
 	}
@@ -234,6 +245,11 @@ if (!class_exists('SpicePress_About_Page')) {
 					'link'      => 'getting_started',
 					'name'      => esc_html__('Getting Started', 'spicepress'),
 					'file_path' => ST_TEMPLATE_DIR . '/admin/tab-pages/getting-started.php',
+				);
+			$tabs_array[]	= array(
+					'link'      => 'starter_sites',
+					'name'      => esc_html__('Starter Sites', 'spicepress'),
+					'file_path' => ST_TEMPLATE_DIR . '/admin/tab-pages/starter-sites.php',
 				);
 			$tabs_array[]	= 	array(
 					'link'      => 'recommended_actions',

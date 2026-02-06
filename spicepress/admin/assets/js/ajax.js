@@ -30,4 +30,38 @@ jQuery(document).ready(function() {
 		   jQuery('.spicepress-nav-tabs li a[href="#changelog"]').click();
 		});
 
+		jQuery(".spicepress-free-pro-demo-class").click(function(event){
+	       event.preventDefault();
+	       jQuery('.spicepress-nav-tabs li a[href="#starter_sites"]').click();
+	    });
+
 });
+
+(function($){
+    
+$(document).ready(function() {
+    // Show all content by default
+    $('.tab-item').addClass('show');
+
+    $('.tab-button').on('click', function() {
+        var tab = $(this).data('tab');
+        
+        $('.tab-button').removeClass('active');
+        $(this).addClass('active');
+        
+        if (tab === 'all') {
+            $('.tab-item').addClass('show');
+        } else {
+            $('.tab-item').each(function() {
+                if ($(this).data('tab') === tab) {
+                    $(this).addClass('show');
+                } else {
+                    $(this).removeClass('show');
+                }
+            });
+        }
+    });
+});
+
+
+})(jQuery);

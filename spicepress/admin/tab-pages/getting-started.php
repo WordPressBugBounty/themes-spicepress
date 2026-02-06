@@ -13,17 +13,25 @@
 		<div class="row">
 			<div class="col-md-6">
 				<div class="spicepress-tab-pane-half spicepress-tab-pane-first-half">
-					<p><?php esc_html_e( 'This theme is ideal for creating corporate and business websites. The PRO version has tons of features: a homepage with many sections where you can feature unlimited sliders, portfolios, user reviews, latest news, services, calls to action and much more. Each section in the HomePage template is carefully designed to fit to all business requirements.','spicepress');?></p>
-					<p>
-					<?php esc_html_e( 'You can use this theme for any type of activity. SpicePress is compatible with popular plugins like WPML and Polylang. To help you create an effective and impactful web presence, SpicePress has predefined versions of many pages: Contact, Services, Portfolios, About Us and Blog.', 'spicepress' ); ?>
-					</p>
-					<h1 style="margin-top: 73px; background: #0085ba;border-color: #0073aa #006799 #006799; color: #fff; padding: 15px 10px;"><?php esc_html_e( "Getting Started", 'spicepress' ); ?></h1>
 					<div>
-					<p style="margin-top: 16px;">
-					<?php esc_html_e( 'To take full advantage of all the features this theme has to offer, install and activate the SpiceBox plugin. Go to Customize and install the SpiceBox plugin.', 'spicepress' ); ?>
-					</p>
-					<p><a target="_blank" href="<?php echo esc_url( admin_url( 'customize.php' ) ); ?>" class="button button-primary" style="padding: 3px 15px;height: 40px; font-size: 16px;"><?php esc_html_e( 'Go to the Customizer','spicepress');?></a></p>
+						<p style="margin-top: 16px;">
+						<?php esc_html_e( 'If you want to build your website using the Customizer, click on the Customizer button and start customizing your site.', 'spicepress' ); ?>
+						</p>
+						<p><a target="_blank" href="<?php echo esc_url( admin_url( 'customize.php' ) ); ?>" class="button button-primary" style="padding: 3px 15px;height: 40px; font-size: 16px;"><?php esc_html_e( 'Go to the Customizer','spicepress');?></a>
+						</p>
 					</div>
+					<p>or</p>
+					<div >
+						<p style="margin-top: 16px;">
+							<?php _e( 'If you want to use Pre-built Websites click on the Install Demo buttton.', 'spicepress' ); ?>
+						</p>		
+						<p>
+							<a target="_self" href="#starter_sites" class="spicepress-free-pro-demo-class button button-primary" style="padding: 3px 15px;height: 40px; font-size: 16px;"><?php esc_html_e( 'Install Demo','spicepress');?></a>
+						</p>
+						
+					</div>
+					
+
 				</div>
 			</div>
 			<div class="col-md-6">

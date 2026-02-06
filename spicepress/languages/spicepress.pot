@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SpicePress\n"
-"POT-Creation-Date: 2025-07-31 12:49+0530\n"
+"POT-Creation-Date: 2026-01-13 14:39+0530\n"
 "PO-Revision-Date: 2019-04-09 11:22+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10,14 +10,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.8\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -37,152 +36,171 @@ msgstr ""
 msgid "Go Back"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:71
+#: admin/admin-init.php:17
+msgid "SpicePress Gutenberg"
+msgstr ""
+
+#: admin/admin-init.php:29
+msgid "Spice Bussiness"
+msgstr ""
+
+#: admin/admin-init.php:45
+msgid "SpicePress Pro Gutenberg"
+msgstr ""
+
+#: admin/admin-init.php:57
+msgid "Spice Tech Pro"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:74
 #: admin/inc/include-companion.php:41 admin/inc/plugin-include-control.php:40
 msgid "Installing"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:72
+#: admin/inc/class-spicethemes-about-page.php:75
 #: admin/inc/include-companion.php:42 admin/inc/plugin-include-control.php:41
 #: functions/customizer-notify/spicepress-customizer-notify.php:111
 msgid "Activating"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:73
+#: admin/inc/class-spicethemes-about-page.php:76
 #: admin/inc/include-companion.php:43 admin/inc/plugin-include-control.php:42
 msgid "Error"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:112
+#: admin/inc/class-spicethemes-about-page.php:115
 msgid "View Theme Info"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:122
+#: admin/inc/class-spicethemes-about-page.php:125
 #, php-format
 msgid "About %1$s %2$s"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:123
+#: admin/inc/class-spicethemes-about-page.php:126
 #, php-format
 msgid "Welcome to %1$s %2$s"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:136
+#: admin/inc/class-spicethemes-about-page.php:139
 #, php-format
 msgid ""
 "SpicePress theme is installed. To take full advantage of the features this "
 "theme has to offer visit our %1$s welcome page %2$s"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:137
+#: admin/inc/class-spicethemes-about-page.php:140
 msgid "Get started with SpicePress theme"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:235
-#: admin/tab-pages/getting-started.php:20
+#: admin/inc/class-spicethemes-about-page.php:246
 msgid "Getting Started"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:240
+#: admin/inc/class-spicethemes-about-page.php:251
+msgid "Starter Sites"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:256
 #: functions/customizer/customizer_recommended_plugin.php:14
 msgid "Recommended Actions"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:248
+#: admin/inc/class-spicethemes-about-page.php:264
 msgid "Support"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:330
+#: admin/inc/class-spicethemes-about-page.php:346
 #, php-format
 msgid "Install %s now"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:332
+#: admin/inc/class-spicethemes-about-page.php:348
 #: admin/inc/include-companion.php:81
 msgid "Install and activate"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:349
+#: admin/inc/class-spicethemes-about-page.php:365
 #, php-format
 msgid "Activate %s now"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:351
+#: admin/inc/class-spicethemes-about-page.php:367
 #: class-tgm-plugin-activation.php:2726
 #: functions/customizer/customizer_recommended_plugin.php:17
 msgid "Activate"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:354
+#: admin/inc/class-spicethemes-about-page.php:370
 #: class-tgm-plugin-activation.php:2321
 msgid "Active"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:467 functions.php:219
+#: admin/inc/class-spicethemes-about-page.php:483
 msgid "Spice Box"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:471
+#: admin/inc/class-spicethemes-about-page.php:487
 msgid ""
 "To access the advanced Frontpage sections and the other features, please "
 "install & activate the Spice Box plugin."
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:474 functions.php:209
+#: admin/inc/class-spicethemes-about-page.php:490
 msgid "Contact Form 7"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:478
+#: admin/inc/class-spicethemes-about-page.php:494
 msgid ""
 "To display the contact form, please install & activate the Contact Form 7 "
 "plugin."
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:481 functions.php:224
+#: admin/inc/class-spicethemes-about-page.php:497
 msgid "WooCommerce"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:485
+#: admin/inc/class-spicethemes-about-page.php:501
 msgid ""
 "To create a shop page you just need to install this plugin & activate it."
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:488 functions.php:229
+#: admin/inc/class-spicethemes-about-page.php:504
 msgid "Spice Post Slider"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:492
+#: admin/inc/class-spicethemes-about-page.php:508
 msgid ""
 "To display the posts in beautiful slider with multiple options you just "
 "need to install & activate this plugin."
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:495 functions.php:234
+#: admin/inc/class-spicethemes-about-page.php:511
 msgid "Spice Social Share"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:499
+#: admin/inc/class-spicethemes-about-page.php:515
 msgid ""
 "To add social share buttons to your posts you just need to install & "
 "activate this plugin."
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:502 functions.php:239
+#: admin/inc/class-spicethemes-about-page.php:518
 msgid "Seo Optimized Images"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:506
+#: admin/inc/class-spicethemes-about-page.php:522
 msgid ""
 "It is recommended that you install & activate the Seo Optimized Images "
 "plugin to dynamically insert SEO Friendly alt attributes and title "
 "attributes to your Images."
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:509
+#: admin/inc/class-spicethemes-about-page.php:525
 msgid "Spice Blocks"
 msgstr ""
 
-#: admin/inc/class-spicethemes-about-page.php:513
+#: admin/inc/class-spicethemes-about-page.php:529
 msgid ""
 "Spice Blocks Plugin is a block plugin that is compatible with all "
 "WordPress themes. In plugin block controls are given, that’s help to "
@@ -221,70 +239,126 @@ msgstr ""
 msgid "About the SpicePress theme"
 msgstr ""
 
-#: admin/tab-pages/getting-started.php:16
-msgid ""
-"This theme is ideal for creating corporate and business websites. The PRO "
-"version has tons of features: a homepage with many sections where you can "
-"feature unlimited sliders, portfolios, user reviews, latest news, "
-"services, calls to action and much more. Each section in the HomePage "
-"template is carefully designed to fit to all business requirements."
-msgstr ""
-
 #: admin/tab-pages/getting-started.php:18
 msgid ""
-"You can use this theme for any type of activity. SpicePress is compatible "
-"with popular plugins like WPML and Polylang. To help you create an "
-"effective and impactful web presence, SpicePress has predefined versions "
-"of many pages: Contact, Services, Portfolios, About Us and Blog."
+"If you want to build your website using the Customizer, click on the "
+"Customizer button and start customizing your site."
 msgstr ""
 
-#: admin/tab-pages/getting-started.php:23
-msgid ""
-"To take full advantage of all the features this theme has to offer, "
-"install and activate the SpiceBox plugin. Go to Customize and install the "
-"SpiceBox plugin."
-msgstr ""
-
-#: admin/tab-pages/getting-started.php:25
+#: admin/tab-pages/getting-started.php:20
 msgid "Go to the Customizer"
 msgstr ""
 
-#: admin/tab-pages/getting-started.php:31
+#: admin/tab-pages/getting-started.php:26
+msgid ""
+"If you want to use Pre-built Websites click on the Install Demo buttton."
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:29
+msgid "Install Demo"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:39
 msgid "SpicePress theme"
 msgstr ""
 
-#: admin/tab-pages/getting-started.php:37
+#: admin/tab-pages/getting-started.php:45
 msgid "Useful Links"
 msgstr ""
 
-#: admin/tab-pages/getting-started.php:42
+#: admin/tab-pages/getting-started.php:50
 msgid "Lite Demo"
 msgstr ""
 
-#: admin/tab-pages/getting-started.php:48
+#: admin/tab-pages/getting-started.php:56
 msgid "PRO Demo"
 msgstr ""
 
-#: admin/tab-pages/getting-started.php:54
+#: admin/tab-pages/getting-started.php:62
 msgid "Theme Support"
 msgstr ""
 
-#: admin/tab-pages/getting-started.php:60
+#: admin/tab-pages/getting-started.php:68
 msgid "Your feedback is valuable to us"
 msgstr ""
 
-#: admin/tab-pages/getting-started.php:66
+#: admin/tab-pages/getting-started.php:74
 msgid "Premium Theme Details"
 msgstr ""
 
-#: admin/tab-pages/getting-started.php:72
+#: admin/tab-pages/getting-started.php:80
 msgid "Free vs Pro"
 msgstr ""
 
-#: admin/tab-pages/getting-started.php:78
+#: admin/tab-pages/getting-started.php:86
 #: admin/tab-pages/useful_plugins.php:18
 #: admin/tab-pages/useful_plugins.php:20
 msgid "Changelog"
+msgstr ""
+
+#: admin/tab-pages/starter-sites.php:29 admin/tab-pages/starter-sites.php:92
+#: admin/tab-pages/starter-sites.php:128 class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: admin/tab-pages/starter-sites.php:59
+msgid "All"
+msgstr ""
+
+#: admin/tab-pages/starter-sites.php:90 admin/tab-pages/starter-sites.php:122
+msgid "Preview"
+msgstr ""
+
+#: admin/tab-pages/starter-sites.php:126
+msgid "Buy Now"
+msgstr ""
+
+#: admin/tab-pages/starter-sites.php:148
+msgid "Demo Import Instructions"
+msgstr ""
+
+#: admin/tab-pages/starter-sites.php:153
+msgid ""
+"Spice Starter Sites Importer is a plugin that provides a demo import "
+"feature with one click. Follow instructions for better results."
+msgstr ""
+
+#: admin/tab-pages/starter-sites.php:157
+msgid "Start with a fresh or reset WordPress installation."
+msgstr ""
+
+#: admin/tab-pages/starter-sites.php:158
+msgid "Install & activate all recommended plugins."
+msgstr ""
+
+#: admin/tab-pages/starter-sites.php:159
+msgid "Click \"Import Demo Data,\" and wait for the success message."
+msgstr ""
+
+#: admin/tab-pages/starter-sites.php:160
+msgid ""
+"Do not re-import to avoid issues; reset WordPress if re-importing is "
+"necessary."
+msgstr ""
+
+#: admin/tab-pages/starter-sites.php:161
+msgid "Enjoy your new demo site!"
+msgstr ""
+
+#: admin/tab-pages/starter-sites.php:163
+msgid "Next"
+msgstr ""
+
+#: admin/tab-pages/starter-sites.php:168
+msgid "Spice Starter Sites Importer"
+msgstr ""
+
+#: admin/tab-pages/starter-sites.php:172
+msgid "Sorry!"
+msgstr ""
+
+#: admin/tab-pages/starter-sites.php:172
+msgid " This Theme is not compatible for this plugins"
 msgstr ""
 
 #: admin/tab-pages/useful_plugins.php:11
@@ -439,7 +513,7 @@ msgstr ""
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
-#: class-tgm-plugin-activation.php:395
+#: class-tgm-plugin-activation.php:395 functions.php:420
 msgid "Dismiss this notice"
 msgstr ""
 
@@ -631,10 +705,6 @@ msgstr ""
 
 #: class-tgm-plugin-activation.php:2684
 msgid "Upgrade message from the plugin author:"
-msgstr ""
-
-#: class-tgm-plugin-activation.php:2717
-msgid "Install"
 msgstr ""
 
 #: class-tgm-plugin-activation.php:2723
@@ -887,8 +957,45 @@ msgstr ""
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:214
-msgid "Instagram Feed"
+#: functions.php:370
+msgid "Hello"
+msgstr ""
+
+#. translators: %s: theme name
+#: functions.php:379
+msgid "Welcome to"
+msgstr ""
+
+#. translators: %s: theme name
+#: functions.php:384
+#, php-format
+msgid ""
+"%s is now installed and ready to use. We've provide some links to get you "
+"started."
+msgstr ""
+
+#: functions.php:387 functions.php:389
+msgid "Theme Dashboard"
+msgstr ""
+
+#: functions.php:391
+msgid "Live Demo"
+msgstr ""
+
+#: functions.php:393
+msgid "View Live Demos"
+msgstr ""
+
+#: functions.php:395
+msgid "Help Docs"
+msgstr ""
+
+#: functions.php:397
+msgid "Theme Documentation"
+msgstr ""
+
+#: functions.php:417
+msgid "Welcome Banner"
 msgstr ""
 
 #: functions/breadcrumbs/breadcrumbs.php:84
@@ -1619,6 +1726,11 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
+#: header/header-navbar.php:26 header/header-navbar.php:34
+#: header/header-navbar.php:62 header/header-navbar.php:108
+msgid "Toggle navigation"
+msgstr ""
+
 #: index-news.php:10
 msgid "Turpis mollis"
 msgstr ""
@@ -1639,21 +1751,6 @@ msgstr ""
 
 #. Theme URI of the plugin/theme
 msgid "https://spicethemes.com/spicepress-wordpress-theme/"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid ""
-"SpicePress is a responsive and fully customizable business template. It is "
-"a perfect solution for creative and corporate websites, restaurants, "
-"wedding planners, law firms, finance, consulting, travel, photography, "
-"recipes, design, sport/medical shops, startups, online agencies, "
-"portfolios, E-commerce (WooCommerce), and freelancers. The advanced admin "
-"panel will enable you to personalize SpicePress without any technical "
-"information. SpicePress is translation ready and supports popular plugins "
-"like WPML, Polylang, WooCommerce and Contact Form 7. This theme is fully "
-"GDPR-compliant and doesn’t use any external Google Fonts. All fonts are "
-"locally hosted. Check out also SpicePress PRO, the premium version, which "
-"has a lot more to offer."
 msgstr ""
 
 #. Author of the plugin/theme

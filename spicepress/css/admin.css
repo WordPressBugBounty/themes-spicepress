@@ -1,0 +1,240 @@
+.spicepress-theme-notice .dashboard-hero-panel {
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.spicepress-theme-notice .hero-panel-content {
+    padding: 20px 30px;
+    width: 70%;
+}
+.spicepress-theme-notice .hero-panel-subtitle {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #1E1E1E;
+}
+.spicepress-theme-notice .hero-panel-title {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #1E1E1E;
+}
+.spicepress-theme-notice .theme-admin-button-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+.spicepress-theme-notice .theme-admin-button-group .theme-admin-button {
+    transition: 0.25s;
+    box-shadow: none;
+    outline: none;
+    padding: 6px 22px;
+}
+.spicepress-theme-notice .theme-admin-button-group .theme-admin-button > span,
+.spicepress-update-notice .theme-admin-button span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.spicepress-theme-notice .theme-admin-button-group .admin-button-primary {
+    border-color: #ff495c;
+    background: #ff495c;
+    color: #FFFFFF;
+}
+.spicepress-theme-notice .theme-admin-button-group .admin-button-primary:hover,
+.spicepress-theme-notice .theme-admin-button-group .admin-button-primary:focus {
+    border-color: #ff7a88;
+    background: #ff7a88;
+    color: #FFFFFF;
+}
+.spicepress-theme-notice .theme-admin-button-group .admin-button-secondary {
+    border-color: #ce1b28;
+    background: #ce1b28;
+    color: #fff;
+}
+.spicepress-theme-notice .theme-admin-button-group .admin-button-secondary:hover, 
+.spicepress-theme-notice .theme-admin-button-group .admin-button-secondary:focus {
+    border-color: #2a2136;
+    background: #2a2136;
+    color: #fff;
+}
+.spicepress-theme-notice .dashboard-hero-panel .hero-panel-image {
+    padding-right: 0px;
+}
+.spicepress-theme-notice .dashboard-hero-panel .hero-panel-image img {
+    display: block;
+    zoom: 0.5;
+    max-width: 100%;
+    vertical-align: top;
+}
+#wpcontent .spicepress-wl-page-link { color: #ff495c; }
+#wpcontent .spicepress-get-start-btn {
+    border-color: #ff495c;
+    background: #ff495c;
+    color: #FFFFFF;
+}
+#wpcontent .spicepress-get-start-btn:hover,
+#wpcontent .spicepress-get-start-btn:focus {
+    border-color: #ff7a88;
+    background: #ff7a88;
+    color: #FFFFFF;
+}
+.spicepress-import-btn .button {
+    border-color: #ef4557;
+    background: #ef4557;
+    color: #FFFFFF;
+    transition: 0.25s;
+    box-shadow: none;
+    outline: none;
+    padding: 1px 22px;
+    font-size: 13px;
+}
+.spicepress-import-btn .button:hover, .spicepress-import-btn .button-secondary:hover, 
+.spicepress-import-btn .button:focus, .spicepress-import-btn .button-secondary:focus {
+    border-color: #ff7a88;
+    background: #ff7a88;
+    color: #FFFFFF;
+}
+.spicepress-import-btn a::before {
+    content: "\f17b";
+    font-family: "dashicons";
+    display: inline-block;
+    font-size: 18px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+.spicepress-theme-notice .button.disabled  {
+    color: #ffffff !important;
+    border-color: #2a2136 !important;
+    background: #2a2136 !important;
+    padding: 6px 22px;
+}
+.spicepress-theme-notice .button.disabled .dashicons-yes:before {
+    font-family: "dashicons";
+    display: inline-block;
+    font-size: 18px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+.dashboard-hero-panel .spicepress-import-btn .updating-message {
+    border-color: #ff495c;
+    background: #ff495c;
+    color: #FFFFFF;
+    transition: 0.25s;
+    box-shadow: none;
+    outline: none;
+    padding: 7px 22px;
+    font-size: 13px;
+}
+.dashboard-hero-panel .spicepress-import-btn .updating-message::before { color: #ffffff; margin: 4px 10px 0 -5px;  }
+.spicepress-theme-notice .hero-panel-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.spicepress-theme-notice.updated {
+    border-left-color: #ce1b28;
+}
+
+.spicepress-update-notice {
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.spicepress-update-notice .notice-content-wrap {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.spicepress-update-notice .notice-content {
+    padding: 20px 30px;
+    width: 50%;
+    float: left;
+}
+.spicepress-update-notice h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+.spicepress-update-notice h2 span {
+    color: #ef4557;
+}
+.spicepress-update-notice .notice-des, .spicepress-update-notice .admin-notice-up-list li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.spicepress-update-notice .admin-notice-up-btn-wrap {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 15px 0;
+}
+.spicepress-update-notice .admin-notice-up-btn-wrap a {
+    padding: 4px 18px;
+    margin-right: 5px;
+    font-size: 14px;
+    border-color: #ce1b28;
+    background: #ce1b28;
+    color: #fff;
+}
+.spicepress-update-notice .admin-notice-up-btn-wrap a:hover, .spicepress-update-notice .admin-notice-up-btn-wrap a:focus {
+    border-color: #2a2136;
+    background: #2a2136;
+    color: #fff;
+}
+.spicepress-update-notice .admin-notice-up-list {
+    list-style-type: disclosure-closed;
+}
+.spicepress-update-notice.notice-info {
+    border-left-color: #ce1b28;
+}
+.spicepress-theme-notice .button[data-slug="spicebox"]{
+    padding: 4px 18px;
+    font-size: 14px;
+    border-color: #ef4557;
+    background: #ef4557;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.spicepress-theme-notice .button[data-slug="spicebox"]:is(:hover, :focus){
+    background: #000;
+}
+/*.spicepress-theme-notice .button::before {
+    content: "\f17b";
+    font-family: "dashicons";
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.9;
+    padding-right: 5px;
+    vertical-align: middle;
+}*/
+.spicepress-theme-notice p:has(.dismiss-welcome-notice), .spicepress-update-notice p:has(.dismiss-update-notice) {
+    display: block;
+    text-align: right;
+}
+.spicepress-theme-notice.updated a { padding-bottom: 4px; }
+.dismiss-welcome-notice, .dismiss-update-notice {
+    display: inline-block;
+    background-color: #cf302c;
+    color: #ffffff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.dismiss-welcome-notice:is(:hover, :focus), .dismiss-update-notice:is(:hover, :focus) { color: #ffffff; }
+.spicepress-theme-notice.updated { padding-bottom: 5px; }

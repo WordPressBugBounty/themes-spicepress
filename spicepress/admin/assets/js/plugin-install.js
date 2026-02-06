@@ -1,33 +1,56 @@
 jQuery(document).ready(function($) {
     'use strict';
     var this_obj = spicepress_companion_install;
-
-    $(document).on('click', '.spicethemes-plugin-install', function(event) {
-        event.preventDefault();
-        var button = $(this);
-        var slug = button.data('slug');
-        button.text(this_obj.installing + '...').addClass('updating-message');
-        wp.updates.installPlugin({
-            slug: slug,
-            success: function(data) {
-                button.attr('href', data.activateUrl);
-                button.text(this_obj.activating + '...');
-                button.removeClass('button-secondary updating-message spicethemes-plugin-install');
-                button.addClass('button-primary spicethemes-plugin-activate');
-                button.trigger('click');
-            },
-            error: function(data) {
-                console.log('error', data);
-                button.removeClass('updating-message');
-                button.text(this_obj.error);
-            },
+    if(document.body.classList.contains('spice-importer_page_spice-settings-importer')){
+        $(document).on('click', '.spicethemes-plugin-install', function(event) {
+            event.preventDefault();
+            var button = $(this);
+            var slug = button.data('slug');
+            button.text(this_obj.installing + '...').addClass('updating-message');
+            wp.updates.installPlugin({
+                slug: slug,
+                success: function(data) {
+                    button.attr('href', data.activateUrl);
+                    button.text(this_obj.activating + '...');
+                    button.removeClass('button-secondary updating-message spicethemes-plugin-install');
+                    button.addClass('button-primary spicethemes-plugin-activate');
+                    button.trigger('click');
+                },            
+            });
         });
-    });
+    }else{
+        $(document).on('click', '.spicethemes-plugin-install', function(event) {
+            event.preventDefault();
+            var button = $(this);
+            var slug = button.data('slug');
+            button.text(this_obj.installing + '...').addClass('updating-message');
+            wp.updates.installPlugin({
+                slug: slug,
+                success: function(data) {
+                    button.attr('href', data.activateUrl);
+                    button.text(this_obj.activating + '...');
+                    button.removeClass('button-secondary updating-message spicethemes-plugin-install');
+                    button.addClass('button-primary spicethemes-plugin-activate');
+                    button.trigger('click');
+                },
+                error: function(data) {
+                    button.removeClass('updating-message');
+                    button.text(this_obj.error);
+                },
+            
+            });
+        });
+
+    }
 
     $(document).on('click', '.spicethemes-plugin-activate', function(event) {
         event.preventDefault();
         var button = $(this);
+        var slug = button.data('slug');
         var url = button.attr('href');
+        var pathname = window.location.pathname.split( '/' );
+        var newURL1 = window.location.protocol + "//" + window.location.host + "/" + pathname[1]+ "/" + pathname[2];
+        var newURL2= newURL1 + "/admin.php?page=spicepress-welcome";
         if (typeof url !== 'undefined') {
             // Request plugin activation.
             jQuery.ajax({
@@ -40,12 +63,15 @@ jQuery(document).ready(function($) {
                     button.addClass('button-primary activate-now updating-message');
                 },
                 success: function(data) {
-                    location.reload();
+                    if(slug=='spice-starter-sites' || slug=='spicebox'){
+                        window.location.href = newURL2;
+                    }else{
+                        location.reload();
+                    }
                 }
             });
         }
     });
-
 
     $(document).on('click', '.action-watch', function(event) {
         event.preventDefault();
@@ -82,7 +108,8 @@ jQuery(document).ready(function($) {
         if(slug){
             sdata.action = 'spicepress_hide_customizer_notice';
             sdata.spicepress_plugin_slug = slug;
-        }else{
+        }
+        else {
             sdata.action = 'spicepress_hide_customizer_companion_notice';
         }
         $icon_child.removeClass('fa-times').addClass('fa-refresh fa-spin');
@@ -91,26 +118,23 @@ jQuery(document).ready(function($) {
             type: 'POST',
             data: sdata,
             success:function(data) {
-                console.log(data);
                 $container.remove();
             }
         });
     });
-    
-    
 });
 
 jQuery(function(){
-	var $mainContent=jQuery('#main-content'),
-	$cat_links=jQuery('ul.categories-filters li a');
-	
-	$cat_links.on('click',function(e){
-		e.preventDefault();
-		$e1=jQuery(this);
-		var value=$e1.attr("href");
-		$mainContent.animate({opacity:"0.5"});
-		$mainContent.load(value + "#getting_started",function(){
-		$mainContent.animate({opacity:"1"});	
-		});
-	});
+    var $mainContent=jQuery('#main-content'),
+    $cat_links=jQuery('ul.categories-filters li a');
+    
+    $cat_links.on('click',function(e){
+        e.preventDefault();
+        $e1=jQuery(this);
+        var value=$e1.attr("href");
+        $mainContent.animate({opacity:"0.5"});
+        $mainContent.load(value + "#getting_started",function(){
+        $mainContent.animate({opacity:"1"});    
+        });
+    });
 });

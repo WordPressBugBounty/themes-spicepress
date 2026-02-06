@@ -71,7 +71,7 @@
 }
 
 .tab-content {
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     border-top: none;
     padding: 20px;
 }

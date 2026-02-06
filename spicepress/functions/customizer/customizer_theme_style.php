@@ -21,7 +21,7 @@ function spicepress_custom_color($wp_customize)
 			  foreach($this->choices as $key => $value ) {
 	            ?>
 	               <label>
-					<input type="radio" value="<?php echo $key; ?>" name="<?php echo esc_attr( $name ); ?>" data-customize-setting-link="<?php echo esc_attr( $this->id ); ?>" <?php if($this->value() == $key){ echo 'checked'; } ?>>
+					<input type="radio" value="<?php echo esc_attr($key); ?>" name="<?php echo esc_attr( $name ); ?>" data-customize-setting-link="<?php echo esc_attr( $this->id ); ?>" <?php if($this->value() == $key){ echo 'checked'; } ?>>
 					<img <?php if($this->value() == $key){ echo 'class="color_scheem_active"'; } ?> src="<?php echo esc_url(get_template_directory_uri()); ?>/images/<?php echo esc_attr($value); ?>" alt="<?php echo esc_attr( $value ); ?>" />
 					</label>
 

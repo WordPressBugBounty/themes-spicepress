@@ -179,92 +179,6 @@ add_action( 'customize_preview_init', 'spicepress_customizer_live_preview' );
 
 require_once ST_TEMPLATE_DIR . '/class-tgm-plugin-activation.php';
 
-add_action( 'tgmpa_register', 'spicepress_register_required_plugins' );
-
-/**
- * Register the required plugins for this theme.
- *
- * In this example, we register five plugins:
- * - one included with the TGMPA library
- * - two from an external source, one from an arbitrary source, one from a GitHub repository
- * - two from the .org repo, where one demonstrates the use of the `is_callable` argument
- *
- * The variables passed to the `tgmpa()` function should be:
- * - an array of plugin arrays;
- * - optionally a configuration array.
- * If you are not changing anything in the configuration array, you can remove the array and remove the
- * variable from the function call: `tgmpa( $plugins );`.
- * In that case, the TGMPA default settings will be used.
- *
- * This function is hooked into `tgmpa_register`, which is fired on the WP `init` action on priority 10.
- */
-function spicepress_register_required_plugins() {
-	/*
-	 * Array of plugin arrays. Required keys are name and slug.
-	 * If the source is NOT from the .org repo, then source is also required.
-	 */
-	$plugins = array(
-		 // This is an example of how to include a plugin from the WordPress Plugin Repository.
-		array(
-            'name'      => esc_html__('Contact Form 7', 'spicepress'),
-            'slug'      => 'contact-form-7',
-            'required'  => false,
-        ),
-		array(
-            'name'      => esc_html__('Instagram Feed','spicepress'),
-            'slug' => 'instagram-feed',
-            'required'  => false,
-        ),
-        array(
-            'name'      => esc_html__('Spice Box','spicepress'),
-            'slug'      => 'spicebox',
-            'required'  => false,
-        ),
-        array(
-            'name'      => esc_html__('WooCommerce','spicepress'),
-            'slug'      => 'woocommerce',
-            'required'  => false,
-        ),
-        array(
-            'name'      => esc_html__('Spice Post Slider','spicepress'),
-            'slug'      => 'spice-post-slider',
-            'required'  => false,
-        ),
-        array(
-			'name'     => esc_html__('Spice Social Share', 'spicepress'),
-			'slug'     => 'spice-social-share',
-			'required'  => false,
-		),
-		array(
-            'name'     => esc_html__('Seo Optimized Images', 'spicepress'),
-            'slug'     => 'seo-optimized-images',
-            'required'  => false,
-            )
-	);
-
-	/*
-	 * Array of configuration settings. Amend each line as needed.
-	 *
-	 * TGMPA will start providing localized text strings soon. If you already have translations of our standard
-	 * strings available, please help us make TGMPA even better by giving us access to these translations or by
-	 * sending in a pull-request with .po file(s) with the translations.
-	 *
-	 * Only uncomment the strings in the config array if you want to customize the strings.
-	 */
-	$config = array(
-		'id'           => 'tgmpa',                 // Unique ID for hashing notices for multiple instances of TGMPA.
-		'default_path' => '',                      // Default absolute path to bundled plugins.
-		'menu'         => 'tgmpa-install-plugins', // Menu slug.
-		'has_notices'  => true,                    // Show admin notices or not.
-		'dismissable'  => true,                    // If false, a user cannot dismiss the nag message.
-		'dismiss_msg'  => '',                      // If 'dismissable' is false, this message will be output at top of nag.
-		'is_automatic' => false,                   // Automatically activate plugins after installation or not.
-		'message'      => '',                      // Message to output right before the plugins table.
-	);
-
-	tgmpa( $plugins, $config );
-}
-
 if ( ! function_exists( 'wp_body_open' ) ) {
 
 	function wp_body_open() {
@@ -329,3 +243,223 @@ function spicepress_customizer_inline_styles() { ?>
 <?PHP
 }
 add_action('customize_controls_print_styles', 'spicepress_customizer_inline_styles');
+
+// Hook the AJAX action for logged-in users
+add_action('wp_ajax_spicepress_check_plugin_status', 'spicepress_check_plugin_status');
+
+function spicepress_check_plugin_status() {
+    if (!current_user_can('install_plugins')) {
+        wp_send_json_error('You do not have permission to manage plugins.');
+        return;
+    }
+
+    if (!isset($_POST['plugin_slug'])) {
+        wp_send_json_error('No plugin slug provided.');
+        return;
+    }
+
+    $plugin_slug = sanitize_text_field($_POST['plugin_slug']);
+    $plugin_main_file = $plugin_slug . '/' . $plugin_slug . '.php'; // Adjust this based on your plugin structure
+
+    // Check if the plugin exists
+    $plugins = get_plugins();
+    if (isset($plugins[$plugin_main_file])) {
+        if (is_plugin_active($plugin_main_file)) {
+            wp_send_json_success(array('status' => 'activated'));
+        } else {
+            wp_send_json_success(array('status' => 'installed'));
+        }
+    } else {
+        wp_send_json_success(array('status' => 'not_installed'));
+    }
+}
+
+// Existing AJAX installation function for installing and activating
+add_action('wp_ajax_spicepress_install_activate_plugin', 'spicepress_install_and_activate_plugin');
+
+function spicepress_install_and_activate_plugin() {
+    if (!current_user_can('install_plugins')) {
+        wp_send_json_error('You do not have permission to install plugins.');
+        return;
+    }
+
+    if (!isset($_POST['plugin_url'])) {
+        wp_send_json_error('No plugin URL provided.');
+        return;
+    }
+
+    // Include necessary WordPress files for plugin installation
+    include_once(ABSPATH . 'wp-admin/includes/file.php');
+    include_once(ABSPATH . 'wp-admin/includes/misc.php');
+    include_once(ABSPATH . 'wp-admin/includes/class-wp-upgrader.php');
+    include_once(ABSPATH . 'wp-admin/includes/plugin.php');
+
+    $plugin_url = esc_url($_POST['plugin_url']);
+    $plugin_slug = sanitize_text_field($_POST['plugin_slug']);
+    $plugin_main_file = $plugin_slug . '/' . $plugin_slug . '.php'; // Ensure this matches your plugin structure
+
+    // Download the plugin file
+    WP_Filesystem();
+    $temp_file = download_url($plugin_url);
+
+    if (is_wp_error($temp_file)) {
+        wp_send_json_error($temp_file->get_error_message());
+        return;
+    }
+
+    // Unzip the plugin to the plugins folder
+    $plugin_folder = WP_PLUGIN_DIR;
+    $result = unzip_file($temp_file, $plugin_folder);
+    
+    // Clean up temporary file
+    unlink($temp_file);
+
+    if (is_wp_error($result)) {
+        wp_send_json_error($result->get_error_message());
+        return;
+    }
+
+    // Activate the plugin if it was installed
+    $activate_result = activate_plugin($plugin_main_file);
+
+    
+
+    // Return success with redirect URL
+    wp_send_json_success(array('redirect_url' => admin_url('admin.php?page=spicepress-welcome')));
+}
+
+// Enqueue JavaScript for the button functionality
+add_action('admin_enqueue_scripts', 'spicepress_enqueue_plugin_installer_script');
+
+function spicepress_enqueue_plugin_installer_script() {
+    global $hook_suffix;
+    wp_enqueue_script('spicepress-plugin-installer-js',  ST_TEMPLATE_DIR_URI . '/admin/assets/js/plugin-installer.js', array('jquery'), null, true);
+    wp_localize_script('spicepress-plugin-installer-js', 'pluginInstallerAjax', array(
+        'ajax_url' => admin_url('admin-ajax.php'),
+        'hook_suffix' => $hook_suffix,
+        'nonce' => wp_create_nonce('plugin_installer_nonce'),
+
+    ));
+}
+
+
+/**
+ * Admin Enqueue scripts and styles.
+ */
+function spicpress_notice_style() { 
+    wp_enqueue_style('spicpress-admin', ST_TEMPLATE_DIR_URI . '/css/admin.css');
+}
+add_action('admin_enqueue_scripts','spicpress_notice_style');
+
+function spicepress_admin_plugin_notice_warn() {
+    $theme_name=wp_get_theme();
+    if ( get_option( 'dismissed-spicepress_comanion_plugin', false ) ) {
+       return;
+    }
+
+    $dismissed = get_user_meta(get_current_user_id(), 'spicpress_welcome_admin_notice_dismissed', true);
+
+    if ($dismissed) {
+        return;
+    } ?>
+
+    <div class="updated notice is-dismissible spicepress-theme-notice">
+        <div class="dashboard-hero-panel">
+            <div class="hero-panel-content">
+                <div class="hero-panel-subtitle">
+                    <?php esc_html_e('Hello', 'spicepress'); 
+                    echo ', '; 
+                    $current_user = wp_get_current_user();
+                    echo esc_html($current_user->display_name);
+                    ?>
+                </div>
+                <div class="hero-panel-title">
+                    <?php 
+                    /* translators: %s: theme name */
+                    printf(esc_html__('Welcome to', 'spicepress') . ' %s', $theme_name ); ?>
+                </div>
+                <div class="hero-panel-description">
+                    <?php 
+                    /* translators: %s: theme name */
+                    printf(esc_html__("%s is now installed and ready to use. We've provide some links to get you started.", 'spicepress'), $theme_name ); ?>
+                </div>
+                <div class="theme-admin-button-wrap theme-admin-button-group">
+                    <a href="<?php echo esc_url(admin_url('admin.php?page=spicepress-welcome')); ?>" class="button theme-admin-button admin-button-secondary" target="_self" title="<?php esc_attr_e('Theme Dashboard', 'spicepress'); ?>">
+                            <span class="dashicons dashicons-dashboard"></span>
+                            <span><?php esc_html_e('Theme Dashboard', 'spicepress'); ?></span>
+                    </a>
+                    <a href="<?php echo esc_url('https://spicethemes.com/spicepress-wordpress-theme/#spicepress_demo_lite'); ?>" class="button theme-admin-button admin-button-secondary" target="_blank" title="<?php esc_attr_e('Live Demo', 'spicepress'); ?>">
+                        <span class="dashicons dashicons-welcome-view-site"></span>
+                        <span><?php esc_html_e('View Live Demos', 'spicepress'); ?></span>
+                    </a>
+                    <a href="<?php echo esc_url('https://helpdoc.spicethemes.com/category/spicepress/'); ?>" class="button theme-admin-button admin-button-secondary" target="_blank" title="<?php esc_attr_e('Help Docs', 'spicepress'); ?>">
+                        <span class="dashicons dashicons-media-document"></span>
+                        <span><?php esc_html_e('Theme Documentation', 'spicepress'); ?></span>
+                    </a>            
+                    <?php
+                    if(!function_exists('spiceb_activate')):
+	                	$spicepress_box_about_page = SpicePress_About_Page();            
+		                $spicepress_actions = $spicepress_box_about_page->recommended_actions;
+		                $spicepress_actions_todo = get_option( 'recommended_actions', false );
+		                if($spicepress_actions): 
+		                    foreach ($spicepress_actions as $key => $spicepress_val):
+		                        if($spicepress_val['id']=='install_spicebox'):
+		                            /* translators: %s: theme name */
+		                            echo '<p>'.wp_kses_post($spicepress_val['link']).'</p>';
+		                        endif;
+		                    endforeach;
+	                	endif;
+	                endif;
+                ?>
+                </div>
+            </div>
+            <div class="hero-panel-image">
+                <img src="<?php echo esc_url(get_theme_file_uri().'/admin/img/welcome-banner-spicepress-lite.png');?>" alt="<?php esc_attr_e('Welcome Banner','spicepress'); ?>">
+            </div>
+        </div>
+        <p><a href="#" class="dismiss-welcome-notice"><?php _e('Dismiss this notice', 'spicepress'); ?></a></p>
+    </div>
+    
+    <script type="text/javascript">
+        jQuery(function($) {
+        $( document ).on( 'click', '.spicepress-theme-notice .notice-dismiss', function () {
+            var type = $( this ).closest( '.spicepress-theme-notice' ).data( 'notice' );
+            $.ajax( ajaxurl,
+              {
+                type: 'POST',
+                data: {
+                  action: 'dismissed_notice_handler',
+                  type: type,
+                }
+              } );
+          } );
+      });
+    </script>
+
+    <script>
+        jQuery(document).ready(function($) {
+            $('.dismiss-welcome-notice').on('click', function(e) {
+                e.preventDefault();
+                $('.spicepress-theme-notice').fadeOut();
+                $.post(ajaxurl, {
+                    action: 'dismiss_spicepress_welcome_admin_notice',
+                    security: '<?php echo wp_create_nonce("dismiss_spicpress_welcome_admin_notice_nonce"); ?>'
+                });
+            });
+        });
+    </script>
+<?php  }
+
+function spicepress_dismiss_welcome_admin_notice() {
+    check_ajax_referer('dismiss_spicepress_welcome_admin_notice_nonce', 'security');
+    update_user_meta(get_current_user_id(), 'spicepress_welcome_admin_notice_dismissed', true);
+    wp_die();
+}
+add_action('wp_ajax_dismiss_spicepress_welcome_admin_notice', 'spicepress_dismiss_welcome_admin_notice');
+
+global $pagenow;
+if ( "themes.php" == $pagenow && is_admin() ) {
+    add_action('admin_notices', 'spicepress_admin_plugin_notice_warn' );
+    add_action('wp_ajax_dismissed_notice_handler', 'spicepress_ajax_notice_handler');
+}
+    

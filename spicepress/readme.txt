@@ -2,8 +2,8 @@
 
 Contributors: spicethemes
 Requires at least: 4.5
-Tested up to: 6.8
-Stable tag: 2.3.2
+Tested up to: 6.9
+Stable tag: 2.3.2.3
 Requires PHP: 5.4
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 License: GNU General Public License v2 or later
@@ -32,6 +32,18 @@ SpicePress WordPress Theme, Copyright (C) 2018-2025, SpiceThemes
 SpicePress is distributed under the terms of the GNU GPL
 
 == Changelog ==
+
+@Version 2.3.2.4
+* Updated description & demo's link.
+
+@Version 2.3.2.3
+* Added starter sites.
+
+@Version 2.3.2.2
+* Added Outfit google font.
+
+@Version 2.3.2.1
+* Corrected some escaping and 404 page design issues.
 
 @Version 2.3.2
 * Added Gutenberg editor section functionality on business template.

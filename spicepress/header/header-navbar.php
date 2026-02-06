@@ -23,7 +23,7 @@ if($spicepress_header_logo_placing == 'center'){ ?>
 					<p class="site-description"><?php echo $spicepress_description; ?></p>
 				<?php endif; ?>
 			</div>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'spicepress'); ?>">
                  <span class="navbar-toggler-icon"></span>
             </button>
 		</div>
@@ -31,7 +31,7 @@ if($spicepress_header_logo_placing == 'center'){ ?>
 
 
         <div class="navbar-header align-right">
-		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'spicepress'); ?>">
                  <span class="navbar-toggler-icon"></span>
             </button>
 			<?php the_custom_logo(); ?>
@@ -59,7 +59,7 @@ if($spicepress_header_logo_placing == 'center'){ ?>
 				</div>
 			</div>
 			
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'spicepress'); ?>">
                  <span class="navbar-toggler-icon"></span>
             </button>
 	
@@ -105,7 +105,7 @@ if($spicepress_header_logo_placing == 'center'){ ?>
 					<p class="site-description"><?php echo $spicepress_description; ?></p>
 				<?php endif; ?>
 			</div>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'spicepress'); ?>">
                  <span class="navbar-toggler-icon"></span>
             </button>
 		</div>

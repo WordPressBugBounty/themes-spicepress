@@ -120,7 +120,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  30,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('site_title_fontsize', array(
@@ -175,7 +175,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  16,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('site_tagline_fontsize', array(
@@ -230,7 +230,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  14,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('menu_title_fontsize', array(
@@ -285,7 +285,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  14,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('submenu_title_fontsize', array(
@@ -362,7 +362,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  32,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('banner_title_fontsize', array(
@@ -419,7 +419,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  16,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('breadcrumb_title_fontsize', array(
@@ -499,7 +499,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  32,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('section_title_fontsize', array(
@@ -554,7 +554,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  16,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('section_description_fontsize', array(
@@ -631,7 +631,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  32,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('h1_typography_fontsize', array(
@@ -688,7 +688,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  30,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('h2_typography_fontsize', array(
@@ -745,7 +745,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  24,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('h3_typography_fontsize', array(
@@ -801,7 +801,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  20,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('h4_typography_fontsize', array(
@@ -857,7 +857,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  18,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('h5_typography_fontsize', array(
@@ -914,7 +914,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  16,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('h6_typography_fontsize', array(
@@ -971,7 +971,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  16,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('p_typography_fontsize', array(
@@ -1027,7 +1027,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  14,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('button_text_typography_fontsize', array(
@@ -1107,7 +1107,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  36,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('post-title_fontsize', array(
@@ -1187,7 +1187,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  32,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('shop_h1_typography_fontsize', array(
@@ -1244,7 +1244,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  18,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('shop_h2_typography_fontsize', array(
@@ -1301,7 +1301,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  24,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('shop_h3_typography_fontsize', array(
@@ -1380,7 +1380,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  20,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('sidebar_fontsize', array(
@@ -1435,7 +1435,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  16,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('sidebar_widget_content_fontsize', array(
@@ -1513,7 +1513,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  24,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('footer_widget_title_fontsize', array(
@@ -1568,7 +1568,7 @@ $wp_customize->add_setting(
     array(
         'default'           =>  16,
 		'capability'        =>  'edit_theme_options',
-		'sanitize_callback' =>  'sanitize_text_field',
+		'sanitize_callback' =>  'absint',
     )
 );
 $wp_customize->add_control('footer_widget_content_fontsize', array(
