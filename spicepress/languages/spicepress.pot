@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SpicePress\n"
-"POT-Creation-Date: 2026-01-13 14:39+0530\n"
+"POT-Creation-Date: 2026-02-04 16:58+0530\n"
 "PO-Revision-Date: 2019-04-09 11:22+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10,13 +10,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.4.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: "
-"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -1414,43 +1415,48 @@ msgid "Enable Page Editor"
 msgstr ""
 
 #: functions/customizer/customizer_sections_settings.php:36
-#: functions/customizer/customizer_sections_settings.php:56
+#: functions/customizer/customizer_sections_settings.php:110
 msgid "ON"
 msgstr ""
 
 #: functions/customizer/customizer_sections_settings.php:37
-#: functions/customizer/customizer_sections_settings.php:57
+#: functions/customizer/customizer_sections_settings.php:111
 msgid "OFF"
 msgstr ""
 
-#: functions/customizer/customizer_sections_settings.php:43
+#: functions/customizer/customizer_sections_settings.php:67
+msgid "Page Editor Section"
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:97
 msgid "Latest News Settings"
 msgstr ""
 
-#: functions/customizer/customizer_sections_settings.php:52
+#: functions/customizer/customizer_sections_settings.php:106
 msgid "Enable Home News section"
 msgstr ""
 
-#: functions/customizer/customizer_sections_settings.php:64
+#: functions/customizer/customizer_sections_settings.php:118
 msgid "Turpis Mollis"
 msgstr ""
 
-#: functions/customizer/customizer_sections_settings.php:69
+#: functions/customizer/customizer_sections_settings.php:123
 #: functions/customizer/customizer_typography.php:1073
 msgid "Title"
 msgstr ""
 
-#: functions/customizer/customizer_sections_settings.php:76 index-news.php:11
+#: functions/customizer/customizer_sections_settings.php:130
+#: index-news.php:11
 msgid ""
 "Sea summo mazim ex, ea errem eleifend definitionem vim. Ut nec hinc dolor "
 "possim mei ludus efficiendi ei sea summo mazim ex."
 msgstr ""
 
-#: functions/customizer/customizer_sections_settings.php:81
+#: functions/customizer/customizer_sections_settings.php:135
 msgid "Description"
 msgstr ""
 
-#: functions/customizer/customizer_sections_settings.php:99
+#: functions/customizer/customizer_sections_settings.php:153
 msgid "Enable post meta values, like author name, date, comments, etc."
 msgstr ""
 

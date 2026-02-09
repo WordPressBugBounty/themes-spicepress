@@ -38,6 +38,60 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 			)
 	));
 
+
+		// Custom Control Button
+	class Spicepress_Editor_Customize_Control extends WP_Customize_Control {
+	    public $type = 'new_menu';
+
+	    public function render_content() {
+
+	        $template_file = 'template-business.php';
+
+	        $pages = get_posts(array(
+	            'post_type'  => 'page',
+	            'meta_key'   => '_wp_page_template',
+	            'meta_value' => $template_file,
+	            'posts_per_page' => 1,
+	        ));
+
+	        if ( !empty($pages) ) {
+	            $page_id = $pages[0]->ID;
+	            $edit_link = admin_url('post.php?post=' . $page_id . '&action=edit');
+	        } else {
+	            $edit_link = admin_url('edit.php?post_type=page');
+	        }
+	        ?>
+	        <div class="spicepress-pro-features-customizer">
+	            <p>Use this button to insert Gutenberg blocks into the Business Template page.</p>
+	            <a href="<?php echo esc_url($edit_link); ?>" class="spicepress-pro-button button-primary">
+	                <?php esc_html_e('Page Editor Section', 'spicepress'); ?>
+	            </a>
+	        </div>
+	        <?php
+	    }
+	}
+
+
+	$wp_customize->add_setting(
+	    'edit_homepage_button_setting',
+	    array(
+	        'capability'        => 'edit_theme_options',
+	        'sanitize_callback' => 'sanitize_text_field',
+	    )	
+	);
+
+	$wp_customize->add_control( 
+	    new Spicepress_Editor_Customize_Control( 
+	        $wp_customize, 
+	        'edit_homepage_button_setting', 
+	        array(
+	            'section' => 'spicepress_gutenberg_editor_section',
+	            'active_callback' => 'spicepress_editor_button_callback',
+	            'setting' => 'edit_homepage_button_setting'
+	        )
+	    )
+	);
+
 	//Latest News Section
 	$wp_customize->add_section('spicepress_latest_news_section',array(
 			'title' => esc_html__('Latest News Settings','spicepress'),
@@ -160,4 +214,12 @@ function spicepress_sanitize_radio( $input, $setting ){
 function spicepress_sanitize_textarea( $input )
 {
 	return wp_kses_post( force_balance_tags( $input ) );
+}
+// callback function for editor button
+function spicepress_editor_button_callback($control) {
+    if('on' == $control->manager->get_setting('gutenberg_editor_section_enable')->value()) {
+        return true;
+    } else {
+        return false;
+    }
 }

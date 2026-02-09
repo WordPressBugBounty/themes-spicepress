@@ -3,7 +3,7 @@
 Contributors: spicethemes
 Requires at least: 4.5
 Tested up to: 6.9
-Stable tag: 2.3.2.3
+Stable tag: 2.3.2.5
 Requires PHP: 5.4
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 License: GNU General Public License v2 or later
@@ -28,10 +28,13 @@ In WordPress 5.8, the default widget title is showing in the H2 tag if you want 
 
 == License ==
 
-SpicePress WordPress Theme, Copyright (C) 2018-2025, SpiceThemes
+SpicePress WordPress Theme, Copyright (C) 2018-2026, SpiceThemes
 SpicePress is distributed under the terms of the GNU GPL
 
 == Changelog ==
+
+@Version 2.3.2.5
+* Added editor button setting for gutenberg section on business template.
 
 @Version 2.3.2.4
 * Updated description & demo's link.
@@ -344,4 +347,4 @@ License - CC0 Public domain
 Source - https://stocksnap.io/photo/people-girls-Y2AHVPYB51
 
 * Images on /images folder
-Copyright (C) 2025, SpcieThemes and available as [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
+Copyright (C) 2026, SpcieThemes and available as [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
