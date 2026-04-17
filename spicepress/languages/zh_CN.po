@@ -1,0 +1,2418 @@
+# <!=Copyright (C) 2018 spicethemes.com
+# This file is distributed under the GNU General Public License v3 or later.=!>
+# Translators:
+# FX Bénard <fxb@wp-translations.org>, 2018
+# Patricia BT, 2018
+# Tony Archambeau, 2018
+# 颜泊泓 <553327522@qq.com>, 2018
+# Robert Sim <contact@robertsky.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: SpicePress PRO 1.0\n"
+"Report-Msgid-Bugs-To: https://wp-translations.pro/\n"
+"POT-Creation-Date: 2019-11-15 14:22+0530\n"
+"PO-Revision-Date: 2019-11-15 14:22+0530\n"
+"Last-Translator: Robert Sim <contact@robertsky.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/wp-translations/"
+"teams/64435/zh_CN/)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:13
+msgid "Oops! Page not found"
+msgstr "出错了！未找到页面"
+
+#: 404.php:14
+msgid "4"
+msgstr "4"
+
+#: 404.php:15
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr "非常抱歉，您正在找的页面不存在。"
+
+#: 404.php:15
+msgid "Home Page"
+msgstr "首页"
+
+#: comments.php:6
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "这篇文章受密码保护。输入密码以查看评论。"
+
+#: comments.php:21
+msgid "Reply"
+msgstr "回复"
+
+#: comments.php:30
+msgid "Posted on "
+msgstr "发布于"
+
+#: comments.php:33
+msgid "Edit"
+msgstr "编辑"
+
+#: comments.php:36
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+#: comments.php:55
+msgid "No comments so far"
+msgstr "目前为止没有评论"
+
+#: comments.php:55
+msgid "1 comment so far"
+msgstr "目前为止有一条评论"
+
+#: comments.php:55
+msgid "% Comments"
+msgstr "%条评论"
+
+#: comments.php:63
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#: comments.php:64
+msgid "&larr; Older Comments"
+msgstr "&larr; 早期评论"
+
+#: comments.php:65
+msgid "Newer Comments &rarr;"
+msgstr "较新评论 &rarr;"
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: comments.php:76
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment"
+msgstr "要发表评论，您必须先<a href=\"%s\">登录</a>。"
+
+#: comments.php:82
+msgid "Name"
+msgstr "名称"
+
+#: comments.php:83 functions/widgets/wdl_contact_info_widget.php:84
+msgid "Email"
+msgstr "电子邮件"
+
+#: comments.php:95
+msgid "Message"
+msgstr "信息"
+
+#: comments.php:96
+msgid "Logged in as"
+msgstr "以以下身份登陆"
+
+#: comments.php:96
+msgid "Log out of this account"
+msgstr "登出这个帐号"
+
+#: comments.php:96
+msgid "Logout"
+msgstr "登出"
+
+#: comments.php:98
+msgid "Send Message"
+msgstr "发送信息"
+
+#: comments.php:102
+msgid "Leave a Reply"
+msgstr "发表评论"
+
+#: content-contact.php:5 functions/customizer/customizer-template.php:487
+msgid "Get in touch with us"
+msgstr "与我们联系"
+
+#: content-contact.php:19 content-page.php:34 content.php:34
+#: functions/customizer/customizer.php:48
+#: functions/customizer/customizer.php:58 index-news.php:63
+#: index-slider.php:228 index-slider.php:237 index-slider.php:263
+#: template/template-blog-full-width.php:37
+#: template/template-page-full-width.php:35
+msgid "Read More"
+msgstr "阅读更多"
+
+#: content-portfolio.php:13
+msgid "Portfolio title"
+msgstr "作品集标题"
+
+#: footer.php:8 functions/customizer/customizer_general_settings.php:514
+msgid "Copyright © 2018 SpiceThemes. All right reserved"
+msgstr "版权©2018 SpiceThemes。版权所有。"
+
+#: functions.php:76
+msgid "Page"
+msgstr "页"
+
+#: functions.php:130
+#: functions/customizer/customizer_color_back_settings.php:157
+msgid "Primary Menu"
+msgstr "主菜单"
+
+#: functions/breadcrumbs/breadcrumbs.php:41
+#: functions/breadcrumbs/breadcrumbs.php:45
+#: functions/menu/default_menu_walker.php:23
+msgid "Home"
+msgstr "首页"
+
+#: functions/breadcrumbs/breadcrumbs.php:48
+msgid "Archive by category"
+msgstr "分类归档："
+
+#: functions/breadcrumbs/breadcrumbs.php:98
+msgid "Error 404"
+msgstr "404错误"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:33
+msgid "Add new field"
+msgstr "添加新的字段"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:38
+msgid "Customizer Repeater"
+msgstr "中继定制器"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:256
+#: functions/customizer-repeater/class/customizer-repeater-control.php:405
+#: functions/customizer/customizer-template.php:168
+#: functions/customizer/customizer-template.php:206
+#: functions/customizer/customizer-template.php:331
+#: functions/customizer/customizer_sections_settings.php:212
+#: functions/customizer/customizer_sections_settings.php:277
+#: functions/customizer/customizer_sections_settings.php:424
+#: functions/customizer/customizer_sections_settings.php:526
+#: functions/customizer/customizer_sections_settings.php:582
+#: functions/customizer/customizer_sections_settings.php:664
+#: functions/customizer/customizer_sections_settings.php:732
+#: functions/customizer/customizer_sections_settings.php:791
+#: functions/customizer/customizer_sections_settings.php:876
+#: functions/customizer/customizer_typography.php:1991
+#: functions/widgets/wdl_contact_info_widget.php:74
+#: functions/widgets/wdl_featured_latest_news.php:76
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:124
+msgid "Title"
+msgstr "标题"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:263
+#: functions/customizer-repeater/class/customizer-repeater-control.php:412
+msgid "Subtitle"
+msgstr "字幕"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:270
+#: functions/customizer-repeater/class/customizer-repeater-control.php:419
+#: functions/customizer/customizer-template.php:181
+#: functions/customizer/customizer-template.php:219
+#: functions/customizer/customizer-template.php:344
+#: functions/customizer/customizer_sections_settings.php:225
+#: functions/customizer/customizer_sections_settings.php:290
+#: functions/customizer/customizer_sections_settings.php:437
+#: functions/customizer/customizer_sections_settings.php:537
+#: functions/customizer/customizer_sections_settings.php:593
+#: functions/customizer/customizer_sections_settings.php:675
+#: functions/customizer/customizer_sections_settings.php:743
+#: functions/customizer/customizer_sections_settings.php:804
+#: functions/meta-box/post-meta.php:30 functions/meta-box/post-meta.php:31
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:127
+#: functions/widgets/wdl_header_topbar_info_widget.php:99
+msgid "Description"
+msgstr "描述"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:279
+#: functions/customizer-repeater/class/customizer-repeater-control.php:427
+#: functions/customizer/customizer_sections_settings.php:895
+#: functions/customizer/customizer_typography.php:1866
+msgid "Button Text"
+msgstr "按钮文字"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:290
+#: functions/customizer-repeater/class/customizer-repeater-control.php:437
+#: functions/customizer-repeater/class/customizer-repeater-control.php:626
+#: functions/customizer-repeater/class/customizer-repeater-control.php:648
+#: functions/meta-box/post-meta.php:27 functions/meta-box/post-meta.php:28
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:130
+#: functions/widgets/wdl_header_topbar_info_widget.php:102
+msgid "Link"
+msgstr "链接"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:309
+#: functions/customizer-repeater/class/customizer-repeater-control.php:455
+msgid "Video Url"
+msgstr "视频URL"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:333
+#: functions/customizer-repeater/class/customizer-repeater-control.php:397
+msgid "Color"
+msgstr "颜色"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:343
+#: functions/customizer-repeater/class/customizer-repeater-control.php:466
+msgid "Shortcode"
+msgstr "短代码"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:351
+#: functions/customizer-repeater/class/customizer-repeater-control.php:475
+msgid "Designation"
+msgstr "职位名称"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:367
+#: functions/customizer-repeater/class/customizer-repeater-control.php:486
+msgid "Delete field"
+msgstr "删除字段"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:523
+msgid "Open link in new tab:"
+msgstr "在新标签页打开链接："
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:534
+#: functions/customizer-repeater/class/customizer-repeater-control.php:602
+msgid "Icon"
+msgstr "图标"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:539
+#, php-format
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at %1$s."
+msgstr ""
+"注意：某些图标可能没有显示在此处。 您可以在 %1$s 上看到完整的图标列表。"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:540
+msgid "http://fontawesome.io/icons/"
+msgstr "http://fontawesome.io/icons/"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:557
+#: functions/customizer-repeater/class/customizer-repeater-control.php:603
+msgid "Image"
+msgstr "图像"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:560
+msgid "Upload Image"
+msgstr "上传图像"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:569
+msgid "Slide Format"
+msgstr "幻灯片格式"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:573
+msgid "Standard"
+msgstr "标准"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:577
+msgid "Aside"
+msgstr "日志"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:581
+msgid "Quote"
+msgstr "引语"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:585
+msgid "Status"
+msgstr "状态"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:589
+msgid "Video"
+msgstr "视频"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:599
+msgid "Image type"
+msgstr "图像类型"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:604
+#: functions/customizer/customizer_sections_settings.php:39
+msgid "None"
+msgstr "无"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:612
+#: functions/widgets/wdl_contact_info_widget.php:104
+msgid "Social icons"
+msgstr "社交图标"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:629
+#: functions/customizer-repeater/class/customizer-repeater-control.php:659
+msgid "Remove Icon"
+msgstr "移除图标"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:634
+#: functions/customizer-repeater/class/customizer-repeater-control.php:667
+msgid "Add Icon"
+msgstr "添加图标"
+
+#: functions/customizer/customizer-template.php:10
+msgid "Template settings"
+msgstr "模板设置"
+
+#: functions/customizer/customizer-template.php:17
+msgid "About Us page settings"
+msgstr "关于我们页面设置"
+
+#: functions/customizer/customizer-template.php:35
+#: functions/customizer/customizer-template.php:97
+msgid "Enable Testimonial section"
+msgstr "启用褒奖部分"
+
+#: functions/customizer/customizer-template.php:52
+msgid "Enable team section"
+msgstr "启用团队部分"
+
+#: functions/customizer/customizer-template.php:69
+msgid "Enable Footer Callout section"
+msgstr "启用页脚标注部分"
+
+#: functions/customizer/customizer-template.php:76
+msgid "Service page settings"
+msgstr "服务页面设置"
+
+#: functions/customizer/customizer-template.php:85
+msgid "Enable Service section"
+msgstr "启用服务部分"
+
+#: functions/customizer/customizer-template.php:89
+#: functions/customizer/customizer-template.php:101
+#: functions/customizer/customizer-template.php:113
+#: functions/customizer/customizer_sections_settings.php:100
+#: functions/customizer/customizer_sections_settings.php:198
+#: functions/customizer/customizer_sections_settings.php:264
+#: functions/customizer/customizer_sections_settings.php:367
+#: functions/customizer/customizer_sections_settings.php:513
+#: functions/customizer/customizer_sections_settings.php:569
+#: functions/customizer/customizer_sections_settings.php:652
+#: functions/customizer/customizer_sections_settings.php:720
+#: functions/customizer/customizer_sections_settings.php:778
+#: functions/customizer/customizer_sections_settings.php:862
+msgid "ON"
+msgstr "激活"
+
+#: functions/customizer/customizer-template.php:90
+#: functions/customizer/customizer-template.php:102
+#: functions/customizer/customizer-template.php:114
+#: functions/customizer/customizer_sections_settings.php:101
+#: functions/customizer/customizer_sections_settings.php:199
+#: functions/customizer/customizer_sections_settings.php:265
+#: functions/customizer/customizer_sections_settings.php:368
+#: functions/customizer/customizer_sections_settings.php:514
+#: functions/customizer/customizer_sections_settings.php:570
+#: functions/customizer/customizer_sections_settings.php:653
+#: functions/customizer/customizer_sections_settings.php:721
+#: functions/customizer/customizer_sections_settings.php:779
+#: functions/customizer/customizer_sections_settings.php:863
+msgid "OFF"
+msgstr "禁用"
+
+#: functions/customizer/customizer-template.php:109
+msgid "Enable Client section"
+msgstr "启用顾客部分"
+
+#: functions/customizer/customizer-template.php:124
+msgid "Blog page settings"
+msgstr "博客页面设置"
+
+#: functions/customizer/customizer-template.php:142
+msgid "Enable post meta values, like author name, date, comments, etc."
+msgstr "启用文章元值，如作者姓名、日期、评论等。"
+
+#: functions/customizer/customizer-template.php:152
+msgid "Portfolio page settings"
+msgstr "作品集页面设置"
+
+#: functions/customizer/customizer-template.php:163
+msgid "Portfolio Title"
+msgstr "作品集标题"
+
+#: functions/customizer/customizer-template.php:190
+msgid "Portfolio category settings"
+msgstr "作品集分类设置"
+
+#: functions/customizer/customizer-template.php:201
+#: taxonomy-portfolio_categories.php:4
+msgid "Portfolio category title"
+msgstr "作品集分类标题"
+
+#: functions/customizer/customizer-template.php:232
+#: functions/customizer/customizer-template.php:317
+msgid "Select column layout"
+msgstr "选择栏式布局"
+
+#: functions/customizer/customizer-template.php:242
+#, fuzzy
+#| msgid "Portfolio page settings"
+msgid "Post type slug setting"
+msgstr "作品集页面设置"
+
+#: functions/customizer/customizer-template.php:255
+msgid "Project slug"
+msgstr ""
+
+#: functions/customizer/customizer-template.php:263
+msgid ""
+"After changing the slug, please do not forget to save the permalinks. "
+"Without saving, the old permalinks will not update."
+msgstr ""
+
+#: functions/customizer/customizer-template.php:277
+#, fuzzy
+#| msgid "SpicePress PRO"
+msgid "SpicePress slug"
+msgstr "SpicePress PRO"
+
+#: functions/customizer/customizer-template.php:290
+msgid "Click here for permalinks settings"
+msgstr ""
+
+#: functions/customizer/customizer-template.php:301
+msgid "Gallery page settings"
+msgstr "相册页面设置"
+
+#: functions/customizer/customizer-template.php:326
+msgid "Gallery title"
+msgstr "相册标题"
+
+#: functions/customizer/customizer-template.php:354
+msgid "Archive page title"
+msgstr "归档页面标题"
+
+#: functions/customizer/customizer-template.php:364
+#: functions/customizer/customizer-template.php:370
+msgid "Archive"
+msgstr "存档"
+
+#: functions/customizer/customizer-template.php:378
+#: functions/customizer/customizer-template.php:384
+#: functions/template-tags.php:108
+msgid "Category"
+msgstr "分类目录"
+
+#: functions/customizer/customizer-template.php:392
+#: functions/template-tags.php:114
+msgid "All posts by"
+msgstr "作者："
+
+#: functions/customizer/customizer-template.php:398
+msgid "Author"
+msgstr "作者"
+
+#: functions/customizer/customizer-template.php:406
+#: functions/customizer/customizer-template.php:412
+#: functions/template-tags.php:35 functions/template-tags.php:120
+msgid "Tag"
+msgstr "标签"
+
+#: functions/customizer/customizer-template.php:421
+#: functions/template-tags.php:138
+msgid "Search results for"
+msgstr "搜索结果："
+
+#: functions/customizer/customizer-template.php:427 searchform.php:3
+#: searchform.php:4
+msgid "Search"
+msgstr "搜索"
+
+#: functions/customizer/customizer-template.php:435
+#: functions/customizer/customizer-template.php:441
+#: functions/template-tags.php:148
+msgid "404"
+msgstr "404"
+
+#: functions/customizer/customizer-template.php:449
+#: functions/customizer/customizer-template.php:455
+#: functions/taxonomies/taxonomies.php:4
+#, fuzzy
+#| msgid "Select category"
+msgid "Project categories"
+msgstr "选择分类目录"
+
+#: functions/customizer/customizer-template.php:464
+#: functions/customizer/customizer-template.php:470
+#: functions/template-tags.php:126
+msgid "Shop"
+msgstr "店铺"
+
+#: functions/customizer/customizer-template.php:492
+msgid "Contact form title"
+msgstr "联系标标题"
+
+#: functions/customizer/customizer-template.php:504
+msgid "Enable Contact form"
+msgstr "启用联系标"
+
+#: functions/customizer/customizer-template.php:512
+#: template/template-contact.php:67
+msgid "Find us on the map"
+msgstr "在地图上找到我们"
+
+#: functions/customizer/customizer-template.php:517
+msgid "Contact Google Map title"
+msgstr "联系我们的Google地图标题"
+
+#: functions/customizer/customizer-template.php:529
+msgid "Google Map Shortcode"
+msgstr "Google地图短代码"
+
+#: functions/customizer/customizer-template.php:541
+msgid "Enable Google map"
+msgstr "启用Google地图"
+
+#: functions/customizer/customizer-template.php:553
+msgid "Enable contact info"
+msgstr "启用连接信息"
+
+#: functions/customizer/customizer.php:46 index-slider.php:224
+msgid "Standard format"
+msgstr "标准格式"
+
+#: functions/customizer/customizer.php:47
+#: functions/customizer/customizer.php:57
+#: functions/customizer/customizer.php:67 index-slider.php:225
+#: index-slider.php:236 index-slider.php:242
+msgid ""
+"This is a very powerful theme that can be used for any type of business. The "
+"layout is clean and elegant."
+msgstr "这是一个非常强大的主题，可以用于任何类型的业务。 布局干净而优雅。"
+
+#: functions/customizer/customizer.php:56 index-slider.php:235
+msgid "Status format"
+msgstr "状态格式"
+
+#: functions/customizer/customizer.php:86 index-slider.php:261
+msgid "Video format"
+msgstr "视频格式"
+
+#: functions/customizer/customizer.php:87 index-slider.php:262
+msgid ""
+"This is an example of a video post format displayed in the featured slider "
+"with an excerpt added."
+msgstr ""
+"这是添加了摘要的特色幻灯器中显示的视频文章格式示例。\n"
+"这是在幻灯器里添加了摘要后，显示视频文章格式例子。"
+
+#: functions/customizer/customizer.php:112
+#: functions/shortcode/shortcode.php:113 index-services.php:130
+#: template/template-service.php:139
+msgid "Easy to use"
+msgstr "容易使用"
+
+#: functions/customizer/customizer.php:121
+#: functions/shortcode/shortcode.php:113 index-services.php:130
+#: template/template-service.php:139
+msgid "Multi-purpose"
+msgstr "多用途"
+
+#: functions/customizer/customizer.php:130
+#: functions/shortcode/shortcode.php:113 index-services.php:130
+#: template/template-service.php:139
+msgid "Responsive Design"
+msgstr "响应式网页设计"
+
+#: functions/customizer/customizer.php:185 index-testimonial.php:139
+msgid "UI Developer"
+msgstr "用户界面开发员"
+
+#: functions/customizer/customizer.php:195 index-testimonial.php:139
+msgid "Manager"
+msgstr "经理"
+
+#: functions/customizer/customizer.php:204 index-testimonial.php:140
+msgid "Designer"
+msgstr "设计人员"
+
+#: functions/customizer/customizer.php:232
+#: functions/customizer/customizer.php:259
+#: functions/customizer/customizer.php:286
+#: functions/customizer/customizer.php:313
+#: functions/shortcode/shortcode.php:700 index-team.php:147
+msgid "Developer"
+msgstr "开发人员"
+
+#: functions/customizer/customizer.php:460
+#: functions/customizer/customizer.php:469
+#: functions/customizer/customizer.php:479
+#: functions/customizer/customizer.php:489
+#: functions/customizer/customizer.php:499
+#: functions/customizer/customizer.php:509
+#: functions/customizer/customizer.php:519
+#: functions/customizer/customizer.php:529
+#: functions/customizer/customizer.php:539
+#: functions/customizer/customizer.php:549
+#: functions/customizer/customizer.php:559
+#: functions/customizer/customizer.php:569
+#: functions/customizer/customizer_sections_settings.php:608
+msgid "Gallery"
+msgstr "相册"
+
+#: functions/customizer/customizer_color_back_settings.php:10
+msgid "Colors & Background"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:14
+#: functions/customizer/customizer_sections_settings.php:381
+#: functions/customizer/customizer_theme_style.php:31
+#: functions/customizer/customizer_theme_style.php:32
+msgid "Background Image"
+msgstr "背景图像"
+
+#: functions/customizer/customizer_color_back_settings.php:19
+#: functions/customizer/customizer_color_back_settings.php:273
+#: functions/customizer/customizer_theme_style.php:33
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: functions/customizer/customizer_color_back_settings.php:26
+#: functions/customizer/customizer_typography.php:252
+#, fuzzy
+#| msgid "Header Text"
+msgid "Header"
+msgstr "页眉文本"
+
+#: functions/customizer/customizer_color_back_settings.php:41
+#: functions/customizer/customizer_color_back_settings.php:201
+#: functions/customizer/customizer_color_back_settings.php:447
+#: functions/customizer/customizer_color_back_settings.php:814
+#: functions/customizer/customizer_color_back_settings.php:887
+#: functions/customizer/customizer_color_back_settings.php:1019
+#: functions/customizer/customizer_color_back_settings.php:1091
+#, fuzzy
+#| msgid "Enable Home Gallery section"
+msgid "Click here to apply these settings"
+msgstr "启用在主页相册部分"
+
+#: functions/customizer/customizer_color_back_settings.php:52
+#, fuzzy
+#| msgid "Background Color"
+msgid "Header Background Color"
+msgstr "背景颜色"
+
+#: functions/customizer/customizer_color_back_settings.php:65
+#: functions/customizer/customizer_typography.php:279
+#, fuzzy
+#| msgid "Title"
+msgid "Site Title"
+msgstr "标题"
+
+#: functions/customizer/customizer_color_back_settings.php:89
+#: functions/customizer/customizer_color_back_settings.php:412
+#: functions/customizer/customizer_color_back_settings.php:967
+#: functions/customizer/customizer_color_back_settings.php:1055
+#: functions/customizer/customizer_color_back_settings.php:1115
+#, fuzzy
+#| msgid "Skin color"
+msgid "Link Color"
+msgstr "肤色"
+
+#: functions/customizer/customizer_color_back_settings.php:101
+#: functions/customizer/customizer_color_back_settings.php:225
+#: functions/customizer/customizer_color_back_settings.php:309
+#: functions/customizer/customizer_color_back_settings.php:424
+#: functions/customizer/customizer_color_back_settings.php:995
+#: functions/customizer/customizer_color_back_settings.php:1067
+#: functions/customizer/customizer_color_back_settings.php:1127
+msgid "Link Hover Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:113
+#: functions/customizer/customizer_typography.php:379
+msgid "Site Tagline"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:137
+#: functions/customizer/customizer_color_back_settings.php:955
+#: functions/customizer/customizer_color_back_settings.php:1043
+#: functions/customizer/customizer_color_back_settings.php:1103
+#, fuzzy
+#| msgid "Color"
+msgid "Text Color"
+msgstr "颜色"
+
+#: functions/customizer/customizer_color_back_settings.php:149
+msgid "Text Hover Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:168
+#: functions/customizer/customizer_typography.php:479
+msgid "Menus"
+msgstr "菜单"
+
+#: functions/customizer/customizer_color_back_settings.php:213
+#: functions/customizer/customizer_color_back_settings.php:297
+msgid "Text/Link Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:237
+msgid "Active Link Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:249
+#: functions/customizer/customizer_typography.php:579
+#, fuzzy
+#| msgid "Menus"
+msgid "Submenus"
+msgstr "菜单"
+
+#: functions/customizer/customizer_color_back_settings.php:285
+#, fuzzy
+#| msgid "Background Color"
+msgid "Background Hover Color"
+msgstr "背景颜色"
+
+#: functions/customizer/customizer_color_back_settings.php:321
+msgid "Link Active Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:329
+#: functions/customizer/customizer_typography.php:677
+msgid "Banner"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:340
+#, fuzzy
+#| msgid "Gallery title"
+msgid "Banner Title"
+msgstr "相册标题"
+
+#: functions/customizer/customizer_color_back_settings.php:364
+#: functions/customizer/customizer_color_back_settings.php:827
+#: functions/customizer/customizer_color_back_settings.php:899
+#: functions/customizer/customizer_color_back_settings.php:943
+#: functions/customizer/customizer_color_back_settings.php:1031
+#, fuzzy
+#| msgid "Title"
+msgid "Title Color"
+msgstr "标题"
+
+#: functions/customizer/customizer_color_back_settings.php:377
+#: functions/customizer/customizer_typography.php:803
+msgid "Breadcrumb Title"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:388
+#: functions/customizer/customizer_color_back_settings.php:741
+#, fuzzy
+#| msgid "Enable custom color skin"
+msgid "Click here to apply below settings"
+msgstr "自定义颜色皮"
+
+#: functions/customizer/customizer_color_back_settings.php:433
+#: functions/customizer/customizer_typography.php:1129
+#, fuzzy
+#| msgid "Slider Content"
+msgid "Content"
+msgstr "幻灯内容"
+
+#: functions/customizer/customizer_color_back_settings.php:459
+#, fuzzy
+#| msgid "Color"
+msgid "H1 Color"
+msgstr "颜色"
+
+#: functions/customizer/customizer_color_back_settings.php:471
+#, fuzzy
+#| msgid "Color"
+msgid "H2 Color"
+msgstr "颜色"
+
+#: functions/customizer/customizer_color_back_settings.php:483
+#, fuzzy
+#| msgid "Color"
+msgid "H3 Color"
+msgstr "颜色"
+
+#: functions/customizer/customizer_color_back_settings.php:495
+#, fuzzy
+#| msgid "Color"
+msgid "H4 Color"
+msgstr "颜色"
+
+#: functions/customizer/customizer_color_back_settings.php:507
+#, fuzzy
+#| msgid "Color"
+msgid "H5 Color"
+msgstr "颜色"
+
+#: functions/customizer/customizer_color_back_settings.php:519
+#, fuzzy
+#| msgid "Color"
+msgid "H6 Color"
+msgstr "颜色"
+
+#: functions/customizer/customizer_color_back_settings.php:531
+msgid "Paragraph Text Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:539
+#, fuzzy
+#| msgid "After Slider section"
+msgid "Slider Section"
+msgstr "幻灯器部分之后"
+
+#: functions/customizer/customizer_color_back_settings.php:550
+msgid "Slider Title Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:562
+#, fuzzy
+#| msgid "Description"
+msgid "Slider Description Color"
+msgstr "描述"
+
+#: functions/customizer/customizer_color_back_settings.php:578
+#, fuzzy
+#| msgid "Enable custom color skin"
+msgid "Click here to use button color settings"
+msgstr "自定义颜色皮"
+
+#: functions/customizer/customizer_color_back_settings.php:590
+#, fuzzy
+#| msgid "Background Color"
+msgid "Button Color"
+msgstr "背景颜色"
+
+#: functions/customizer/customizer_color_back_settings.php:602
+msgid "Button Color Hover Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:614
+#, fuzzy
+#| msgid "Button Text"
+msgid "Button Text Color"
+msgstr "按钮文字"
+
+#: functions/customizer/customizer_color_back_settings.php:626
+#, fuzzy
+#| msgid "Button Text"
+msgid "Button Text Hover Color"
+msgstr "按钮文字"
+
+#: functions/customizer/customizer_color_back_settings.php:634
+#, fuzzy
+#| msgid "Enable Testimonial section"
+msgid "Testimonial Section"
+msgstr "启用褒奖部分"
+
+#: functions/customizer/customizer_color_back_settings.php:645
+#, fuzzy
+#| msgid "Testimonial"
+msgid "Testimonial Title"
+msgstr "褒奖"
+
+#: functions/customizer/customizer_color_back_settings.php:657
+#, fuzzy
+#| msgid "Testimonial content"
+msgid "Testimonial Subtitle"
+msgstr "褒奖内容"
+
+#: functions/customizer/customizer_color_back_settings.php:670
+#, fuzzy
+#| msgid "Testimonial content"
+msgid "Testimonial Image Border"
+msgstr "褒奖内容"
+
+#: functions/customizer/customizer_color_back_settings.php:682
+#, fuzzy
+#| msgid "Section description"
+msgid "Testimonial Description"
+msgstr "部分描述"
+
+#: functions/customizer/customizer_color_back_settings.php:694
+#, fuzzy
+#| msgid "Testimonial"
+msgid "Testimonial Name"
+msgstr "褒奖"
+
+#: functions/customizer/customizer_color_back_settings.php:706
+#, fuzzy
+#| msgid "Testimonials settings"
+msgid "Testimonial Designation"
+msgstr "褒奖设置"
+
+#: functions/customizer/customizer_color_back_settings.php:714
+#, fuzzy
+#| msgid "After Shop section"
+msgid "CTA Section"
+msgstr "商店部分之后"
+
+#: functions/customizer/customizer_color_back_settings.php:725
+#, fuzzy
+#| msgid "Title"
+msgid "CTA Title"
+msgstr "标题"
+
+#: functions/customizer/customizer_color_back_settings.php:753
+msgid "CTA Button"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:767
+msgid "CTA Button Hover"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:779
+#, fuzzy
+#| msgid "Button Text"
+msgid "CTA Button Text"
+msgstr "按钮文字"
+
+#: functions/customizer/customizer_color_back_settings.php:791
+#, fuzzy
+#| msgid "Button Text"
+msgid "CTA Button Text Hover"
+msgstr "按钮文字"
+
+#: functions/customizer/customizer_color_back_settings.php:798
+#, fuzzy
+#| msgid "Tag Archive"
+msgid "Blog Page/Archive"
+msgstr "标签归档"
+
+#: functions/customizer/customizer_color_back_settings.php:839
+msgid "Title Hover Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:851
+#: functions/customizer/customizer_color_back_settings.php:911
+msgid "Meta Link Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:863
+#: functions/customizer/customizer_color_back_settings.php:923
+msgid "Meta Link Hover Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:872
+msgid "Single Post"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:932
+msgid "Sidebar"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:983
+#, fuzzy
+#| msgid "Enable custom color skin"
+msgid "Click here to apply below setting"
+msgstr "自定义颜色皮"
+
+#: functions/customizer/customizer_color_back_settings.php:1004
+#, fuzzy
+#| msgid "Footer widget left area"
+msgid "Footer Widget"
+msgstr "页脚小工具左区"
+
+#: functions/customizer/customizer_color_back_settings.php:1076
+#: functions/customizer/customizer_typography.php:2975
+msgid "Footer Bar"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:299
+msgid "General settings"
+msgstr "基本设置"
+
+#: functions/customizer/customizer_general_settings.php:305
+#: functions/customizer/customizer_general_settings.php:465
+msgid "Header layout"
+msgstr "页眉布局"
+
+#: functions/customizer/customizer_general_settings.php:320
+msgid "Header layout with logo placing"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:321
+msgid ""
+"Note: The third one layout option from the left will work only for the "
+"Standard header variation."
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:343
+#, fuzzy
+#| msgid "General settings"
+msgid "Menu breakpoint Settings"
+msgstr "基本设置"
+
+#: functions/customizer/customizer_general_settings.php:356
+msgid "Menu breakpoint"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:357
+msgid "Enter the Min. Size 200px and Max Size 6000px"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:378
+#, fuzzy
+#| msgid "Animation speed"
+msgid "Animation Settings"
+msgstr "动画速度"
+
+#: functions/customizer/customizer_general_settings.php:390
+#, fuzzy
+#| msgid "Remove animation effects from entire site"
+msgid "Disable animation effect in desktop"
+msgstr "删除整个站点的动画效果"
+
+#: functions/customizer/customizer_general_settings.php:403
+msgid "Disable animation effect in small devices like mobiles, ipads etc"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:411
+#, fuzzy
+#| msgid "Header variant settings"
+msgid "Header background color settings"
+msgstr "页眉变量设置"
+
+#: functions/customizer/customizer_general_settings.php:423
+#, fuzzy
+#| msgid "Background Color"
+msgid "Header background color"
+msgstr "背景颜色"
+
+#: functions/customizer/customizer_general_settings.php:431
+msgid "Header variant settings"
+msgstr "页眉变量设置"
+
+#: functions/customizer/customizer_general_settings.php:439
+msgid "For classic header, select column layout"
+msgstr "选择时经典页眉，请选择列布局"
+
+#: functions/customizer/customizer_general_settings.php:486
+#, fuzzy
+#| msgid "Footer copyright settings"
+msgid "Footer background color settings"
+msgstr "页脚版权设置"
+
+#: functions/customizer/customizer_general_settings.php:498
+#, fuzzy
+#| msgid "Background Color"
+msgid "Footer background color"
+msgstr "背景颜色"
+
+#: functions/customizer/customizer_general_settings.php:506
+msgid "Footer copyright settings"
+msgstr "页脚版权设置"
+
+#: functions/customizer/customizer_general_settings.php:521
+msgid "Copyright text"
+msgstr "版权说明"
+
+#: functions/customizer/customizer_header_image.php:7
+msgid "Custom header settings"
+msgstr "自定义页眉设置"
+
+#: functions/customizer/customizer_header_image.php:15
+msgid "Header Headline"
+msgstr "页眉大字标题"
+
+#: functions/customizer/customizer_header_image.php:27
+msgid "Header Text"
+msgstr "页眉文本"
+
+#: functions/customizer/customizer_layout_manager.php:16
+#: functions/customizer/customizer_layout_manager.php:101
+msgid "Enable"
+msgstr "启用"
+
+#: functions/customizer/customizer_layout_manager.php:24
+msgid "Disable"
+msgstr "停用"
+
+#: functions/customizer/customizer_layout_manager.php:31
+msgid "Slider has fixed position on homepage"
+msgstr "幻灯器在首页上有固定的位置。"
+
+#: functions/customizer/customizer_layout_manager.php:32
+msgid "Note"
+msgstr "备注"
+
+#: functions/customizer/customizer_layout_manager.php:32
+msgid ""
+"By default, all sections are enabled on homepage. If you wish not to display "
+"a section, just drag it onto the \"disabled\" box."
+msgstr ""
+"默认情况下，首页上的所有区域都已启用。如果您不想显示任何区域，只需将该区域拖"
+"到“禁用”框中即可。"
+
+#: functions/customizer/customizer_layout_manager.php:74
+msgid "Theme Layout Manager"
+msgstr "主题布局管理器"
+
+#: functions/customizer/customizer_sections_settings.php:83
+msgid "Homepage section settings"
+msgstr "首页部分设置"
+
+#: functions/customizer/customizer_sections_settings.php:88
+msgid "Slider settings"
+msgstr "幻灯设置"
+
+#: functions/customizer/customizer_sections_settings.php:96
+msgid "Enable slider"
+msgstr "启用幻灯"
+
+#: functions/customizer/customizer_sections_settings.php:112
+msgid "Slider Content"
+msgstr "幻灯内容"
+
+#: functions/customizer/customizer_sections_settings.php:114
+msgid "Add new slide"
+msgstr "添加新的幻灯片"
+
+#: functions/customizer/customizer_sections_settings.php:115
+msgid "Slide"
+msgstr "幻灯片"
+
+#: functions/customizer/customizer_sections_settings.php:134
+#, fuzzy
+#| msgid "Enable slider on the page"
+msgid "Enable slider image overlay"
+msgstr "在页面启用幻灯器。"
+
+#: functions/customizer/customizer_sections_settings.php:146
+msgid "Slider image overlay color"
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:157
+#: functions/customizer/customizer_sections_settings.php:467
+msgid "Animation"
+msgstr "动画"
+
+#: functions/customizer/customizer_sections_settings.php:161
+#: functions/customizer/customizer_sections_settings.php:471
+msgid "slide"
+msgstr "滑动效果"
+
+#: functions/customizer/customizer_sections_settings.php:162
+#: functions/customizer/customizer_sections_settings.php:472
+msgid "fade"
+msgstr "渐隐效果"
+
+#: functions/customizer/customizer_sections_settings.php:171
+#: functions/customizer/customizer_sections_settings.php:313
+#: functions/customizer/customizer_sections_settings.php:481
+#: functions/customizer/customizer_sections_settings.php:626
+#: functions/customizer/customizer_sections_settings.php:752
+#: functions/customizer/customizer_sections_settings.php:835
+msgid "Animation speed"
+msgstr "动画速度"
+
+#: functions/customizer/customizer_sections_settings.php:185
+#, fuzzy
+#| msgid "Service settings"
+msgid "Services settings"
+msgstr "服务设置"
+
+#: functions/customizer/customizer_sections_settings.php:194
+msgid "Enable Services on homepage"
+msgstr "在首页启用服务"
+
+#: functions/customizer/customizer_sections_settings.php:207
+#: index-services.php:12 template/template-service.php:24
+msgid "What we offer"
+msgstr "我们提供什么"
+
+#: functions/customizer/customizer_sections_settings.php:235
+#, fuzzy
+#| msgid "Service content"
+msgid "Services content"
+msgstr "服务内容"
+
+#: functions/customizer/customizer_sections_settings.php:238
+msgid "Add new Service"
+msgstr "添加服务"
+
+#: functions/customizer/customizer_sections_settings.php:239
+msgid "Service"
+msgstr "服务"
+
+#: functions/customizer/customizer_sections_settings.php:252
+msgid "Portfolio settings"
+msgstr "作品集设置"
+
+#: functions/customizer/customizer_sections_settings.php:260
+msgid "Enable Home Portfolio section"
+msgstr "启用在主页作品集部分"
+
+#: functions/customizer/customizer_sections_settings.php:273
+#: index-portfolio.php:20
+msgid "Our Portfolio"
+msgstr "我们的作品集"
+
+#: functions/customizer/customizer_sections_settings.php:303
+msgid "Select category for portfolio"
+msgstr "为作品集选择分类"
+
+#: functions/customizer/customizer_sections_settings.php:334
+msgid "Click here to add project"
+msgstr "点击这里添加项目"
+
+#: functions/customizer/customizer_sections_settings.php:355
+msgid "Testimonials settings"
+msgstr "褒奖设置"
+
+#: functions/customizer/customizer_sections_settings.php:363
+msgid "Enable Home Testimonial section"
+msgstr "启用在主页褒奖部分"
+
+#: functions/customizer/customizer_sections_settings.php:393
+#, fuzzy
+#| msgid "Enable Testimonial section"
+msgid "Enable testimonial image overlay"
+msgstr "启用褒奖部分"
+
+#: functions/customizer/customizer_sections_settings.php:406
+msgid "Testimonial image overlay color"
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:419
+#: index-testimonial.php:60
+msgid "What our clients say"
+msgstr "我们的客户说什么？"
+
+#: functions/customizer/customizer_sections_settings.php:447
+msgid "Testimonial content"
+msgstr "褒奖内容"
+
+#: functions/customizer/customizer_sections_settings.php:449
+msgid "Add new Testimonial"
+msgstr "添加新的褒奖"
+
+#: functions/customizer/customizer_sections_settings.php:450
+msgid "Testimonial"
+msgstr "褒奖"
+
+#: functions/customizer/customizer_sections_settings.php:500
+msgid "Latest News settings"
+msgstr "最新消息设置"
+
+#: functions/customizer/customizer_sections_settings.php:509
+msgid "Enable Home News section"
+msgstr "启用在主页消息部分"
+
+#: functions/customizer/customizer_sections_settings.php:521 index-news.php:11
+msgid "Latest News"
+msgstr "最新消息"
+
+#: functions/customizer/customizer_sections_settings.php:547
+msgid "Select the Number of Posts"
+msgstr "选择文章数"
+
+#: functions/customizer/customizer_sections_settings.php:557
+msgid "Gallery settings"
+msgstr "相册设置"
+
+#: functions/customizer/customizer_sections_settings.php:565
+msgid "Enable Home Gallery section"
+msgstr "启用在主页相册部分"
+
+#: functions/customizer/customizer_sections_settings.php:577
+#: index-gallery.php:21 template/template-gallery.php:13
+msgid "Our work"
+msgstr "我们的作品"
+
+#: functions/customizer/customizer_sections_settings.php:610
+msgid "Add new gallery"
+msgstr "添加新的相册"
+
+#: functions/customizer/customizer_sections_settings.php:611
+#, fuzzy
+#| msgid "Gallery"
+msgid "Gallery Image"
+msgstr "相册"
+
+#: functions/customizer/customizer_sections_settings.php:641
+msgid "Team settings"
+msgstr "团队设置"
+
+#: functions/customizer/customizer_sections_settings.php:648
+msgid "Enable Home Team section"
+msgstr "启用在主页的团队部分"
+
+#: functions/customizer/customizer_sections_settings.php:659 index-team.php:12
+msgid "Meet The Team"
+msgstr "团队介绍"
+
+#: functions/customizer/customizer_sections_settings.php:690
+msgid "Team content"
+msgstr "团队内容"
+
+#: functions/customizer/customizer_sections_settings.php:693
+msgid "Add new Team Member"
+msgstr "添加新的团队队员"
+
+#: functions/customizer/customizer_sections_settings.php:694
+msgid "Team Member"
+msgstr "团队队员"
+
+#: functions/customizer/customizer_sections_settings.php:709
+msgid "Home Shop settings"
+msgstr "主页商店设置"
+
+#: functions/customizer/customizer_sections_settings.php:716
+msgid "Enable Home Shop section"
+msgstr "启用在主页博客商店部分"
+
+#: functions/customizer/customizer_sections_settings.php:727
+#: index-wooproduct.php:21
+msgid "Featured products"
+msgstr "特色产品"
+
+#: functions/customizer/customizer_sections_settings.php:767
+#, fuzzy
+#| msgid "Client settings"
+msgid "Clients settings"
+msgstr "客户设置"
+
+#: functions/customizer/customizer_sections_settings.php:774
+msgid "Enable Home Client section"
+msgstr "启用在主页客户部分"
+
+#: functions/customizer/customizer_sections_settings.php:788
+#: index-client.php:25
+msgid "Meet our clients"
+msgstr "我们的客户介绍"
+
+#: functions/customizer/customizer_sections_settings.php:800
+msgid ""
+"We provide best WordPress solutions for your business. Thanks to our "
+"framework you will get more happy customers."
+msgstr ""
+"我们为您的企业提供最好的WordPress方案。 通过我们的框架，您将获得更多满意的客"
+"户。"
+
+#: functions/customizer/customizer_sections_settings.php:819
+#, fuzzy
+#| msgid "Slider with content"
+msgid "Clients content"
+msgstr "幻灯器与内容"
+
+#: functions/customizer/customizer_sections_settings.php:821
+msgid "Add new client"
+msgstr "添加客户"
+
+#: functions/customizer/customizer_sections_settings.php:822
+#, fuzzy
+#| msgid "Clients"
+msgid "Client"
+msgstr "客户"
+
+#: functions/customizer/customizer_sections_settings.php:851
+msgid "Callout section settings"
+msgstr "标注部分设置"
+
+#: functions/customizer/customizer_sections_settings.php:858
+msgid "Enable Home Callout section"
+msgstr "启用在主页标注部分"
+
+#: functions/customizer/customizer_sections_settings.php:871
+#: index-footer_callout.php:6
+msgid ""
+"Great Customer Support fast! By phone: 1-555-123-4567, &nbsp; <abbr>by "
+"email: info@example.com</abbr>"
+msgstr ""
+"又快又棒的客户支持！ 电话：1-555-123-4567，＆nbsp; <abbr>电子邮件："
+"info@example.com</abbr>"
+
+#: functions/customizer/customizer_sections_settings.php:884
+#: functions/shortcode/shortcode.php:927 index-footer_callout.php:7
+msgid "Contact Us"
+msgstr "联系我们"
+
+#: functions/customizer/customizer_sections_settings.php:912
+msgid "Button Link"
+msgstr "按钮链接"
+
+#: functions/customizer/customizer_sections_settings.php:926
+#: functions/meta-box/post-meta.php:29
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:134
+#: functions/widgets/wdl_header_topbar_info_widget.php:106
+#: functions/widgets/wdl_social_icon.php:198
+#: functions/widgets/wdl_social_icon.php:204
+#: functions/widgets/wdl_social_icon.php:210
+#: functions/widgets/wdl_social_icon.php:216
+#: functions/widgets/wdl_social_icon.php:222
+#: functions/widgets/wdl_social_icon.php:228
+#: functions/widgets/wdl_social_icon.php:234
+#: functions/widgets/wdl_social_icon.php:240
+#: functions/widgets/wdl_social_icon.php:246
+msgid "Open link in new tab"
+msgstr "在新标签页打开链接"
+
+#: functions/customizer/customizer_theme_style.php:13
+#: functions/customizer/customizer_theme_style.php:199
+msgid "Predefined default background"
+msgstr "预定义的默认背景图片"
+
+#: functions/customizer/customizer_theme_style.php:32
+#: functions/customizer/customizer_theme_style.php:34
+msgid "Go to"
+msgstr "去"
+
+#: functions/customizer/customizer_theme_style.php:32
+#: functions/customizer/customizer_theme_style.php:34
+msgid "Appearance"
+msgstr "外观"
+
+#: functions/customizer/customizer_theme_style.php:32
+#: functions/customizer/customizer_theme_style.php:34
+msgid "Customize"
+msgstr "自定义"
+
+#: functions/customizer/customizer_theme_style.php:34
+msgid "Colors"
+msgstr "颜色"
+
+#: functions/customizer/customizer_theme_style.php:55
+msgid "Theme Layout"
+msgstr "主题布局"
+
+#: functions/customizer/customizer_theme_style.php:86
+msgid "Predefined Colors"
+msgstr "预定义颜色"
+
+#: functions/customizer/customizer_theme_style.php:113
+msgid "Theme style settings"
+msgstr "主题外观设置"
+
+#: functions/customizer/customizer_theme_style.php:125
+msgid "Predefined colors"
+msgstr "预定义颜色"
+
+#: functions/customizer/customizer_theme_style.php:150
+msgid "Enable custom color skin"
+msgstr "自定义颜色皮"
+
+#: functions/customizer/customizer_theme_style.php:167
+msgid "Skin color"
+msgstr "肤色"
+
+#: functions/customizer/customizer_theme_style.php:180
+msgid "Layout style"
+msgstr "布局格式"
+
+#: functions/customizer/customizer_typography.php:6
+msgid "Typography settings"
+msgstr "排版设置"
+
+#: functions/customizer/customizer_typography.php:27
+#, fuzzy
+#| msgid "Topbar header info widget."
+msgid "Topbar Widgets"
+msgstr "顶部页眉信息小工具"
+
+#: functions/customizer/customizer_typography.php:40
+#, fuzzy
+#| msgid "Enable custom typography"
+msgid "Enable Top Widget typography"
+msgstr "启用自定义排版"
+
+#: functions/customizer/customizer_typography.php:53
+msgid "Topbar Widget Title"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:78
+#: functions/customizer/customizer_typography.php:177
+#: functions/customizer/customizer_typography.php:304
+#: functions/customizer/customizer_typography.php:404
+#: functions/customizer/customizer_typography.php:504
+#: functions/customizer/customizer_typography.php:604
+#: functions/customizer/customizer_typography.php:729
+#: functions/customizer/customizer_typography.php:830
+#: functions/customizer/customizer_typography.php:957
+#: functions/customizer/customizer_typography.php:1056
+#: functions/customizer/customizer_typography.php:1181
+#: functions/customizer/customizer_typography.php:1282
+#: functions/customizer/customizer_typography.php:1383
+#: functions/customizer/customizer_typography.php:1485
+#: functions/customizer/customizer_typography.php:1586
+#: functions/customizer/customizer_typography.php:1686
+#: functions/customizer/customizer_typography.php:1791
+#: functions/customizer/customizer_typography.php:1891
+#: functions/customizer/customizer_typography.php:2017
+#: functions/customizer/customizer_typography.php:2118
+#: functions/customizer/customizer_typography.php:2247
+#: functions/customizer/customizer_typography.php:2350
+#: functions/customizer/customizer_typography.php:2452
+#: functions/customizer/customizer_typography.php:2578
+#: functions/customizer/customizer_typography.php:2677
+#: functions/customizer/customizer_typography.php:2802
+#: functions/customizer/customizer_typography.php:2901
+#: functions/customizer/customizer_typography.php:3003
+msgid "Font family"
+msgstr "字体源"
+
+#: functions/customizer/customizer_typography.php:93
+#: functions/customizer/customizer_typography.php:192
+#: functions/customizer/customizer_typography.php:319
+#: functions/customizer/customizer_typography.php:419
+#: functions/customizer/customizer_typography.php:519
+#: functions/customizer/customizer_typography.php:619
+#: functions/customizer/customizer_typography.php:744
+#: functions/customizer/customizer_typography.php:845
+#: functions/customizer/customizer_typography.php:972
+#: functions/customizer/customizer_typography.php:1071
+#: functions/customizer/customizer_typography.php:1196
+#: functions/customizer/customizer_typography.php:1297
+#: functions/customizer/customizer_typography.php:1398
+#: functions/customizer/customizer_typography.php:1500
+#: functions/customizer/customizer_typography.php:1601
+#: functions/customizer/customizer_typography.php:1702
+#: functions/customizer/customizer_typography.php:1806
+#: functions/customizer/customizer_typography.php:1906
+#: functions/customizer/customizer_typography.php:2032
+#: functions/customizer/customizer_typography.php:2133
+#: functions/customizer/customizer_typography.php:2262
+#: functions/customizer/customizer_typography.php:2365
+#: functions/customizer/customizer_typography.php:2467
+#: functions/customizer/customizer_typography.php:2593
+#: functions/customizer/customizer_typography.php:2692
+#: functions/customizer/customizer_typography.php:2817
+#: functions/customizer/customizer_typography.php:2916
+#: functions/customizer/customizer_typography.php:3018
+#, fuzzy
+#| msgid "Font size"
+msgid "Font size (px)"
+msgstr "字体大小"
+
+#: functions/customizer/customizer_typography.php:108
+#: functions/customizer/customizer_typography.php:208
+#: functions/customizer/customizer_typography.php:334
+#: functions/customizer/customizer_typography.php:434
+#: functions/customizer/customizer_typography.php:534
+#: functions/customizer/customizer_typography.php:634
+#: functions/customizer/customizer_typography.php:759
+#: functions/customizer/customizer_typography.php:860
+#: functions/customizer/customizer_typography.php:987
+#: functions/customizer/customizer_typography.php:1086
+#: functions/customizer/customizer_typography.php:1212
+#: functions/customizer/customizer_typography.php:1313
+#: functions/customizer/customizer_typography.php:1414
+#: functions/customizer/customizer_typography.php:1516
+#: functions/customizer/customizer_typography.php:1617
+#: functions/customizer/customizer_typography.php:1719
+#: functions/customizer/customizer_typography.php:1822
+#: functions/customizer/customizer_typography.php:1922
+#: functions/customizer/customizer_typography.php:2047
+#: functions/customizer/customizer_typography.php:2148
+#: functions/customizer/customizer_typography.php:2278
+#: functions/customizer/customizer_typography.php:2381
+#: functions/customizer/customizer_typography.php:2483
+#: functions/customizer/customizer_typography.php:2608
+#: functions/customizer/customizer_typography.php:2707
+#: functions/customizer/customizer_typography.php:2832
+#: functions/customizer/customizer_typography.php:2931
+#: functions/customizer/customizer_typography.php:3033
+#, fuzzy
+#| msgid "Font size"
+msgid "Font Weight"
+msgstr "字体大小"
+
+#: functions/customizer/customizer_typography.php:123
+#: functions/customizer/customizer_typography.php:224
+#: functions/customizer/customizer_typography.php:349
+#: functions/customizer/customizer_typography.php:449
+#: functions/customizer/customizer_typography.php:549
+#: functions/customizer/customizer_typography.php:649
+#: functions/customizer/customizer_typography.php:774
+#: functions/customizer/customizer_typography.php:875
+#: functions/customizer/customizer_typography.php:1002
+#: functions/customizer/customizer_typography.php:1101
+#: functions/customizer/customizer_typography.php:1227
+#: functions/customizer/customizer_typography.php:1328
+#: functions/customizer/customizer_typography.php:1430
+#: functions/customizer/customizer_typography.php:1531
+#: functions/customizer/customizer_typography.php:1632
+#: functions/customizer/customizer_typography.php:1734
+#: functions/customizer/customizer_typography.php:1837
+#: functions/customizer/customizer_typography.php:1937
+#: functions/customizer/customizer_typography.php:2062
+#: functions/customizer/customizer_typography.php:2163
+#: functions/customizer/customizer_typography.php:2294
+#: functions/customizer/customizer_typography.php:2396
+#: functions/customizer/customizer_typography.php:2498
+#: functions/customizer/customizer_typography.php:2623
+#: functions/customizer/customizer_typography.php:2722
+#: functions/customizer/customizer_typography.php:2847
+#: functions/customizer/customizer_typography.php:2946
+#: functions/customizer/customizer_typography.php:3048
+msgid "Font style"
+msgstr "字体样式"
+
+#: functions/customizer/customizer_typography.php:138
+#: functions/customizer/customizer_typography.php:240
+#: functions/customizer/customizer_typography.php:365
+#: functions/customizer/customizer_typography.php:465
+#: functions/customizer/customizer_typography.php:565
+#: functions/customizer/customizer_typography.php:665
+#: functions/customizer/customizer_typography.php:789
+#: functions/customizer/customizer_typography.php:890
+#: functions/customizer/customizer_typography.php:1017
+#: functions/customizer/customizer_typography.php:1116
+#: functions/customizer/customizer_typography.php:1242
+#: functions/customizer/customizer_typography.php:1343
+#: functions/customizer/customizer_typography.php:1446
+#: functions/customizer/customizer_typography.php:1547
+#: functions/customizer/customizer_typography.php:1647
+#: functions/customizer/customizer_typography.php:1750
+#: functions/customizer/customizer_typography.php:1852
+#: functions/customizer/customizer_typography.php:1952
+#: functions/customizer/customizer_typography.php:2077
+#: functions/customizer/customizer_typography.php:2178
+#: functions/customizer/customizer_typography.php:2310
+#: functions/customizer/customizer_typography.php:2412
+#: functions/customizer/customizer_typography.php:2513
+#: functions/customizer/customizer_typography.php:2638
+#: functions/customizer/customizer_typography.php:2737
+#: functions/customizer/customizer_typography.php:2862
+#: functions/customizer/customizer_typography.php:2961
+#: functions/customizer/customizer_typography.php:3063
+msgid "Text Transform"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:152
+#, fuzzy
+#| msgid "Slider Content"
+msgid "Topbar Widget Content"
+msgstr "幻灯内容"
+
+#: functions/customizer/customizer_typography.php:266
+#, fuzzy
+#| msgid "Enable custom typography"
+msgid "Enable Header typography"
+msgstr "启用自定义排版"
+
+#: functions/customizer/customizer_typography.php:691
+#, fuzzy
+#| msgid "Enable custom typography"
+msgid "Enable Banner typography"
+msgstr "启用自定义排版"
+
+#: functions/customizer/customizer_typography.php:704
+#, fuzzy
+#| msgid "Title"
+msgid "Page Title"
+msgstr "标题"
+
+#: functions/customizer/customizer_typography.php:903
+#, fuzzy
+#| msgid "Homepage section settings"
+msgid "Homepage Section"
+msgstr "首页部分设置"
+
+#: functions/customizer/customizer_typography.php:917
+msgid ""
+"Enable typography, this setting works only for Section Title and Description "
+"on page templates like homepage, about, service, contact, and portfolio(2 "
+"column, 3 column and 4 column)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:930
+#, fuzzy
+#| msgid "Section title"
+msgid "Section Title"
+msgstr "部分标题"
+
+#: functions/customizer/customizer_typography.php:1031
+#, fuzzy
+#| msgid "Section description"
+msgid "Section Description"
+msgstr "部分描述"
+
+#: functions/customizer/customizer_typography.php:1143
+#, fuzzy
+#| msgid "Enable custom typography"
+msgid "Enable Content typography"
+msgstr "启用自定义排版"
+
+#: functions/customizer/customizer_typography.php:1156
+#: functions/customizer/customizer_typography.php:2220
+msgid "Heading 1 (H1)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1256
+#: functions/customizer/customizer_typography.php:2324
+msgid "Heading 2 (H2)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1357
+#: functions/customizer/customizer_typography.php:2426
+msgid "Heading 3 (H3)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1460
+msgid "Heading 4 (H4)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1561
+msgid "Heading 5 (H5)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1661
+msgid "Heading 6 (H6)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1766
+#, fuzzy
+#| msgid "General Paragraph"
+msgid "Paragraph"
+msgstr "常规段落"
+
+#: functions/customizer/customizer_typography.php:1965
+msgid "Blog / Archive / Single Post"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1979
+#, fuzzy
+#| msgid "Enable custom typography"
+msgid "Enable Blog / Archive / Single Post typography"
+msgstr "启用自定义排版"
+
+#: functions/customizer/customizer_typography.php:2090
+msgid "Post Meta"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:2104
+#, fuzzy
+#| msgid "Enable custom typography"
+msgid "Enable Post Meta typography"
+msgstr "启用自定义排版"
+
+#: functions/customizer/customizer_typography.php:2193
+#, fuzzy
+#| msgid "Home Page"
+msgid "Shop Page"
+msgstr "首页"
+
+#: functions/customizer/customizer_typography.php:2207
+#, fuzzy
+#| msgid "Enable custom typography"
+msgid "Enable shop page typography"
+msgstr "启用自定义排版"
+
+#: functions/customizer/customizer_typography.php:2221
+msgid "Only for product detail page"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:2325
+msgid "Only for product title in Shop Page"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:2427
+msgid "Only for Product checkout page"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:2527
+#, fuzzy
+#| msgid "Sidebar widget area"
+msgid "Sidebar Widgets"
+msgstr "边栏小工具区"
+
+#: functions/customizer/customizer_typography.php:2541
+#, fuzzy
+#| msgid "Enable custom typography"
+msgid "Enable Sidebar Widgets typography"
+msgstr "启用自定义排版"
+
+#: functions/customizer/customizer_typography.php:2553
+#, fuzzy
+#| msgid "Sidebar widget area"
+msgid "Sidebar Widget Title"
+msgstr "边栏小工具区"
+
+#: functions/customizer/customizer_typography.php:2652
+#, fuzzy
+#| msgid "Sidebar widget area"
+msgid "Sidebar Widget Content"
+msgstr "边栏小工具区"
+
+#: functions/customizer/customizer_typography.php:2751
+#, fuzzy
+#| msgid "Footer widget left area"
+msgid "Footer Widgets"
+msgstr "页脚小工具左区"
+
+#: functions/customizer/customizer_typography.php:2765
+#, fuzzy
+#| msgid "Enable custom typography"
+msgid "Enable Footer Widget typography"
+msgstr "启用自定义排版"
+
+#: functions/customizer/customizer_typography.php:2777
+#, fuzzy
+#| msgid "Footer widget right area"
+msgid "Footer Widget Title"
+msgstr "页脚小工具右区"
+
+#: functions/customizer/customizer_typography.php:2876
+#, fuzzy
+#| msgid "Footer widget left area"
+msgid "Footer Widget Content"
+msgstr "页脚小工具左区"
+
+#: functions/customizer/customizer_typography.php:2989
+#, fuzzy
+#| msgid "Enable custom typography"
+msgid "Enable Footer Bar typography"
+msgstr "启用自定义排版"
+
+#: functions/hooks/spicepress-hooks-settings.php:62
+#: functions/hooks/spicepress-hooks-settings.php:373
+#: functions/hooks/spicepress-hooks-settings.php:392
+msgid "SpicePress PRO hooks"
+msgstr "SpicePress PRO hooks"
+
+#: functions/hooks/spicepress-hooks-settings.php:89
+msgid "Before Top Header"
+msgstr "页眉之前"
+
+#: functions/hooks/spicepress-hooks-settings.php:94
+msgid "After Top Header"
+msgstr "页眉之后"
+
+#: functions/hooks/spicepress-hooks-settings.php:103
+msgid "Before Slider section"
+msgstr "幻灯器部分之前"
+
+#: functions/hooks/spicepress-hooks-settings.php:109
+msgid "After Slider section"
+msgstr "幻灯器部分之后"
+
+#: functions/hooks/spicepress-hooks-settings.php:119
+msgid "Before Service section"
+msgstr "服务部分之前"
+
+#: functions/hooks/spicepress-hooks-settings.php:125
+msgid "After Service section"
+msgstr "服务部分之后"
+
+#: functions/hooks/spicepress-hooks-settings.php:134
+msgid "Before Portfolio section"
+msgstr "作品集部分之前"
+
+#: functions/hooks/spicepress-hooks-settings.php:140
+msgid "After Portfolio section"
+msgstr "作品集部分之后"
+
+#: functions/hooks/spicepress-hooks-settings.php:151
+msgid "Before Testimonials section"
+msgstr "褒奖部分之前"
+
+#: functions/hooks/spicepress-hooks-settings.php:156
+msgid "After Testimonials section"
+msgstr "褒奖部分之后"
+
+#: functions/hooks/spicepress-hooks-settings.php:166
+msgid "Before Blog section"
+msgstr "博客部分之前"
+
+#: functions/hooks/spicepress-hooks-settings.php:171
+msgid "After Blog section"
+msgstr "博客部分之后"
+
+#: functions/hooks/spicepress-hooks-settings.php:181
+msgid "Before Gallery section"
+msgstr "相册部分之前"
+
+#: functions/hooks/spicepress-hooks-settings.php:186
+msgid "After Gallery section"
+msgstr "相册部分之后"
+
+#: functions/hooks/spicepress-hooks-settings.php:197
+msgid "Before Team section"
+msgstr "团队部分之前"
+
+#: functions/hooks/spicepress-hooks-settings.php:202
+msgid "After Team section"
+msgstr "团队部分之后"
+
+#: functions/hooks/spicepress-hooks-settings.php:212
+msgid "Before Shop section"
+msgstr "商店部分之前"
+
+#: functions/hooks/spicepress-hooks-settings.php:217
+msgid "After Shop section"
+msgstr "商店部分之后"
+
+#: functions/hooks/spicepress-hooks-settings.php:226
+msgid "Before Client section"
+msgstr "顾客部分之前"
+
+#: functions/hooks/spicepress-hooks-settings.php:231
+msgid "After Client section"
+msgstr "顾客部分之后"
+
+#: functions/hooks/spicepress-hooks-settings.php:241
+msgid "Before Callout section"
+msgstr "标注部分之前"
+
+#: functions/hooks/spicepress-hooks-settings.php:246
+msgid "After Callout section"
+msgstr "标注部分之后"
+
+#: functions/hooks/spicepress-hooks-settings.php:256
+msgid "Before Footer"
+msgstr "页脚之前"
+
+#: functions/hooks/spicepress-hooks-settings.php:261
+msgid "After Footer"
+msgstr "页脚之后"
+
+#: functions/hooks/spicepress-hooks-settings.php:353
+msgid "Execute PHP"
+msgstr "执行PHP"
+
+#: functions/hooks/spicepress-hooks-settings.php:396
+msgid ""
+"Shortcodes are allowed. If you check the Execute PHP checkbox, you can also "
+"use PHP."
+msgstr "可用短代码。如果选中“执行PHP”复选框，也可以使用PHP。"
+
+#: functions/hooks/spicepress-hooks-settings.php:400
+msgid "Save hooks"
+msgstr "保存hooks"
+
+#: functions/meta-box/post-meta.php:5
+#, fuzzy
+#| msgid "Portfolio Details"
+msgid "Project Details"
+msgstr "作品集详情"
+
+#: functions/meta-box/post-meta.php:6
+msgid "Enable slider on the page"
+msgstr "在页面启用幻灯器。"
+
+#: functions/meta-box/post-meta.php:16
+msgid "Allow Slider on the page"
+msgstr "在页面上允许幻灯器"
+
+#: functions/post-type/custom-post-type.php:7
+msgid "Projects"
+msgstr ""
+
+#: functions/post-type/custom-post-type.php:8
+#: functions/post-type/custom-post-type.php:10
+msgid "Add New"
+msgstr "添加"
+
+#: functions/post-type/custom-post-type.php:9
+#, fuzzy
+#| msgid "Add New Portfolio"
+msgid "Add New Project"
+msgstr "添加新的作品集"
+
+#: functions/post-type/custom-post-type.php:11
+msgid "New Link"
+msgstr "新的链接"
+
+#: functions/post-type/custom-post-type.php:12
+#, fuzzy
+#| msgid "All Portfolios"
+msgid "All Projects"
+msgstr "所有作品集"
+
+#: functions/post-type/custom-post-type.php:13
+msgid "View Link"
+msgstr "查看链接"
+
+#: functions/post-type/custom-post-type.php:14
+msgid "Search Links"
+msgstr "搜索链接"
+
+#: functions/post-type/custom-post-type.php:15
+msgid "No Links found"
+msgstr "未找到链接。"
+
+#: functions/post-type/custom-post-type.php:16
+msgid "No Links found in Trash"
+msgstr "回收站中没有链接"
+
+#: functions/shortcode/shortcode.php:346
+msgid ""
+"Sed ut Perspiciatis Unde Omnis Iste Sed ut perspiciatis unde omnis iste natu "
+"error sit voluptatem accu tium neque fermentum veposu miten a tempor nise. "
+"Duis autem vel eum iriure dolor in hendrerit in vulputate velit consequat "
+"reprehender in voluptate velit esse cillum duis dolor fugiat nulla pariatur."
+msgstr ""
+"范例文字，请取代此段落文字。此段落文字为范例文字内容，请务必取代。范例文字，"
+"请取代此段落文字。范例文字，请取代此段落文字。此段落文字为范例文字内容，请务"
+"必取代。范例文字，请取代此段落文字。范例文字，请取代此段落文字。此段落文字为"
+"范例文字内容，请务必取代。范例文字，请取代此段落文字。"
+
+#: functions/shortcode/shortcode.php:765 index-wooproduct.php:64
+msgid "On Sale!"
+msgstr "出售！"
+
+#: functions/shortcode/shortcode.php:776 index-wooproduct.php:76
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "评 为5分之%s"
+
+#: functions/shortcode/shortcode.php:776 index-wooproduct.php:76
+msgid "out of 5"
+msgstr "/5"
+
+#: functions/template-tags.php:25
+msgid "By"
+msgstr "作者"
+
+#: functions/template-tags.php:30
+msgid "in"
+msgstr "在"
+
+#: functions/template-tags.php:90
+#, fuzzy
+#| msgid "Archive"
+msgid "Archives"
+msgstr "存档"
+
+#: functions/template-tags.php:96 functions/template-tags.php:100
+#: functions/template-tags.php:104 functions/template-tags.php:110
+#: functions/template-tags.php:116 functions/template-tags.php:122
+#: functions/template-tags.php:128 functions/template-tags.php:142
+#, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s%2$s"
+
+#: functions/template-tags.php:152
+#, php-format
+msgid "%1$s "
+msgstr "%1$s "
+
+#: functions/template-tags.php:166
+msgid "previous page"
+msgstr "上一页"
+
+#: functions/template-tags.php:166
+msgid "next page"
+msgstr "下一页"
+
+#: functions/widgets/sidebars.php:5
+msgid "3"
+msgstr "3"
+
+#: functions/widgets/sidebars.php:11 functions/widgets/sidebars.php:13
+msgid "Sidebar widget area"
+msgstr "边栏小工具区"
+
+#: functions/widgets/sidebars.php:21 functions/widgets/sidebars.php:23
+msgid "Top header sidebar left area"
+msgstr "页眉边栏左侧区域"
+
+#: functions/widgets/sidebars.php:31 functions/widgets/sidebars.php:33
+msgid "Top header sidebar right area"
+msgstr "页眉边栏右侧区域"
+
+#: functions/widgets/sidebars.php:43 functions/widgets/sidebars.php:45
+msgid "Classic header widget area"
+msgstr "经典页眉小工具区"
+
+#: functions/widgets/sidebars.php:54 functions/widgets/sidebars.php:56
+msgid "Footer widget left area"
+msgstr "页脚小工具左区"
+
+#: functions/widgets/sidebars.php:64 functions/widgets/sidebars.php:66
+msgid "Footer widget central area"
+msgstr "页脚小工具中心区"
+
+#: functions/widgets/sidebars.php:74 functions/widgets/sidebars.php:76
+msgid "Footer widget right area"
+msgstr "页脚小工具右区"
+
+#: functions/widgets/sidebars.php:85 functions/widgets/sidebars.php:87
+msgid "Contact template sidebar"
+msgstr "联系模板边栏"
+
+#: functions/widgets/sidebars.php:95 functions/widgets/sidebars.php:97
+msgid "WooCommerce sidebar widget area"
+msgstr "WooCommerce边栏区或"
+
+#: functions/widgets/wdl_contact_info_widget.php:13
+msgid "ST: Contact Info widget"
+msgstr "ST：联系方式小工具"
+
+#: functions/widgets/wdl_contact_info_widget.php:14
+msgid "Contact information template widget"
+msgstr "联系信息模板小工具"
+
+#: functions/widgets/wdl_contact_info_widget.php:64
+msgid "Business hours"
+msgstr "营业时间"
+
+#: functions/widgets/wdl_contact_info_widget.php:64
+msgid "Monday - Saturday:"
+msgstr "星期一至星期六："
+
+#: functions/widgets/wdl_contact_info_widget.php:64
+msgid " 10am to 6pm"
+msgstr "上午10点到下午6点"
+
+#: functions/widgets/wdl_contact_info_widget.php:64
+msgid "Sunday:"
+msgstr "星期日："
+
+#: functions/widgets/wdl_contact_info_widget.php:64
+msgid " Closed"
+msgstr "不营业"
+
+#: functions/widgets/wdl_contact_info_widget.php:65
+msgid "Follow us"
+msgstr "关注我们"
+
+#: functions/widgets/wdl_contact_info_widget.php:79
+msgid "Phone"
+msgstr "手机"
+
+#: functions/widgets/wdl_contact_info_widget.php:89
+msgid "Address"
+msgstr "地址"
+
+#: functions/widgets/wdl_contact_info_widget.php:94
+msgid "Website"
+msgstr "站点"
+
+#: functions/widgets/wdl_contact_info_widget.php:99
+msgid "Other information"
+msgstr "其他信息"
+
+#: functions/widgets/wdl_featured_latest_news.php:14
+msgid "ST: Latest News"
+msgstr "ST：最新消息"
+
+#: functions/widgets/wdl_featured_latest_news.php:15
+msgid "Display your recent posts on your website"
+msgstr "在您站点上显示您近期的文章"
+
+#: functions/widgets/wdl_featured_latest_news.php:81
+msgid "Number of posts to show"
+msgstr "显示文章的数目"
+
+#: functions/widgets/wdl_featured_latest_news.php:86
+msgid "Select blog category"
+msgstr "选择博格分类"
+
+#: functions/widgets/wdl_featured_latest_news.php:88
+msgid "Select category"
+msgstr "选择分类目录"
+
+#: functions/widgets/wdl_featured_latest_news.php:102
+msgid "Featured post image size"
+msgstr "特色文章图像尺寸"
+
+#: functions/widgets/wdl_featured_latest_news.php:104
+msgid "Select post image size"
+msgstr "选择文章图像尺寸"
+
+#: functions/widgets/wdl_featured_latest_news.php:105
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: functions/widgets/wdl_featured_latest_news.php:106
+msgid "Medium"
+msgstr "中等"
+
+#: functions/widgets/wdl_featured_latest_news.php:107
+msgid "Large"
+msgstr "大"
+
+#: functions/widgets/wdl_featured_latest_news.php:108
+msgid "Full"
+msgstr "全部"
+
+#: functions/widgets/wdl_featured_latest_news.php:113
+msgid "Enable feature image"
+msgstr "启用特色图像"
+
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:14
+msgid "ST: Classic Header info widget"
+msgstr "ST：经典页眉信息小工具"
+
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:17
+msgid "Topbar Classic Header info widget."
+msgstr "顶部经典页眉信息小工具"
+
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:93
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:125
+msgid "Chestnut Road,"
+msgstr "Chestnut Road,"
+
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:100
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:128
+msgid "California - United States"
+msgstr "California - United States"
+
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:120
+#: functions/widgets/wdl_header_topbar_info_widget.php:95
+msgid "Font Awesome icon"
+msgstr "Font Awesome 图标"
+
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:122
+#: functions/widgets/wdl_header_topbar_info_widget.php:97
+msgid "Link to get Font Awesome icons"
+msgstr "获取Font Awesome图标的链接"
+
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:122
+#: functions/widgets/wdl_header_topbar_info_widget.php:97
+msgid "fa-icon"
+msgstr "fa-icon"
+
+#: functions/widgets/wdl_header_topbar_info_widget.php:14
+msgid "ST: Header info widget"
+msgstr "ST：页眉信息小工具"
+
+#: functions/widgets/wdl_header_topbar_info_widget.php:17
+msgid "Topbar header info widget."
+msgstr "顶部页眉信息小工具"
+
+#: functions/widgets/wdl_header_topbar_info_widget.php:75
+#: functions/widgets/wdl_header_topbar_info_widget.php:100
+msgid "Make a reservation: 1-800-123-4567"
+msgstr "预约：1-800-123-4567"
+
+#: functions/widgets/wdl_social_icon.php:13
+msgid "ST: Social icons"
+msgstr "ST：社交图标"
+
+#: functions/widgets/wdl_social_icon.php:16
+msgid "SpicePress social icons widget"
+msgstr "SpicePress社交图标小工具"
+
+#: functions/widgets/wdl_social_icon.php:195
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: functions/widgets/wdl_social_icon.php:201
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: functions/widgets/wdl_social_icon.php:207
+msgid "Google-Plus URL"
+msgstr "Google+ URL"
+
+#: functions/widgets/wdl_social_icon.php:213
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: functions/widgets/wdl_social_icon.php:219
+msgid "Instagram URL"
+msgstr "Instagram URL"
+
+#: functions/widgets/wdl_social_icon.php:225
+msgid "Youtube URL"
+msgstr "Youtube URL"
+
+#: functions/widgets/wdl_social_icon.php:231
+msgid "Skype URL"
+msgstr "Skype URL"
+
+#: functions/widgets/wdl_social_icon.php:237
+msgid "Vimeo URL"
+msgstr "Vimeo URL"
+
+#: functions/widgets/wdl_social_icon.php:243
+msgid "Dribble URL"
+msgstr "Dribble URL"
+
+#: header/header-navbar.php:36 header/header-navbar.php:46
+#: header/header-navbar.php:81 header/header-navbar.php:158
+#: header/header-navbar.php:245 header/header-navbar.php:256
+#: header/header-navbar.php:468 header/header-navbar.php:478
+msgid "Toggle navigation"
+msgstr "切换导航"
+
+#: search.php:28
+msgid "Nothing Found"
+msgstr "未找到"
+
+#: search.php:29
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr "抱歉，没有符合您搜索条件的结果。请换其它关键词再试。"
+
+#~ msgid "Remove animation"
+#~ msgstr "移除动画"
+
+#~ msgid "Custom typography"
+#~ msgstr "自定义排版"
+
+#~ msgid "Pixels"
+#~ msgstr "像素"
+
+#~ msgid "Widget heading title"
+#~ msgstr "小工具标题"
+
+#~ msgid "Portfolio"
+#~ msgstr "作品集"
+
+#~ msgid "Portfolio category"
+#~ msgstr "作品集分类"
+
+#~ msgid "Category Archive"
+#~ msgstr "分类归档"
+
+#~ msgid "Error 404: Page Not Found"
+#~ msgstr "错误404：未找到页面"
+
+#~ msgid "%d item"
+#~ msgid_plural "%d items"
+#~ msgstr[0] "%d个商品"
+
+#~ msgid ""
+#~ "SpicePress PRO is a responsive and fully customizable theme to create "
+#~ "business websites. The advanced admin panel will enable you to customize "
+#~ "it without any technical knowledge, and you can also take advantage of "
+#~ "the 7 predefined colors scheme to further personalize it to your taste. "
+#~ "You can also customize existing graphics to create your own unique "
+#~ "website interface."
+#~ msgstr ""
+#~ "SpicePress Pro是创造业务站点的响应和完全可定制的主题。先进的管理面板使您能"
+#~ "够在没有任何技术信息的情况下个性化主题，您也可以利用7预定义的配色方案，对"
+#~ "您的口味以进一步个性化您的站点。您还可以定制现有的图形来创建自己独特的站点"
+#~ "的前端。"
+
+#~ msgid "spicethemes.com"
+#~ msgstr "spicethemes.com"
+
+#~ msgid "https://spicethemes.com"
+#~ msgstr "https://spicethemes.com"
+
+#~ msgid "Business Template"
+#~ msgstr "业务模板"
+
+#~ msgid "About Us"
+#~ msgstr "关于我们"
+
+#~ msgid "Blog full width"
+#~ msgstr "博客全宽度"
+
+#~ msgid "Blog left sidebar"
+#~ msgstr "博格左边栏"
+
+#~ msgid "Blog masonry 2 Col"
+#~ msgstr "博客砌体墙式2列"
+
+#~ msgid "Blog masonry 3 Col"
+#~ msgstr "博客砌体墙式3列"
+
+#~ msgid "Blog masonry 4 Col"
+#~ msgstr "博客砌体墙式4列"
+
+#~ msgid "Blog right sidebar"
+#~ msgstr "博格右边栏"
+
+#~ msgid "Contact page"
+#~ msgstr "联系页面"
+
+#~ msgid "Full-width page"
+#~ msgstr "全宽页面"
+
+#~ msgid "Portfolio 2 Columns"
+#~ msgstr "作品集2列"
+
+#~ msgid "Portfolio 3 Columns"
+#~ msgstr "作品集3列"
+
+#~ msgid "Portfolio 4 Columns"
+#~ msgstr "作品集4列"

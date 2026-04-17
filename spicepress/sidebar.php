@@ -1,14 +1,10 @@
 <?php
 /**
- * Template file for sidebar
+ * Wrapper for sidebar.php
  */
-if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+if ( function_exists( 'sp_fs' ) && sp_fs()->can_use_premium_code() ) {
+    require get_parent_theme_file_path( '/pro/sidebar-pro.php' );
+} else {
+    require get_parent_theme_file_path( '/free/sidebar-free.php' );
+}
 
-<!--Sidebar Section-->
-<div class="col-md-4 col-sm-5 col-xs-12">
-	<div class="sidebar">
-		<?php dynamic_sidebar( 'sidebar-1' ); ?>	
-	</div>
-</div>	
-<!--Sidebar Section-->
-<?php endif; ?>

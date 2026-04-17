@@ -1,0 +1,2313 @@
+# <!=Copyright (C) 2018 spicethemes.com
+# This file is distributed under the GNU General Public License v3 or later.=!>
+# Translators:
+# FX Bénard <fxb@wp-translations.org>, 2018
+# Brian Birkerød <brian@vfe.dk>, 2018
+# Mark Thomas Gazel <mark@gazel.dk>, 2018
+# Mikael Køster Andersen <mikael@koesterandersen.dk>, 2018
+# Bo Toft <botoft01@gmail.com>, 2018
+# Jette Drøger <jette@websitterservice.dk>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: SpicePress PRO 1.0\n"
+"Report-Msgid-Bugs-To: https://wp-translations.pro/\n"
+"POT-Creation-Date: 2019-11-15 14:19+0530\n"
+"PO-Revision-Date: 2019-11-15 14:19+0530\n"
+"Last-Translator: Jette Drøger <jette@websitterservice.dk>, 2018\n"
+"Language-Team: Danish (Denmark) (https://www.transifex.com/wp-translations/"
+"teams/64435/da_DK/)\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:13
+msgid "Oops! Page not found"
+msgstr "Ups! Siden blev ikke fundet"
+
+#: 404.php:14
+msgid "4"
+msgstr "4"
+
+#: 404.php:15
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr "Vi beklager, men den side, du søger, findes ikke."
+
+#: 404.php:15
+msgid "Home Page"
+msgstr "Forside"
+
+#: comments.php:6
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Dette indlæg er beskyttet med kodeord. Skriv kodeordet for at se eventuelle "
+"kommentarer."
+
+#: comments.php:21
+msgid "Reply"
+msgstr "Svar"
+
+#: comments.php:30
+msgid "Posted on "
+msgstr "Udgivet den"
+
+#: comments.php:33
+msgid "Edit"
+msgstr "Rediger"
+
+#: comments.php:36
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar afventer godkendelse."
+
+#: comments.php:55
+msgid "No comments so far"
+msgstr "Ingen kommentarer indtil videre."
+
+#: comments.php:55
+msgid "1 comment so far"
+msgstr "Én kommentar indtil videre"
+
+#: comments.php:55
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: comments.php:63
+msgid "Comment navigation"
+msgstr "Kommentar navigation"
+
+#: comments.php:64
+msgid "&larr; Older Comments"
+msgstr "&larr; Ældre kommentarer"
+
+#: comments.php:65
+msgid "Newer Comments &rarr;"
+msgstr "Nyere kommentarer &rarr;"
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr "Lukket for kommentarer."
+
+#: comments.php:76
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment"
+msgstr "Du skal være <a href=\"%s\">logget ind</a> for at skrive en kommentar."
+
+#: comments.php:82
+msgid "Name"
+msgstr "Navn"
+
+#: comments.php:83 functions/widgets/wdl_contact_info_widget.php:84
+msgid "Email"
+msgstr "E-mail"
+
+#: comments.php:95
+msgid "Message"
+msgstr "Besked"
+
+#: comments.php:96
+msgid "Logged in as"
+msgstr "Logget ind som"
+
+#: comments.php:96
+msgid "Log out of this account"
+msgstr "Log ud"
+
+#: comments.php:96
+msgid "Logout"
+msgstr "Log ud"
+
+#: comments.php:98
+msgid "Send Message"
+msgstr "Send besked"
+
+#: comments.php:102
+msgid "Leave a Reply"
+msgstr "Skriv et svar"
+
+#: content-contact.php:5 functions/customizer/customizer-template.php:487
+msgid "Get in touch with us"
+msgstr "Kom i kontakt med os"
+
+#: content-contact.php:19 content-page.php:34 content.php:34
+#: functions/customizer/customizer.php:48
+#: functions/customizer/customizer.php:58 index-news.php:63
+#: index-slider.php:228 index-slider.php:237 index-slider.php:263
+#: template/template-blog-full-width.php:37
+#: template/template-page-full-width.php:35
+msgid "Read More"
+msgstr "Læs mere "
+
+#: content-portfolio.php:13
+msgid "Portfolio title"
+msgstr "Portefølje titel"
+
+#: footer.php:8 functions/customizer/customizer_general_settings.php:514
+msgid "Copyright © 2018 SpiceThemes. All right reserved"
+msgstr "Copyright © 2018 SpiceThemes. Alle rettigheder forbeholdes"
+
+#: functions.php:76
+msgid "Page"
+msgstr "Side"
+
+#: functions.php:130
+#: functions/customizer/customizer_color_back_settings.php:157
+msgid "Primary Menu"
+msgstr "Primær menu"
+
+#: functions/breadcrumbs/breadcrumbs.php:41
+#: functions/breadcrumbs/breadcrumbs.php:45
+#: functions/menu/default_menu_walker.php:23
+msgid "Home"
+msgstr "Forside"
+
+#: functions/breadcrumbs/breadcrumbs.php:48
+msgid "Archive by category"
+msgstr "Kategoriarkiv"
+
+#: functions/breadcrumbs/breadcrumbs.php:98
+msgid "Error 404"
+msgstr "Fejl 404 "
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:33
+msgid "Add new field"
+msgstr "Tilføj nyt felt"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:38
+msgid "Customizer Repeater"
+msgstr "Tilpasser duplikator"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:256
+#: functions/customizer-repeater/class/customizer-repeater-control.php:405
+#: functions/customizer/customizer-template.php:168
+#: functions/customizer/customizer-template.php:206
+#: functions/customizer/customizer-template.php:331
+#: functions/customizer/customizer_sections_settings.php:212
+#: functions/customizer/customizer_sections_settings.php:277
+#: functions/customizer/customizer_sections_settings.php:424
+#: functions/customizer/customizer_sections_settings.php:526
+#: functions/customizer/customizer_sections_settings.php:582
+#: functions/customizer/customizer_sections_settings.php:664
+#: functions/customizer/customizer_sections_settings.php:732
+#: functions/customizer/customizer_sections_settings.php:791
+#: functions/customizer/customizer_sections_settings.php:876
+#: functions/customizer/customizer_typography.php:1991
+#: functions/widgets/wdl_contact_info_widget.php:74
+#: functions/widgets/wdl_featured_latest_news.php:76
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:124
+msgid "Title"
+msgstr "Titel"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:263
+#: functions/customizer-repeater/class/customizer-repeater-control.php:412
+msgid "Subtitle"
+msgstr "Undertitel"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:270
+#: functions/customizer-repeater/class/customizer-repeater-control.php:419
+#: functions/customizer/customizer-template.php:181
+#: functions/customizer/customizer-template.php:219
+#: functions/customizer/customizer-template.php:344
+#: functions/customizer/customizer_sections_settings.php:225
+#: functions/customizer/customizer_sections_settings.php:290
+#: functions/customizer/customizer_sections_settings.php:437
+#: functions/customizer/customizer_sections_settings.php:537
+#: functions/customizer/customizer_sections_settings.php:593
+#: functions/customizer/customizer_sections_settings.php:675
+#: functions/customizer/customizer_sections_settings.php:743
+#: functions/customizer/customizer_sections_settings.php:804
+#: functions/meta-box/post-meta.php:30 functions/meta-box/post-meta.php:31
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:127
+#: functions/widgets/wdl_header_topbar_info_widget.php:99
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:279
+#: functions/customizer-repeater/class/customizer-repeater-control.php:427
+#: functions/customizer/customizer_sections_settings.php:895
+#: functions/customizer/customizer_typography.php:1866
+msgid "Button Text"
+msgstr "Knaptekst"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:290
+#: functions/customizer-repeater/class/customizer-repeater-control.php:437
+#: functions/customizer-repeater/class/customizer-repeater-control.php:626
+#: functions/customizer-repeater/class/customizer-repeater-control.php:648
+#: functions/meta-box/post-meta.php:27 functions/meta-box/post-meta.php:28
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:130
+#: functions/widgets/wdl_header_topbar_info_widget.php:102
+msgid "Link"
+msgstr "Link"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:309
+#: functions/customizer-repeater/class/customizer-repeater-control.php:455
+msgid "Video Url"
+msgstr "Video-URL"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:333
+#: functions/customizer-repeater/class/customizer-repeater-control.php:397
+msgid "Color"
+msgstr "Farve"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:343
+#: functions/customizer-repeater/class/customizer-repeater-control.php:466
+msgid "Shortcode"
+msgstr "Kortkode"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:351
+#: functions/customizer-repeater/class/customizer-repeater-control.php:475
+msgid "Designation"
+msgstr "Udpegning"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:367
+#: functions/customizer-repeater/class/customizer-repeater-control.php:486
+msgid "Delete field"
+msgstr "Slet felt"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:523
+msgid "Open link in new tab:"
+msgstr "Åbn link i et nyt faneblad"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:534
+#: functions/customizer-repeater/class/customizer-repeater-control.php:602
+msgid "Icon"
+msgstr "Ikon"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:539
+#, php-format
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at %1$s."
+msgstr ""
+"Bemærk: Nogle ikoner bliver måske ikke vist her. Du kan se den komplette "
+"liste med ikoner på %1$s."
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:540
+msgid "http://fontawesome.io/icons/"
+msgstr "http://fontawesome.io/icons/"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:557
+#: functions/customizer-repeater/class/customizer-repeater-control.php:603
+msgid "Image"
+msgstr "Billede"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:560
+msgid "Upload Image"
+msgstr "Upload billede"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:569
+msgid "Slide Format"
+msgstr "Sliderformat"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:573
+msgid "Standard"
+msgstr "Standard"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:577
+msgid "Aside"
+msgstr "Sidebemærkning"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:581
+msgid "Quote"
+msgstr "Citat"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:585
+msgid "Status"
+msgstr "Status"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:589
+msgid "Video"
+msgstr "Video"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:599
+msgid "Image type"
+msgstr "Billedtype"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:604
+#: functions/customizer/customizer_sections_settings.php:39
+msgid "None"
+msgstr "Ingen"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:612
+#: functions/widgets/wdl_contact_info_widget.php:104
+msgid "Social icons"
+msgstr "Sociale ikoner"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:629
+#: functions/customizer-repeater/class/customizer-repeater-control.php:659
+msgid "Remove Icon"
+msgstr "Fjern ikon"
+
+#: functions/customizer-repeater/class/customizer-repeater-control.php:634
+#: functions/customizer-repeater/class/customizer-repeater-control.php:667
+msgid "Add Icon"
+msgstr "Tilføj ikon"
+
+#: functions/customizer/customizer-template.php:10
+msgid "Template settings"
+msgstr "Skabelonindstillinger"
+
+#: functions/customizer/customizer-template.php:17
+msgid "About Us page settings"
+msgstr "Om os-sideindstillinger"
+
+#: functions/customizer/customizer-template.php:35
+#: functions/customizer/customizer-template.php:97
+msgid "Enable Testimonial section"
+msgstr "Aktiver anbefalingsektion"
+
+#: functions/customizer/customizer-template.php:52
+msgid "Enable team section"
+msgstr "Aktiver teamsektion"
+
+#: functions/customizer/customizer-template.php:69
+msgid "Enable Footer Callout section"
+msgstr "Aktiver sidefod callout sektion"
+
+#: functions/customizer/customizer-template.php:76
+msgid "Service page settings"
+msgstr "Tjenesterside indstillinger"
+
+#: functions/customizer/customizer-template.php:85
+msgid "Enable Service section"
+msgstr "Aktiver tjenestersektion"
+
+#: functions/customizer/customizer-template.php:89
+#: functions/customizer/customizer-template.php:101
+#: functions/customizer/customizer-template.php:113
+#: functions/customizer/customizer_sections_settings.php:100
+#: functions/customizer/customizer_sections_settings.php:198
+#: functions/customizer/customizer_sections_settings.php:264
+#: functions/customizer/customizer_sections_settings.php:367
+#: functions/customizer/customizer_sections_settings.php:513
+#: functions/customizer/customizer_sections_settings.php:569
+#: functions/customizer/customizer_sections_settings.php:652
+#: functions/customizer/customizer_sections_settings.php:720
+#: functions/customizer/customizer_sections_settings.php:778
+#: functions/customizer/customizer_sections_settings.php:862
+msgid "ON"
+msgstr "TÆNDT"
+
+#: functions/customizer/customizer-template.php:90
+#: functions/customizer/customizer-template.php:102
+#: functions/customizer/customizer-template.php:114
+#: functions/customizer/customizer_sections_settings.php:101
+#: functions/customizer/customizer_sections_settings.php:199
+#: functions/customizer/customizer_sections_settings.php:265
+#: functions/customizer/customizer_sections_settings.php:368
+#: functions/customizer/customizer_sections_settings.php:514
+#: functions/customizer/customizer_sections_settings.php:570
+#: functions/customizer/customizer_sections_settings.php:653
+#: functions/customizer/customizer_sections_settings.php:721
+#: functions/customizer/customizer_sections_settings.php:779
+#: functions/customizer/customizer_sections_settings.php:863
+msgid "OFF"
+msgstr "SLUKKET"
+
+#: functions/customizer/customizer-template.php:109
+msgid "Enable Client section"
+msgstr "Aktiver kundesektion"
+
+#: functions/customizer/customizer-template.php:124
+msgid "Blog page settings"
+msgstr "Blogside indstillinger"
+
+#: functions/customizer/customizer-template.php:142
+msgid "Enable post meta values, like author name, date, comments, etc."
+msgstr ""
+"Aktiver indlæggets metaværdier, såsom forfatternavn, dato, kommentarer osv."
+
+#: functions/customizer/customizer-template.php:152
+msgid "Portfolio page settings"
+msgstr "Portefølje sideindstillinger"
+
+#: functions/customizer/customizer-template.php:163
+msgid "Portfolio Title"
+msgstr "Portefølje titel"
+
+#: functions/customizer/customizer-template.php:190
+msgid "Portfolio category settings"
+msgstr "Portefølje kategoriindstillinger"
+
+#: functions/customizer/customizer-template.php:201
+#: taxonomy-portfolio_categories.php:4
+msgid "Portfolio category title"
+msgstr "Portefølje kategorititel"
+
+#: functions/customizer/customizer-template.php:232
+#: functions/customizer/customizer-template.php:317
+msgid "Select column layout"
+msgstr "Vælg kolonnelayout"
+
+#: functions/customizer/customizer-template.php:242
+msgid "Post type slug setting"
+msgstr "Portefølje sideindstillinger"
+
+#: functions/customizer/customizer-template.php:255
+msgid "Project slug"
+msgstr ""
+
+#: functions/customizer/customizer-template.php:263
+msgid ""
+"After changing the slug, please do not forget to save the permalinks. "
+"Without saving, the old permalinks will not update."
+msgstr ""
+
+#: functions/customizer/customizer-template.php:277
+#, fuzzy
+#| msgid "SpicePress PRO"
+msgid "SpicePress slug"
+msgstr "SpicePress PRO"
+
+#: functions/customizer/customizer-template.php:290
+msgid "Click here for permalinks settings"
+msgstr ""
+
+#: functions/customizer/customizer-template.php:301
+msgid "Gallery page settings"
+msgstr "Galleri sideindstillinger"
+
+#: functions/customizer/customizer-template.php:326
+msgid "Gallery title"
+msgstr "Galleri titel"
+
+#: functions/customizer/customizer-template.php:354
+msgid "Archive page title"
+msgstr "Arkiv sidetitel"
+
+#: functions/customizer/customizer-template.php:364
+#: functions/customizer/customizer-template.php:370
+msgid "Archive"
+msgstr "Arkiv"
+
+#: functions/customizer/customizer-template.php:378
+#: functions/customizer/customizer-template.php:384
+#: functions/template-tags.php:108
+msgid "Category"
+msgstr "Kategori"
+
+#: functions/customizer/customizer-template.php:392
+#: functions/template-tags.php:114
+msgid "All posts by"
+msgstr "Alle indlæg af"
+
+#: functions/customizer/customizer-template.php:398
+msgid "Author"
+msgstr "Forfatter"
+
+#: functions/customizer/customizer-template.php:406
+#: functions/customizer/customizer-template.php:412
+#: functions/template-tags.php:35 functions/template-tags.php:120
+msgid "Tag"
+msgstr "Tag"
+
+#: functions/customizer/customizer-template.php:421
+#: functions/template-tags.php:138
+msgid "Search results for"
+msgstr "Søg efter resultater for"
+
+#: functions/customizer/customizer-template.php:427 searchform.php:3
+#: searchform.php:4
+msgid "Search"
+msgstr "Søg"
+
+#: functions/customizer/customizer-template.php:435
+#: functions/customizer/customizer-template.php:441
+#: functions/template-tags.php:148
+msgid "404"
+msgstr "404"
+
+#: functions/customizer/customizer-template.php:449
+#: functions/customizer/customizer-template.php:455
+#: functions/taxonomies/taxonomies.php:4
+msgid "Project categories"
+msgstr "Vælg kategori"
+
+#: functions/customizer/customizer-template.php:464
+#: functions/customizer/customizer-template.php:470
+#: functions/template-tags.php:126
+msgid "Shop"
+msgstr "Butik"
+
+#: functions/customizer/customizer-template.php:492
+msgid "Contact form title"
+msgstr "Kontaktformular titel"
+
+#: functions/customizer/customizer-template.php:504
+msgid "Enable Contact form"
+msgstr "Aktiver kontaktformular"
+
+#: functions/customizer/customizer-template.php:512
+#: template/template-contact.php:67
+msgid "Find us on the map"
+msgstr "Find os på kortet"
+
+#: functions/customizer/customizer-template.php:517
+msgid "Contact Google Map title"
+msgstr "Kontakt Google Map titel"
+
+#: functions/customizer/customizer-template.php:529
+msgid "Google Map Shortcode"
+msgstr "Google Map kortkode"
+
+#: functions/customizer/customizer-template.php:541
+msgid "Enable Google map"
+msgstr "Aktiver Google map"
+
+#: functions/customizer/customizer-template.php:553
+msgid "Enable contact info"
+msgstr "Aktiver kontaktinformation"
+
+#: functions/customizer/customizer.php:46 index-slider.php:224
+msgid "Standard format"
+msgstr "Standardformat"
+
+#: functions/customizer/customizer.php:47
+#: functions/customizer/customizer.php:57
+#: functions/customizer/customizer.php:67 index-slider.php:225
+#: index-slider.php:236 index-slider.php:242
+msgid ""
+"This is a very powerful theme that can be used for any type of business. The "
+"layout is clean and elegant."
+msgstr ""
+"Dette er et meget slagkraftigt tema, der kan bruges til enhver type "
+"virksomhed. Layoutet er rent og elegant."
+
+#: functions/customizer/customizer.php:56 index-slider.php:235
+msgid "Status format"
+msgstr "Statusformat"
+
+#: functions/customizer/customizer.php:86 index-slider.php:261
+msgid "Video format"
+msgstr "Videoformat"
+
+#: functions/customizer/customizer.php:87 index-slider.php:262
+msgid ""
+"This is an example of a video post format displayed in the featured slider "
+"with an excerpt added."
+msgstr ""
+"Dette er et eksempel på et indlægsformat, der vises i den udvalgte slider "
+"med et uddrag tilføjet."
+
+#: functions/customizer/customizer.php:112
+#: functions/shortcode/shortcode.php:113 index-services.php:130
+#: template/template-service.php:139
+msgid "Easy to use"
+msgstr "Let at bruge"
+
+#: functions/customizer/customizer.php:121
+#: functions/shortcode/shortcode.php:113 index-services.php:130
+#: template/template-service.php:139
+msgid "Multi-purpose"
+msgstr "Universal"
+
+#: functions/customizer/customizer.php:130
+#: functions/shortcode/shortcode.php:113 index-services.php:130
+#: template/template-service.php:139
+msgid "Responsive Design"
+msgstr "Responsive design"
+
+#: functions/customizer/customizer.php:185 index-testimonial.php:139
+msgid "UI Developer"
+msgstr "UI udvikler"
+
+#: functions/customizer/customizer.php:195 index-testimonial.php:139
+msgid "Manager"
+msgstr "Bestyrer"
+
+#: functions/customizer/customizer.php:204 index-testimonial.php:140
+msgid "Designer"
+msgstr "Designer"
+
+#: functions/customizer/customizer.php:232
+#: functions/customizer/customizer.php:259
+#: functions/customizer/customizer.php:286
+#: functions/customizer/customizer.php:313
+#: functions/shortcode/shortcode.php:700 index-team.php:147
+msgid "Developer"
+msgstr "Udvikler"
+
+#: functions/customizer/customizer.php:460
+#: functions/customizer/customizer.php:469
+#: functions/customizer/customizer.php:479
+#: functions/customizer/customizer.php:489
+#: functions/customizer/customizer.php:499
+#: functions/customizer/customizer.php:509
+#: functions/customizer/customizer.php:519
+#: functions/customizer/customizer.php:529
+#: functions/customizer/customizer.php:539
+#: functions/customizer/customizer.php:549
+#: functions/customizer/customizer.php:559
+#: functions/customizer/customizer.php:569
+#: functions/customizer/customizer_sections_settings.php:608
+msgid "Gallery"
+msgstr "Galleri"
+
+#: functions/customizer/customizer_color_back_settings.php:10
+msgid "Colors & Background"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:14
+#: functions/customizer/customizer_sections_settings.php:381
+#: functions/customizer/customizer_theme_style.php:31
+#: functions/customizer/customizer_theme_style.php:32
+msgid "Background Image"
+msgstr "Baggrundsbillede"
+
+#: functions/customizer/customizer_color_back_settings.php:19
+#: functions/customizer/customizer_color_back_settings.php:273
+#: functions/customizer/customizer_theme_style.php:33
+msgid "Background Color"
+msgstr "Baggrundsfarve"
+
+#: functions/customizer/customizer_color_back_settings.php:26
+#: functions/customizer/customizer_typography.php:252
+msgid "Header"
+msgstr "Header-tekst"
+
+#: functions/customizer/customizer_color_back_settings.php:41
+#: functions/customizer/customizer_color_back_settings.php:201
+#: functions/customizer/customizer_color_back_settings.php:447
+#: functions/customizer/customizer_color_back_settings.php:814
+#: functions/customizer/customizer_color_back_settings.php:887
+#: functions/customizer/customizer_color_back_settings.php:1019
+#: functions/customizer/customizer_color_back_settings.php:1091
+#, fuzzy
+#| msgid "Enable To Apply This Setting"
+msgid "Click here to apply these settings"
+msgstr "Aktiver forside gallerisektion"
+
+#: functions/customizer/customizer_color_back_settings.php:52
+msgid "Header Background Color"
+msgstr "Baggrundsfarve"
+
+#: functions/customizer/customizer_color_back_settings.php:65
+#: functions/customizer/customizer_typography.php:279
+msgid "Site Title"
+msgstr "Titel"
+
+#: functions/customizer/customizer_color_back_settings.php:89
+#: functions/customizer/customizer_color_back_settings.php:412
+#: functions/customizer/customizer_color_back_settings.php:967
+#: functions/customizer/customizer_color_back_settings.php:1055
+#: functions/customizer/customizer_color_back_settings.php:1115
+msgid "Link Color"
+msgstr "Overfladefarve"
+
+#: functions/customizer/customizer_color_back_settings.php:101
+#: functions/customizer/customizer_color_back_settings.php:225
+#: functions/customizer/customizer_color_back_settings.php:309
+#: functions/customizer/customizer_color_back_settings.php:424
+#: functions/customizer/customizer_color_back_settings.php:995
+#: functions/customizer/customizer_color_back_settings.php:1067
+#: functions/customizer/customizer_color_back_settings.php:1127
+msgid "Link Hover Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:113
+#: functions/customizer/customizer_typography.php:379
+msgid "Site Tagline"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:137
+#: functions/customizer/customizer_color_back_settings.php:955
+#: functions/customizer/customizer_color_back_settings.php:1043
+#: functions/customizer/customizer_color_back_settings.php:1103
+msgid "Text Color"
+msgstr "Farve"
+
+#: functions/customizer/customizer_color_back_settings.php:149
+msgid "Text Hover Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:168
+#: functions/customizer/customizer_typography.php:479
+msgid "Menus"
+msgstr "Menuer"
+
+#: functions/customizer/customizer_color_back_settings.php:213
+#: functions/customizer/customizer_color_back_settings.php:297
+msgid "Text/Link Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:237
+msgid "Active Link Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:249
+#: functions/customizer/customizer_typography.php:579
+msgid "Submenus"
+msgstr "Menuer"
+
+#: functions/customizer/customizer_color_back_settings.php:285
+msgid "Background Hover Color"
+msgstr "Baggrundsfarve"
+
+#: functions/customizer/customizer_color_back_settings.php:321
+msgid "Link Active Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:329
+#: functions/customizer/customizer_typography.php:677
+msgid "Banner"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:340
+msgid "Banner Title"
+msgstr "Galleri titel"
+
+#: functions/customizer/customizer_color_back_settings.php:364
+#: functions/customizer/customizer_color_back_settings.php:827
+#: functions/customizer/customizer_color_back_settings.php:899
+#: functions/customizer/customizer_color_back_settings.php:943
+#: functions/customizer/customizer_color_back_settings.php:1031
+msgid "Title Color"
+msgstr "Titel"
+
+#: functions/customizer/customizer_color_back_settings.php:377
+#: functions/customizer/customizer_typography.php:803
+msgid "Breadcrumb Title"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:388
+#: functions/customizer/customizer_color_back_settings.php:741
+#, fuzzy
+#| msgid "Enable to apply below color setting"
+msgid "Click here to apply below settings"
+msgstr "Aktiver tilpasset farveoverflade"
+
+#: functions/customizer/customizer_color_back_settings.php:433
+#: functions/customizer/customizer_typography.php:1129
+msgid "Content"
+msgstr "Sliderindhold"
+
+#: functions/customizer/customizer_color_back_settings.php:459
+#, fuzzy
+#| msgid "Color"
+msgid "H1 Color"
+msgstr "Farve"
+
+#: functions/customizer/customizer_color_back_settings.php:471
+#, fuzzy
+#| msgid "Color"
+msgid "H2 Color"
+msgstr "Farve"
+
+#: functions/customizer/customizer_color_back_settings.php:483
+#, fuzzy
+#| msgid "Color"
+msgid "H3 Color"
+msgstr "Farve"
+
+#: functions/customizer/customizer_color_back_settings.php:495
+#, fuzzy
+#| msgid "Color"
+msgid "H4 Color"
+msgstr "Farve"
+
+#: functions/customizer/customizer_color_back_settings.php:507
+#, fuzzy
+#| msgid "Color"
+msgid "H5 Color"
+msgstr "Farve"
+
+#: functions/customizer/customizer_color_back_settings.php:519
+#, fuzzy
+#| msgid "Color"
+msgid "H6 Color"
+msgstr "Farve"
+
+#: functions/customizer/customizer_color_back_settings.php:531
+msgid "Paragraph Text Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:539
+msgid "Slider Section"
+msgstr "Efter slider-sektion"
+
+#: functions/customizer/customizer_color_back_settings.php:550
+msgid "Slider Title Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:562
+msgid "Slider Description Color"
+msgstr "Beskrivelse"
+
+#: functions/customizer/customizer_color_back_settings.php:578
+#, fuzzy
+#| msgid "Enable to apply below color setting"
+msgid "Click here to use button color settings"
+msgstr "Aktiver tilpasset farveoverflade"
+
+#: functions/customizer/customizer_color_back_settings.php:590
+#, fuzzy
+#| msgid "Background Color"
+msgid "Button Color"
+msgstr "Baggrundsfarve"
+
+#: functions/customizer/customizer_color_back_settings.php:602
+msgid "Button Color Hover Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:614
+msgid "Button Text Color"
+msgstr "Knaptekst"
+
+#: functions/customizer/customizer_color_back_settings.php:626
+msgid "Button Text Hover Color"
+msgstr "Knaptekst"
+
+#: functions/customizer/customizer_color_back_settings.php:634
+msgid "Testimonial Section"
+msgstr "Aktiver anbefalingsektion"
+
+#: functions/customizer/customizer_color_back_settings.php:645
+msgid "Testimonial Title"
+msgstr "Anbefaling"
+
+#: functions/customizer/customizer_color_back_settings.php:657
+msgid "Testimonial Subtitle"
+msgstr "Anbefalinger indhold"
+
+#: functions/customizer/customizer_color_back_settings.php:670
+msgid "Testimonial Image Border"
+msgstr "Anbefalinger indhold"
+
+#: functions/customizer/customizer_color_back_settings.php:682
+msgid "Testimonial Description"
+msgstr "Sektionsbeskrivelse"
+
+#: functions/customizer/customizer_color_back_settings.php:694
+msgid "Testimonial Name"
+msgstr "Anbefaling"
+
+#: functions/customizer/customizer_color_back_settings.php:706
+msgid "Testimonial Designation"
+msgstr "Anbefalinger indstillinger"
+
+#: functions/customizer/customizer_color_back_settings.php:714
+msgid "CTA Section"
+msgstr "Efter butik sektion"
+
+#: functions/customizer/customizer_color_back_settings.php:725
+#, fuzzy
+msgid "CTA Title"
+msgstr "Titel"
+
+#: functions/customizer/customizer_color_back_settings.php:753
+msgid "CTA Button"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:767
+msgid "CTA Button Hover"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:779
+#, fuzzy
+#| msgid "Button Text"
+msgid "CTA Button Text"
+msgstr "Knaptekst"
+
+#: functions/customizer/customizer_color_back_settings.php:791
+#, fuzzy
+#| msgid "Button Text"
+msgid "CTA Button Text Hover"
+msgstr "Knaptekst"
+
+#: functions/customizer/customizer_color_back_settings.php:798
+#, fuzzy
+#| msgid "Tag Archive"
+msgid "Blog Page/Archive"
+msgstr "Tag-arkiv"
+
+#: functions/customizer/customizer_color_back_settings.php:839
+msgid "Title Hover Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:851
+#: functions/customizer/customizer_color_back_settings.php:911
+msgid "Meta Link Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:863
+#: functions/customizer/customizer_color_back_settings.php:923
+msgid "Meta Link Hover Color"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:872
+msgid "Single Post"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:932
+msgid "Sidebar"
+msgstr ""
+
+#: functions/customizer/customizer_color_back_settings.php:983
+#, fuzzy
+#| msgid "Enable to apply below color setting"
+msgid "Click here to apply below setting"
+msgstr "Aktiver tilpasset farveoverflade"
+
+#: functions/customizer/customizer_color_back_settings.php:1004
+#, fuzzy
+#| msgid "Footer widget left area"
+msgid "Footer Widget"
+msgstr "Sidefod venstre widget-område"
+
+#: functions/customizer/customizer_color_back_settings.php:1076
+#: functions/customizer/customizer_typography.php:2975
+msgid "Footer Bar"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:299
+msgid "General settings"
+msgstr "Generelle indstillinger"
+
+#: functions/customizer/customizer_general_settings.php:305
+#: functions/customizer/customizer_general_settings.php:465
+msgid "Header layout"
+msgstr "Sidehovedlayout"
+
+#: functions/customizer/customizer_general_settings.php:320
+msgid "Header layout with logo placing"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:321
+msgid ""
+"Note: The third one layout option from the left will work only for the "
+"Standard header variation."
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:343
+msgid "Menu breakpoint Settings"
+msgstr "Generelle indstillinger"
+
+#: functions/customizer/customizer_general_settings.php:356
+msgid "Menu breakpoint"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:357
+msgid "Enter the Min. Size 200px and Max Size 6000px"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:378
+msgid "Animation Settings"
+msgstr "Animationshastighed"
+
+#: functions/customizer/customizer_general_settings.php:390
+msgid "Disable animation effect in desktop"
+msgstr "Fjern animationseffekter fra hele webstedet"
+
+#: functions/customizer/customizer_general_settings.php:403
+msgid "Disable animation effect in small devices like mobiles, ipads etc"
+msgstr ""
+
+#: functions/customizer/customizer_general_settings.php:411
+msgid "Header background color settings"
+msgstr "Sidehovedvarianter indstillinger"
+
+#: functions/customizer/customizer_general_settings.php:423
+msgid "Header background color"
+msgstr "Baggrundsfarve"
+
+#: functions/customizer/customizer_general_settings.php:431
+msgid "Header variant settings"
+msgstr "Sidehovedvarianter indstillinger"
+
+#: functions/customizer/customizer_general_settings.php:439
+msgid "For classic header, select column layout"
+msgstr "Til klassisk sidehoved, vælg kolonnelayout"
+
+#: functions/customizer/customizer_general_settings.php:486
+msgid "Footer background color settings"
+msgstr "Copyright-indstillinger i sidefoden"
+
+#: functions/customizer/customizer_general_settings.php:498
+msgid "Footer background color"
+msgstr "Baggrundsfarve"
+
+#: functions/customizer/customizer_general_settings.php:506
+msgid "Footer copyright settings"
+msgstr "Copyright-indstillinger i sidefoden"
+
+#: functions/customizer/customizer_general_settings.php:521
+msgid "Copyright text"
+msgstr "Copyright tekst"
+
+#: functions/customizer/customizer_header_image.php:7
+msgid "Custom header settings"
+msgstr "Egne sidehovedindstillinger"
+
+#: functions/customizer/customizer_header_image.php:15
+msgid "Header Headline"
+msgstr "Sidehoved overskrift"
+
+#: functions/customizer/customizer_header_image.php:27
+msgid "Header Text"
+msgstr "Header-tekst"
+
+#: functions/customizer/customizer_layout_manager.php:16
+#: functions/customizer/customizer_layout_manager.php:101
+msgid "Enable"
+msgstr "Aktiver"
+
+#: functions/customizer/customizer_layout_manager.php:24
+msgid "Disable"
+msgstr "Deaktiver"
+
+#: functions/customizer/customizer_layout_manager.php:31
+msgid "Slider has fixed position on homepage"
+msgstr "Slider har fast placering på forsiden"
+
+#: functions/customizer/customizer_layout_manager.php:32
+msgid "Note"
+msgstr "Note"
+
+#: functions/customizer/customizer_layout_manager.php:32
+msgid ""
+"By default, all sections are enabled on homepage. If you wish not to display "
+"a section, just drag it onto the \"disabled\" box."
+msgstr ""
+"Som standard er alle sektionerne aktiverede på forsiden. Hvis du ikke ønsker "
+"at vise en sektion, så træk bare sektionen over til \"deaktiveret\" boksen."
+
+#: functions/customizer/customizer_layout_manager.php:74
+msgid "Theme Layout Manager"
+msgstr "Temaets layouthåndtering"
+
+#: functions/customizer/customizer_sections_settings.php:83
+msgid "Homepage section settings"
+msgstr "Forsidesektion indstillinger"
+
+#: functions/customizer/customizer_sections_settings.php:88
+msgid "Slider settings"
+msgstr "Slider-indstillinger"
+
+#: functions/customizer/customizer_sections_settings.php:96
+msgid "Enable slider"
+msgstr "Aktiver slider"
+
+#: functions/customizer/customizer_sections_settings.php:112
+msgid "Slider Content"
+msgstr "Sliderindhold"
+
+#: functions/customizer/customizer_sections_settings.php:114
+msgid "Add new slide"
+msgstr "Tilføj ny slide"
+
+#: functions/customizer/customizer_sections_settings.php:115
+msgid "Slide"
+msgstr "Dias"
+
+#: functions/customizer/customizer_sections_settings.php:134
+msgid "Enable slider image overlay"
+msgstr "Aktiver slider på siden"
+
+#: functions/customizer/customizer_sections_settings.php:146
+msgid "Slider image overlay color"
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:157
+#: functions/customizer/customizer_sections_settings.php:467
+msgid "Animation"
+msgstr "Animation"
+
+#: functions/customizer/customizer_sections_settings.php:161
+#: functions/customizer/customizer_sections_settings.php:471
+msgid "slide"
+msgstr "slide"
+
+#: functions/customizer/customizer_sections_settings.php:162
+#: functions/customizer/customizer_sections_settings.php:472
+msgid "fade"
+msgstr "fade"
+
+#: functions/customizer/customizer_sections_settings.php:171
+#: functions/customizer/customizer_sections_settings.php:313
+#: functions/customizer/customizer_sections_settings.php:481
+#: functions/customizer/customizer_sections_settings.php:626
+#: functions/customizer/customizer_sections_settings.php:752
+#: functions/customizer/customizer_sections_settings.php:835
+msgid "Animation speed"
+msgstr "Animationshastighed"
+
+#: functions/customizer/customizer_sections_settings.php:185
+msgid "Services settings"
+msgstr "Tjenester indstillinger"
+
+#: functions/customizer/customizer_sections_settings.php:194
+msgid "Enable Services on homepage"
+msgstr "Aktiver tjenester på forsiden"
+
+#: functions/customizer/customizer_sections_settings.php:207
+#: index-services.php:12 template/template-service.php:24
+msgid "What we offer"
+msgstr "Hvad vi tilbyder"
+
+#: functions/customizer/customizer_sections_settings.php:235
+msgid "Services content"
+msgstr "Tjenester indhold"
+
+#: functions/customizer/customizer_sections_settings.php:238
+msgid "Add new Service"
+msgstr "Tilføj ny tjeneste"
+
+#: functions/customizer/customizer_sections_settings.php:239
+msgid "Service"
+msgstr "Service"
+
+#: functions/customizer/customizer_sections_settings.php:252
+msgid "Portfolio settings"
+msgstr "Portefølje indstilliinger"
+
+#: functions/customizer/customizer_sections_settings.php:260
+msgid "Enable Home Portfolio section"
+msgstr "Aktiver forside porteføljesektion"
+
+#: functions/customizer/customizer_sections_settings.php:273
+#: index-portfolio.php:20
+msgid "Our Portfolio"
+msgstr "Vores portefølje"
+
+#: functions/customizer/customizer_sections_settings.php:303
+msgid "Select category for portfolio"
+msgstr "Vælg kategori for portefølje"
+
+#: functions/customizer/customizer_sections_settings.php:334
+msgid "Click here to add project"
+msgstr "Klik her for at tilføje et projekt"
+
+#: functions/customizer/customizer_sections_settings.php:355
+msgid "Testimonials settings"
+msgstr "Anbefalinger indstillinger"
+
+#: functions/customizer/customizer_sections_settings.php:363
+msgid "Enable Home Testimonial section"
+msgstr "Aktiver forside anbefalingsektion"
+
+#: functions/customizer/customizer_sections_settings.php:393
+msgid "Enable testimonial image overlay"
+msgstr "Aktiver anbefalingsektion"
+
+#: functions/customizer/customizer_sections_settings.php:406
+msgid "Testimonial image overlay color"
+msgstr ""
+
+#: functions/customizer/customizer_sections_settings.php:419
+#: index-testimonial.php:60
+msgid "What our clients say"
+msgstr "Hvad vores kunder siger"
+
+#: functions/customizer/customizer_sections_settings.php:447
+msgid "Testimonial content"
+msgstr "Anbefalinger indhold"
+
+#: functions/customizer/customizer_sections_settings.php:449
+msgid "Add new Testimonial"
+msgstr "Tilføj ny anbefaling"
+
+#: functions/customizer/customizer_sections_settings.php:450
+msgid "Testimonial"
+msgstr "Anbefaling"
+
+#: functions/customizer/customizer_sections_settings.php:500
+msgid "Latest News settings"
+msgstr "Seneste nyt indstillinger"
+
+#: functions/customizer/customizer_sections_settings.php:509
+msgid "Enable Home News section"
+msgstr "Aktiver forside nyhedssektion"
+
+#: functions/customizer/customizer_sections_settings.php:521 index-news.php:11
+msgid "Latest News"
+msgstr "Seneste nyheder"
+
+#: functions/customizer/customizer_sections_settings.php:547
+msgid "Select the Number of Posts"
+msgstr "Vælg antallet af indlæg"
+
+#: functions/customizer/customizer_sections_settings.php:557
+msgid "Gallery settings"
+msgstr "Galleriindstilllinger"
+
+#: functions/customizer/customizer_sections_settings.php:565
+msgid "Enable Home Gallery section"
+msgstr "Aktiver forside gallerisektion"
+
+#: functions/customizer/customizer_sections_settings.php:577
+#: index-gallery.php:21 template/template-gallery.php:13
+msgid "Our work"
+msgstr "Vores arbejde"
+
+#: functions/customizer/customizer_sections_settings.php:610
+msgid "Add new gallery"
+msgstr "Tilføj nyt galleri"
+
+#: functions/customizer/customizer_sections_settings.php:611
+msgid "Gallery Image"
+msgstr "Galleri"
+
+#: functions/customizer/customizer_sections_settings.php:641
+msgid "Team settings"
+msgstr "Team indstillinger"
+
+#: functions/customizer/customizer_sections_settings.php:648
+msgid "Enable Home Team section"
+msgstr "Aktiver forside team sektion"
+
+#: functions/customizer/customizer_sections_settings.php:659 index-team.php:12
+msgid "Meet The Team"
+msgstr "Mød teamet"
+
+#: functions/customizer/customizer_sections_settings.php:690
+msgid "Team content"
+msgstr "Team indhold"
+
+#: functions/customizer/customizer_sections_settings.php:693
+msgid "Add new Team Member"
+msgstr "Tilføj nyt teammedlem"
+
+#: functions/customizer/customizer_sections_settings.php:694
+msgid "Team Member"
+msgstr "Teammedlem"
+
+#: functions/customizer/customizer_sections_settings.php:709
+msgid "Home Shop settings"
+msgstr "Forside butiksindstillinger"
+
+#: functions/customizer/customizer_sections_settings.php:716
+msgid "Enable Home Shop section"
+msgstr "Aktiver forside butikssektion"
+
+#: functions/customizer/customizer_sections_settings.php:727
+#: index-wooproduct.php:21
+msgid "Featured products"
+msgstr "Udvalgte produkter"
+
+#: functions/customizer/customizer_sections_settings.php:767
+msgid "Clients settings"
+msgstr "Kundeindstillinger"
+
+#: functions/customizer/customizer_sections_settings.php:774
+msgid "Enable Home Client section"
+msgstr "Aktiver forside kundesektion"
+
+#: functions/customizer/customizer_sections_settings.php:788
+#: index-client.php:25
+msgid "Meet our clients"
+msgstr "Mød vores kunder"
+
+#: functions/customizer/customizer_sections_settings.php:800
+msgid ""
+"We provide best WordPress solutions for your business. Thanks to our "
+"framework you will get more happy customers."
+msgstr ""
+"Vi tilbyder de bedste WordPress-løsninger for din virksomhed. Takket være "
+"vores framework vil du få flere glade kunder."
+
+#: functions/customizer/customizer_sections_settings.php:819
+msgid "Clients content"
+msgstr "Slider med indhold"
+
+#: functions/customizer/customizer_sections_settings.php:821
+msgid "Add new client"
+msgstr "Tilføj ny klient"
+
+#: functions/customizer/customizer_sections_settings.php:822
+msgid "Client"
+msgstr "Kunder"
+
+#: functions/customizer/customizer_sections_settings.php:851
+msgid "Callout section settings"
+msgstr "Callout sektionsindstillinger"
+
+#: functions/customizer/customizer_sections_settings.php:858
+msgid "Enable Home Callout section"
+msgstr "Aktiver forside callout sektion"
+
+#: functions/customizer/customizer_sections_settings.php:871
+#: index-footer_callout.php:6
+msgid ""
+"Great Customer Support fast! By phone: 1-555-123-4567, &nbsp; <abbr>by "
+"email: info@example.com</abbr>"
+msgstr ""
+"Fantastisk kundesupport med det samme! Via telefon: 1-555-123-4567, &nbsp; "
+"<abbr>via e-mail: info@example.com</abbr>"
+
+#: functions/customizer/customizer_sections_settings.php:884
+#: functions/shortcode/shortcode.php:927 index-footer_callout.php:7
+msgid "Contact Us"
+msgstr "Kontakt os"
+
+#: functions/customizer/customizer_sections_settings.php:912
+msgid "Button Link"
+msgstr "Knaplink"
+
+#: functions/customizer/customizer_sections_settings.php:926
+#: functions/meta-box/post-meta.php:29
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:134
+#: functions/widgets/wdl_header_topbar_info_widget.php:106
+#: functions/widgets/wdl_social_icon.php:198
+#: functions/widgets/wdl_social_icon.php:204
+#: functions/widgets/wdl_social_icon.php:210
+#: functions/widgets/wdl_social_icon.php:216
+#: functions/widgets/wdl_social_icon.php:222
+#: functions/widgets/wdl_social_icon.php:228
+#: functions/widgets/wdl_social_icon.php:234
+#: functions/widgets/wdl_social_icon.php:240
+#: functions/widgets/wdl_social_icon.php:246
+msgid "Open link in new tab"
+msgstr "Åbn link i et nyt faneblad"
+
+#: functions/customizer/customizer_theme_style.php:13
+#: functions/customizer/customizer_theme_style.php:199
+msgid "Predefined default background"
+msgstr "Forudindstillet standardbaggrund"
+
+#: functions/customizer/customizer_theme_style.php:32
+#: functions/customizer/customizer_theme_style.php:34
+msgid "Go to"
+msgstr "Gå til"
+
+#: functions/customizer/customizer_theme_style.php:32
+#: functions/customizer/customizer_theme_style.php:34
+msgid "Appearance"
+msgstr "Udseende"
+
+#: functions/customizer/customizer_theme_style.php:32
+#: functions/customizer/customizer_theme_style.php:34
+msgid "Customize"
+msgstr "Tilpas"
+
+#: functions/customizer/customizer_theme_style.php:34
+msgid "Colors"
+msgstr "Farver"
+
+#: functions/customizer/customizer_theme_style.php:55
+msgid "Theme Layout"
+msgstr "Tema layout"
+
+#: functions/customizer/customizer_theme_style.php:86
+msgid "Predefined Colors"
+msgstr "Foruddefinerede farver"
+
+#: functions/customizer/customizer_theme_style.php:113
+msgid "Theme style settings"
+msgstr "Temaets designindstilling"
+
+#: functions/customizer/customizer_theme_style.php:125
+msgid "Predefined colors"
+msgstr "Foruddefinerede farver"
+
+#: functions/customizer/customizer_theme_style.php:150
+msgid "Enable custom color skin"
+msgstr "Aktiver tilpasset farveoverflade"
+
+#: functions/customizer/customizer_theme_style.php:167
+msgid "Skin color"
+msgstr "Overfladefarve"
+
+#: functions/customizer/customizer_theme_style.php:180
+msgid "Layout style"
+msgstr "Layoutstil"
+
+#: functions/customizer/customizer_typography.php:6
+msgid "Typography settings"
+msgstr "Skrifttypeindstillinger"
+
+#: functions/customizer/customizer_typography.php:27
+msgid "Topbar Widgets"
+msgstr "Topbar sidehoved information-widget."
+
+#: functions/customizer/customizer_typography.php:40
+msgid "Enable Top Widget typography"
+msgstr "Aktiver tilpasset typografi"
+
+#: functions/customizer/customizer_typography.php:53
+msgid "Topbar Widget Title"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:78
+#: functions/customizer/customizer_typography.php:177
+#: functions/customizer/customizer_typography.php:304
+#: functions/customizer/customizer_typography.php:404
+#: functions/customizer/customizer_typography.php:504
+#: functions/customizer/customizer_typography.php:604
+#: functions/customizer/customizer_typography.php:729
+#: functions/customizer/customizer_typography.php:830
+#: functions/customizer/customizer_typography.php:957
+#: functions/customizer/customizer_typography.php:1056
+#: functions/customizer/customizer_typography.php:1181
+#: functions/customizer/customizer_typography.php:1282
+#: functions/customizer/customizer_typography.php:1383
+#: functions/customizer/customizer_typography.php:1485
+#: functions/customizer/customizer_typography.php:1586
+#: functions/customizer/customizer_typography.php:1686
+#: functions/customizer/customizer_typography.php:1791
+#: functions/customizer/customizer_typography.php:1891
+#: functions/customizer/customizer_typography.php:2017
+#: functions/customizer/customizer_typography.php:2118
+#: functions/customizer/customizer_typography.php:2247
+#: functions/customizer/customizer_typography.php:2350
+#: functions/customizer/customizer_typography.php:2452
+#: functions/customizer/customizer_typography.php:2578
+#: functions/customizer/customizer_typography.php:2677
+#: functions/customizer/customizer_typography.php:2802
+#: functions/customizer/customizer_typography.php:2901
+#: functions/customizer/customizer_typography.php:3003
+msgid "Font family"
+msgstr "Skrifttypefamilie"
+
+#: functions/customizer/customizer_typography.php:93
+#: functions/customizer/customizer_typography.php:192
+#: functions/customizer/customizer_typography.php:319
+#: functions/customizer/customizer_typography.php:419
+#: functions/customizer/customizer_typography.php:519
+#: functions/customizer/customizer_typography.php:619
+#: functions/customizer/customizer_typography.php:744
+#: functions/customizer/customizer_typography.php:845
+#: functions/customizer/customizer_typography.php:972
+#: functions/customizer/customizer_typography.php:1071
+#: functions/customizer/customizer_typography.php:1196
+#: functions/customizer/customizer_typography.php:1297
+#: functions/customizer/customizer_typography.php:1398
+#: functions/customizer/customizer_typography.php:1500
+#: functions/customizer/customizer_typography.php:1601
+#: functions/customizer/customizer_typography.php:1702
+#: functions/customizer/customizer_typography.php:1806
+#: functions/customizer/customizer_typography.php:1906
+#: functions/customizer/customizer_typography.php:2032
+#: functions/customizer/customizer_typography.php:2133
+#: functions/customizer/customizer_typography.php:2262
+#: functions/customizer/customizer_typography.php:2365
+#: functions/customizer/customizer_typography.php:2467
+#: functions/customizer/customizer_typography.php:2593
+#: functions/customizer/customizer_typography.php:2692
+#: functions/customizer/customizer_typography.php:2817
+#: functions/customizer/customizer_typography.php:2916
+#: functions/customizer/customizer_typography.php:3018
+#, fuzzy
+#| msgid "Font size"
+msgid "Font size (px)"
+msgstr "Skrifttypestørrelse"
+
+#: functions/customizer/customizer_typography.php:108
+#: functions/customizer/customizer_typography.php:208
+#: functions/customizer/customizer_typography.php:334
+#: functions/customizer/customizer_typography.php:434
+#: functions/customizer/customizer_typography.php:534
+#: functions/customizer/customizer_typography.php:634
+#: functions/customizer/customizer_typography.php:759
+#: functions/customizer/customizer_typography.php:860
+#: functions/customizer/customizer_typography.php:987
+#: functions/customizer/customizer_typography.php:1086
+#: functions/customizer/customizer_typography.php:1212
+#: functions/customizer/customizer_typography.php:1313
+#: functions/customizer/customizer_typography.php:1414
+#: functions/customizer/customizer_typography.php:1516
+#: functions/customizer/customizer_typography.php:1617
+#: functions/customizer/customizer_typography.php:1719
+#: functions/customizer/customizer_typography.php:1822
+#: functions/customizer/customizer_typography.php:1922
+#: functions/customizer/customizer_typography.php:2047
+#: functions/customizer/customizer_typography.php:2148
+#: functions/customizer/customizer_typography.php:2278
+#: functions/customizer/customizer_typography.php:2381
+#: functions/customizer/customizer_typography.php:2483
+#: functions/customizer/customizer_typography.php:2608
+#: functions/customizer/customizer_typography.php:2707
+#: functions/customizer/customizer_typography.php:2832
+#: functions/customizer/customizer_typography.php:2931
+#: functions/customizer/customizer_typography.php:3033
+#, fuzzy
+#| msgid "Font size"
+msgid "Font Weight"
+msgstr "Skrifttypestørrelse"
+
+#: functions/customizer/customizer_typography.php:123
+#: functions/customizer/customizer_typography.php:224
+#: functions/customizer/customizer_typography.php:349
+#: functions/customizer/customizer_typography.php:449
+#: functions/customizer/customizer_typography.php:549
+#: functions/customizer/customizer_typography.php:649
+#: functions/customizer/customizer_typography.php:774
+#: functions/customizer/customizer_typography.php:875
+#: functions/customizer/customizer_typography.php:1002
+#: functions/customizer/customizer_typography.php:1101
+#: functions/customizer/customizer_typography.php:1227
+#: functions/customizer/customizer_typography.php:1328
+#: functions/customizer/customizer_typography.php:1430
+#: functions/customizer/customizer_typography.php:1531
+#: functions/customizer/customizer_typography.php:1632
+#: functions/customizer/customizer_typography.php:1734
+#: functions/customizer/customizer_typography.php:1837
+#: functions/customizer/customizer_typography.php:1937
+#: functions/customizer/customizer_typography.php:2062
+#: functions/customizer/customizer_typography.php:2163
+#: functions/customizer/customizer_typography.php:2294
+#: functions/customizer/customizer_typography.php:2396
+#: functions/customizer/customizer_typography.php:2498
+#: functions/customizer/customizer_typography.php:2623
+#: functions/customizer/customizer_typography.php:2722
+#: functions/customizer/customizer_typography.php:2847
+#: functions/customizer/customizer_typography.php:2946
+#: functions/customizer/customizer_typography.php:3048
+msgid "Font style"
+msgstr "Typografi"
+
+#: functions/customizer/customizer_typography.php:138
+#: functions/customizer/customizer_typography.php:240
+#: functions/customizer/customizer_typography.php:365
+#: functions/customizer/customizer_typography.php:465
+#: functions/customizer/customizer_typography.php:565
+#: functions/customizer/customizer_typography.php:665
+#: functions/customizer/customizer_typography.php:789
+#: functions/customizer/customizer_typography.php:890
+#: functions/customizer/customizer_typography.php:1017
+#: functions/customizer/customizer_typography.php:1116
+#: functions/customizer/customizer_typography.php:1242
+#: functions/customizer/customizer_typography.php:1343
+#: functions/customizer/customizer_typography.php:1446
+#: functions/customizer/customizer_typography.php:1547
+#: functions/customizer/customizer_typography.php:1647
+#: functions/customizer/customizer_typography.php:1750
+#: functions/customizer/customizer_typography.php:1852
+#: functions/customizer/customizer_typography.php:1952
+#: functions/customizer/customizer_typography.php:2077
+#: functions/customizer/customizer_typography.php:2178
+#: functions/customizer/customizer_typography.php:2310
+#: functions/customizer/customizer_typography.php:2412
+#: functions/customizer/customizer_typography.php:2513
+#: functions/customizer/customizer_typography.php:2638
+#: functions/customizer/customizer_typography.php:2737
+#: functions/customizer/customizer_typography.php:2862
+#: functions/customizer/customizer_typography.php:2961
+#: functions/customizer/customizer_typography.php:3063
+msgid "Text Transform"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:152
+msgid "Topbar Widget Content"
+msgstr "Sliderindhold"
+
+#: functions/customizer/customizer_typography.php:266
+msgid "Enable Header typography"
+msgstr "Aktiver tilpasset typografi"
+
+#: functions/customizer/customizer_typography.php:691
+msgid "Enable Banner typography"
+msgstr "Aktiver tilpasset typografi"
+
+#: functions/customizer/customizer_typography.php:704
+#, fuzzy
+#| msgid "Title"
+msgid "Page Title"
+msgstr "Titel"
+
+#: functions/customizer/customizer_typography.php:903
+msgid "Homepage Section"
+msgstr "Forsidesektion indstillinger"
+
+#: functions/customizer/customizer_typography.php:917
+msgid ""
+"Enable typography, this setting works only for Section Title and Description "
+"on page templates like homepage, about, service, contact, and portfolio(2 "
+"column, 3 column and 4 column)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:930
+msgid "Section Title"
+msgstr "Sektionstitel"
+
+#: functions/customizer/customizer_typography.php:1031
+msgid "Section Description"
+msgstr "Sektionsbeskrivelse"
+
+#: functions/customizer/customizer_typography.php:1143
+msgid "Enable Content typography"
+msgstr "Aktiver tilpasset typografi"
+
+#: functions/customizer/customizer_typography.php:1156
+#: functions/customizer/customizer_typography.php:2220
+msgid "Heading 1 (H1)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1256
+#: functions/customizer/customizer_typography.php:2324
+msgid "Heading 2 (H2)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1357
+#: functions/customizer/customizer_typography.php:2426
+msgid "Heading 3 (H3)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1460
+msgid "Heading 4 (H4)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1561
+msgid "Heading 5 (H5)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1661
+msgid "Heading 6 (H6)"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1766
+msgid "Paragraph"
+msgstr "Standardafsnit"
+
+#: functions/customizer/customizer_typography.php:1965
+msgid "Blog / Archive / Single Post"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:1979
+#, fuzzy
+msgid "Enable Blog / Archive / Single Post typography"
+msgstr "Aktiver tilpasset typografi"
+
+#: functions/customizer/customizer_typography.php:2090
+msgid "Post Meta"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:2104
+#, fuzzy
+msgid "Enable Post Meta typography"
+msgstr "Aktiver tilpasset typografi"
+
+#: functions/customizer/customizer_typography.php:2193
+#, fuzzy
+msgid "Shop Page"
+msgstr "Forside"
+
+#: functions/customizer/customizer_typography.php:2207
+#, fuzzy
+msgid "Enable shop page typography"
+msgstr "Aktiver tilpasset typografi"
+
+#: functions/customizer/customizer_typography.php:2221
+msgid "Only for product detail page"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:2325
+msgid "Only for product title in Shop Page"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:2427
+msgid "Only for Product checkout page"
+msgstr ""
+
+#: functions/customizer/customizer_typography.php:2527
+msgid "Sidebar Widgets"
+msgstr "Sidebar widgetområde"
+
+#: functions/customizer/customizer_typography.php:2541
+#, fuzzy
+#| msgid "Enable custom typography"
+msgid "Enable Sidebar Widgets typography"
+msgstr "Aktiver tilpasset typografi"
+
+#: functions/customizer/customizer_typography.php:2553
+msgid "Sidebar Widget Title"
+msgstr "Sidebar widgetområde"
+
+#: functions/customizer/customizer_typography.php:2652
+#, fuzzy
+#| msgid "Sidebar widget area"
+msgid "Sidebar Widget Content"
+msgstr "Sidebar widgetområde"
+
+#: functions/customizer/customizer_typography.php:2751
+#, fuzzy
+#| msgid "Footer widget left area"
+msgid "Footer Widgets"
+msgstr "Sidefod venstre widget-område"
+
+#: functions/customizer/customizer_typography.php:2765
+#, fuzzy
+#| msgid "Enable custom typography"
+msgid "Enable Footer Widget typography"
+msgstr "Aktiver tilpasset typografi"
+
+#: functions/customizer/customizer_typography.php:2777
+msgid "Footer Widget Title"
+msgstr "Sidefod højre widget-område"
+
+#: functions/customizer/customizer_typography.php:2876
+msgid "Footer Widget Content"
+msgstr "Sidefod venstre widget-område"
+
+#: functions/customizer/customizer_typography.php:2989
+#, fuzzy
+msgid "Enable Footer Bar typography"
+msgstr "Aktiver tilpasset typografi"
+
+#: functions/hooks/spicepress-hooks-settings.php:62
+#: functions/hooks/spicepress-hooks-settings.php:373
+#: functions/hooks/spicepress-hooks-settings.php:392
+msgid "SpicePress PRO hooks"
+msgstr "SpicePress PRO hooks"
+
+#: functions/hooks/spicepress-hooks-settings.php:89
+msgid "Before Top Header"
+msgstr "Før top sidehoved"
+
+#: functions/hooks/spicepress-hooks-settings.php:94
+msgid "After Top Header"
+msgstr "Efter top sidehoved"
+
+#: functions/hooks/spicepress-hooks-settings.php:103
+msgid "Before Slider section"
+msgstr "Før slider-sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:109
+msgid "After Slider section"
+msgstr "Efter slider-sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:119
+msgid "Before Service section"
+msgstr "Før service sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:125
+msgid "After Service section"
+msgstr "Efter service sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:134
+msgid "Before Portfolio section"
+msgstr "Før portefølje sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:140
+msgid "After Portfolio section"
+msgstr "Efter portefølje sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:151
+msgid "Before Testimonials section"
+msgstr "Før anbefalinger sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:156
+msgid "After Testimonials section"
+msgstr "Efter anbefalinger sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:166
+msgid "Before Blog section"
+msgstr "Før blog sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:171
+msgid "After Blog section"
+msgstr "Efter blog sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:181
+msgid "Before Gallery section"
+msgstr "Før galleri sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:186
+msgid "After Gallery section"
+msgstr "Efter galleri sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:197
+msgid "Before Team section"
+msgstr "Før team sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:202
+msgid "After Team section"
+msgstr "Efter team sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:212
+msgid "Before Shop section"
+msgstr "Før butik sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:217
+msgid "After Shop section"
+msgstr "Efter butik sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:226
+msgid "Before Client section"
+msgstr "Før klient sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:231
+msgid "After Client section"
+msgstr "Efter klient sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:241
+msgid "Before Callout section"
+msgstr "Før callout sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:246
+msgid "After Callout section"
+msgstr "Efter callout sektion"
+
+#: functions/hooks/spicepress-hooks-settings.php:256
+msgid "Before Footer"
+msgstr "Før sidefod"
+
+#: functions/hooks/spicepress-hooks-settings.php:261
+msgid "After Footer"
+msgstr "Efter sidefod"
+
+#: functions/hooks/spicepress-hooks-settings.php:353
+msgid "Execute PHP"
+msgstr "Udfør PHP"
+
+#: functions/hooks/spicepress-hooks-settings.php:396
+msgid ""
+"Shortcodes are allowed. If you check the Execute PHP checkbox, you can also "
+"use PHP."
+msgstr ""
+"Kortkoder er tilladte. Hvis du markerer Udfør PHP afkrydsningsfeltet, kan du "
+"også bruge PHP."
+
+#: functions/hooks/spicepress-hooks-settings.php:400
+msgid "Save hooks"
+msgstr "Gem hooks"
+
+#: functions/meta-box/post-meta.php:5
+msgid "Project Details"
+msgstr "Portefølje detaljer"
+
+#: functions/meta-box/post-meta.php:6
+msgid "Enable slider on the page"
+msgstr "Aktiver slider på siden"
+
+#: functions/meta-box/post-meta.php:16
+msgid "Allow Slider on the page"
+msgstr "Tillad slider på siden"
+
+#: functions/post-type/custom-post-type.php:7
+msgid "Projects"
+msgstr ""
+
+#: functions/post-type/custom-post-type.php:8
+#: functions/post-type/custom-post-type.php:10
+msgid "Add New"
+msgstr "Tilføj ny"
+
+#: functions/post-type/custom-post-type.php:9
+msgid "Add New Project"
+msgstr "Tilføj ny portefølje"
+
+#: functions/post-type/custom-post-type.php:11
+msgid "New Link"
+msgstr "Nyt link"
+
+#: functions/post-type/custom-post-type.php:12
+msgid "All Projects"
+msgstr "Alle porteføljer"
+
+#: functions/post-type/custom-post-type.php:13
+msgid "View Link"
+msgstr "Vis link"
+
+#: functions/post-type/custom-post-type.php:14
+msgid "Search Links"
+msgstr "Søg i links"
+
+#: functions/post-type/custom-post-type.php:15
+msgid "No Links found"
+msgstr "Ingen links fundet"
+
+#: functions/post-type/custom-post-type.php:16
+msgid "No Links found in Trash"
+msgstr "Ingen links fundet i papirkurv"
+
+#: functions/shortcode/shortcode.php:346
+msgid ""
+"Sed ut Perspiciatis Unde Omnis Iste Sed ut perspiciatis unde omnis iste natu "
+"error sit voluptatem accu tium neque fermentum veposu miten a tempor nise. "
+"Duis autem vel eum iriure dolor in hendrerit in vulputate velit consequat "
+"reprehender in voluptate velit esse cillum duis dolor fugiat nulla pariatur."
+msgstr ""
+"Sed ut Perspiciatis Unde Omnis Iste Sed ut perspiciatis unde omnis iste natu "
+"error sit voluptatem accu tium neque fermentum veposu miten a tempor nise. "
+"Duis autem vel eum iriure dolor in hendrerit in vulputate velit consequat "
+"reprehender in voluptate velit esse cillum duis dolor fugiat nulla pariatur."
+
+#: functions/shortcode/shortcode.php:765 index-wooproduct.php:64
+msgid "On Sale!"
+msgstr "På tilbud"
+
+#: functions/shortcode/shortcode.php:776 index-wooproduct.php:76
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Bedømt til %s ud af 5"
+
+#: functions/shortcode/shortcode.php:776 index-wooproduct.php:76
+msgid "out of 5"
+msgstr "ud af 5"
+
+#: functions/template-tags.php:25
+msgid "By"
+msgstr "Af"
+
+#: functions/template-tags.php:30
+msgid "in"
+msgstr "i"
+
+#: functions/template-tags.php:90
+msgid "Archives"
+msgstr "Arkiv"
+
+#: functions/template-tags.php:96 functions/template-tags.php:100
+#: functions/template-tags.php:104 functions/template-tags.php:110
+#: functions/template-tags.php:116 functions/template-tags.php:122
+#: functions/template-tags.php:128 functions/template-tags.php:142
+#, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: functions/template-tags.php:152
+#, php-format
+msgid "%1$s "
+msgstr "%1$s"
+
+#: functions/template-tags.php:166
+msgid "previous page"
+msgstr "Forrige side"
+
+#: functions/template-tags.php:166
+msgid "next page"
+msgstr "Næste side"
+
+#: functions/widgets/sidebars.php:5
+msgid "3"
+msgstr "3"
+
+#: functions/widgets/sidebars.php:11 functions/widgets/sidebars.php:13
+msgid "Sidebar widget area"
+msgstr "Sidebar widgetområde"
+
+#: functions/widgets/sidebars.php:21 functions/widgets/sidebars.php:23
+msgid "Top header sidebar left area"
+msgstr "Top sidehoved sidebar venstre område"
+
+#: functions/widgets/sidebars.php:31 functions/widgets/sidebars.php:33
+msgid "Top header sidebar right area"
+msgstr "Top sidehoved sidebar højre område"
+
+#: functions/widgets/sidebars.php:43 functions/widgets/sidebars.php:45
+msgid "Classic header widget area"
+msgstr "Klassisk sidehoved widget-område"
+
+#: functions/widgets/sidebars.php:54 functions/widgets/sidebars.php:56
+msgid "Footer widget left area"
+msgstr "Sidefod venstre widget-område"
+
+#: functions/widgets/sidebars.php:64 functions/widgets/sidebars.php:66
+msgid "Footer widget central area"
+msgstr "Sidefod midterste widget-område"
+
+#: functions/widgets/sidebars.php:74 functions/widgets/sidebars.php:76
+msgid "Footer widget right area"
+msgstr "Sidefod højre widget-område"
+
+#: functions/widgets/sidebars.php:85 functions/widgets/sidebars.php:87
+msgid "Contact template sidebar"
+msgstr "Kontaktskabelon sidebar"
+
+#: functions/widgets/sidebars.php:95 functions/widgets/sidebars.php:97
+msgid "WooCommerce sidebar widget area"
+msgstr "WooCommerce sidebar widgetområde"
+
+#: functions/widgets/wdl_contact_info_widget.php:13
+msgid "ST: Contact Info widget"
+msgstr "ST: Kontaktinformation widget"
+
+#: functions/widgets/wdl_contact_info_widget.php:14
+msgid "Contact information template widget"
+msgstr "Kontaktinformation skabelon widget"
+
+#: functions/widgets/wdl_contact_info_widget.php:64
+msgid "Business hours"
+msgstr "Åbningstid"
+
+#: functions/widgets/wdl_contact_info_widget.php:64
+msgid "Monday - Saturday:"
+msgstr "Mandag - lørdag:"
+
+#: functions/widgets/wdl_contact_info_widget.php:64
+msgid " 10am to 6pm"
+msgstr "10 til 17"
+
+#: functions/widgets/wdl_contact_info_widget.php:64
+msgid "Sunday:"
+msgstr "Søndag:"
+
+#: functions/widgets/wdl_contact_info_widget.php:64
+msgid " Closed"
+msgstr "Lukket"
+
+#: functions/widgets/wdl_contact_info_widget.php:65
+msgid "Follow us"
+msgstr "Følg os"
+
+#: functions/widgets/wdl_contact_info_widget.php:79
+msgid "Phone"
+msgstr "Telefon"
+
+#: functions/widgets/wdl_contact_info_widget.php:89
+msgid "Address"
+msgstr "Adresse"
+
+#: functions/widgets/wdl_contact_info_widget.php:94
+msgid "Website"
+msgstr "Websted"
+
+#: functions/widgets/wdl_contact_info_widget.php:99
+msgid "Other information"
+msgstr "Anden information"
+
+#: functions/widgets/wdl_featured_latest_news.php:14
+msgid "ST: Latest News"
+msgstr "ST: Seneste nyheder"
+
+#: functions/widgets/wdl_featured_latest_news.php:15
+msgid "Display your recent posts on your website"
+msgstr "Vis dine seneste indlæg på dit websted"
+
+#: functions/widgets/wdl_featured_latest_news.php:81
+msgid "Number of posts to show"
+msgstr "Antal indlæg der skal vises"
+
+#: functions/widgets/wdl_featured_latest_news.php:86
+msgid "Select blog category"
+msgstr "Vælg blogkategori"
+
+#: functions/widgets/wdl_featured_latest_news.php:88
+msgid "Select category"
+msgstr "Vælg kategori"
+
+#: functions/widgets/wdl_featured_latest_news.php:102
+msgid "Featured post image size"
+msgstr "Udvalgt indlæg billedstørrelse"
+
+#: functions/widgets/wdl_featured_latest_news.php:104
+msgid "Select post image size"
+msgstr "Vælg indlæg billedstørrelse"
+
+#: functions/widgets/wdl_featured_latest_news.php:105
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: functions/widgets/wdl_featured_latest_news.php:106
+msgid "Medium"
+msgstr "Medium"
+
+#: functions/widgets/wdl_featured_latest_news.php:107
+msgid "Large"
+msgstr "Stor"
+
+#: functions/widgets/wdl_featured_latest_news.php:108
+msgid "Full"
+msgstr "Fuld"
+
+#: functions/widgets/wdl_featured_latest_news.php:113
+msgid "Enable feature image"
+msgstr "Aktiver udvalgte billede"
+
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:14
+msgid "ST: Classic Header info widget"
+msgstr "ST: Klassisk sidehoved information-widget"
+
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:17
+msgid "Topbar Classic Header info widget."
+msgstr "Topbar Klassisk sidehoved information-widget."
+
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:93
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:125
+msgid "Chestnut Road,"
+msgstr "Chestnut Road,"
+
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:100
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:128
+msgid "California - United States"
+msgstr "California - United States"
+
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:120
+#: functions/widgets/wdl_header_topbar_info_widget.php:95
+msgid "Font Awesome icon"
+msgstr "Font Awesome ikon"
+
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:122
+#: functions/widgets/wdl_header_topbar_info_widget.php:97
+msgid "Link to get Font Awesome icons"
+msgstr "Link til at få Font Awesome ikoner."
+
+#: functions/widgets/wdl_header_topbar_info_ct_widget.php:122
+#: functions/widgets/wdl_header_topbar_info_widget.php:97
+msgid "fa-icon"
+msgstr "fa-icon"
+
+#: functions/widgets/wdl_header_topbar_info_widget.php:14
+msgid "ST: Header info widget"
+msgstr "ST: Sidehoved information-widget"
+
+#: functions/widgets/wdl_header_topbar_info_widget.php:17
+msgid "Topbar header info widget."
+msgstr "Topbar sidehoved information-widget."
+
+#: functions/widgets/wdl_header_topbar_info_widget.php:75
+#: functions/widgets/wdl_header_topbar_info_widget.php:100
+msgid "Make a reservation: 1-800-123-4567"
+msgstr "Foretag en reservation: 1-800-123-4567"
+
+#: functions/widgets/wdl_social_icon.php:13
+msgid "ST: Social icons"
+msgstr "ST: Sociale ikoner"
+
+#: functions/widgets/wdl_social_icon.php:16
+msgid "SpicePress social icons widget"
+msgstr "SpicePress sociale ikoner widget"
+
+#: functions/widgets/wdl_social_icon.php:195
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: functions/widgets/wdl_social_icon.php:201
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: functions/widgets/wdl_social_icon.php:207
+msgid "Google-Plus URL"
+msgstr "Google Plus URL"
+
+#: functions/widgets/wdl_social_icon.php:213
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: functions/widgets/wdl_social_icon.php:219
+msgid "Instagram URL"
+msgstr "Instagram URL"
+
+#: functions/widgets/wdl_social_icon.php:225
+msgid "Youtube URL"
+msgstr "Youtube URL"
+
+#: functions/widgets/wdl_social_icon.php:231
+msgid "Skype URL"
+msgstr "Skype URL"
+
+#: functions/widgets/wdl_social_icon.php:237
+msgid "Vimeo URL"
+msgstr "Vimeo URL"
+
+#: functions/widgets/wdl_social_icon.php:243
+msgid "Dribble URL"
+msgstr "Dribble URL"
+
+#: header/header-navbar.php:36 header/header-navbar.php:46
+#: header/header-navbar.php:81 header/header-navbar.php:158
+#: header/header-navbar.php:245 header/header-navbar.php:256
+#: header/header-navbar.php:468 header/header-navbar.php:478
+msgid "Toggle navigation"
+msgstr "Skift navigation"
+
+#: search.php:28
+msgid "Nothing Found"
+msgstr "Intet fundet"
+
+#: search.php:29
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Beklager, men din søgning gav ingen resultater. Prøv igen med nogle andre "
+"søgeord."
+
+#~ msgid "Remove animation"
+#~ msgstr "Fjern animation"
+
+#~ msgid "Custom typography"
+#~ msgstr "Tilpasset typografi"
+
+#~ msgid "Pixels"
+#~ msgstr "Pixels"
+
+#~ msgid "Widget heading title"
+#~ msgstr "Widget overskrifttitel"
+
+#~ msgid "Portfolio"
+#~ msgstr "Portefølje"
+
+#~ msgid "Portfolio category"
+#~ msgstr "Portefølje kategori"
+
+#~ msgid "Category Archive"
+#~ msgstr "Kategoriarkiv"
+
+#~ msgid "Error 404: Page Not Found"
+#~ msgstr "Fejl 404: Siden blev ikke fundet"
+
+#~ msgid "%d item"
+#~ msgid_plural "%d items"
+#~ msgstr[0] "%d element"
+#~ msgstr[1] "%d elementer"
+
+#~ msgid ""
+#~ "SpicePress PRO is a responsive and fully customizable theme to create "
+#~ "business websites. The advanced admin panel will enable you to customize "
+#~ "it without any technical knowledge, and you can also take advantage of "
+#~ "the 7 predefined colors scheme to further personalize it to your taste. "
+#~ "You can also customize existing graphics to create your own unique "
+#~ "website interface."
+#~ msgstr ""
+#~ "SpicePress PRO er et responsivt og et fuldstændig tilpasningsmuligt tema "
+#~ "til at skabe virksomhedswebsteder. Det avancerede adminstrationspanel vil "
+#~ "give dig mulighed for at tilpasse temaet uden nogen form for teknisk "
+#~ "indsigt, og du kan drage fordel af de syv foruddefinerede farveskemaer, "
+#~ "så du i endnu højere grad kan tilpasse det til din smag. Du kan også "
+#~ "tilpasse det medfølgende grafik, så du kan skabe din egen, unikke "
+#~ "grænseflade på dit websted."
+
+#~ msgid "spicethemes.com"
+#~ msgstr "spicethemes.com"
+
+#~ msgid "https://spicethemes.com"
+#~ msgstr "https://spicethemes.com"
+
+#~ msgid "Business Template"
+#~ msgstr "Virksomhedsskabelon"
+
+#~ msgid "About Us"
+#~ msgstr "Om os"
+
+#~ msgid "Blog full width"
+#~ msgstr "Blog fuldbredde"
+
+#~ msgid "Blog left sidebar"
+#~ msgstr "Blog venstre sidebar"
+
+#~ msgid "Blog masonry 2 Col"
+#~ msgstr "Blog masonry to kolonner"
+
+#~ msgid "Blog masonry 3 Col"
+#~ msgstr "Blog masonry tre kolonner"
+
+#~ msgid "Blog masonry 4 Col"
+#~ msgstr "Blog masonry fire kolonner"
+
+#~ msgid "Blog right sidebar"
+#~ msgstr "Blog højre sidebar"
+
+#~ msgid "Contact page"
+#~ msgstr "Kontaktside"
+
+#~ msgid "Full-width page"
+#~ msgstr "Fuld bredde side"
+
+#~ msgid "Portfolio 2 Columns"
+#~ msgstr "Portefølje 2 kolonner"
+
+#~ msgid "Portfolio 3 Columns"
+#~ msgstr "Portefølje 3 kolonner"
+
+#~ msgid "Portfolio 4 Columns"
+#~ msgstr "Portefølje 4 kolonner"

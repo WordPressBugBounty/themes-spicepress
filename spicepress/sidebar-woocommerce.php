@@ -1,15 +1,10 @@
 <?php
 /**
- * side bar template
- *
+ * Wrapper for sidebar-woocommerce.php
  */
-?>
-<?php if ( is_active_sidebar( 'woocommerce' )  ) : ?>
-<div class="col-md-4 col-sm-5 col-xs-12">
-	<div class="sidebar">
-		<!--Sidebar-->
-		<?php dynamic_sidebar( 'woocommerce' ); ?>
-		<!--/End of Sidebar-->
-	</div>
-</div>	
-<?php endif; ?>
+if ( function_exists( 'sp_fs' ) && sp_fs()->can_use_premium_code() ) {
+    require get_parent_theme_file_path( '/pro/sidebar-woocommerce-pro.php' );
+} else {
+    require get_parent_theme_file_path( '/free/sidebar-woocommerce-free.php' );
+}
+

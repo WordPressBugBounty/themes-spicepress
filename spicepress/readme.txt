@@ -1,16 +1,15 @@
-== SpicePress ==
+== SpicePress Pro ==
 
-Contributors: spicethemes
+Contributors: SpicePress, freemius
 Requires at least: 4.5
 Tested up to: 6.9
-Stable tag: 2.3.2.5
-Requires PHP: 5.4
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-License: GNU General Public License v2 or later
+Stable tag: 3.8.2
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-SpicePress a theme for business, consultancy firms etc  by Spice Themes (Author URI: http://www.spicethemes.com).
+SpicePress a theme for business, consultancy firms etc  by SpiceThemes (Author URI: http://www.spicethemes.com)
 
 == Installation ==
 
@@ -18,333 +17,245 @@ SpicePress a theme for business, consultancy firms etc  by Spice Themes (Author 
 2. Click Upload and Choose File, then select the theme's .zip file. Click Install Now.
 3. Click Activate to use your new theme right away.
 
-== Keyboard navigation ==
-
-Keyboard navigation is working properly in the forward direction by using the tab key. For the reverse direction, Shift+Tab key is working on all the parent menus and if the dropdown menus are open then it is working on it. The focus is moving back to the parent menu having submenus from the next menu in a reverse direction.
-
 == Widgets ==
 
 In WordPress 5.8, the default widget title is showing in the H2 tag if you want you can change it in the H3 tag.
 
 == License ==
 
-SpicePress WordPress Theme, Copyright (C) 2018-2026, SpiceThemes
+SpicePress WordPress Theme, Copyright (C) 2026, SpiceThemes
 SpicePress is distributed under the terms of the GNU GPL
 
 == Changelog ==
 
-@Version 2.3.2.5
+@Version 3.8.2
+* Introduced Freemius opt-in and licensing system.
+* Premium features can now be activated via license key.
+* Fixed some minor bugs.
+
+@Version 3.7.6
 * Added editor button setting for gutenberg section on business template.
 
-@Version 2.3.2.4
-* Updated description & demo's link.
+@Version 3.7.5
+* Added Starter Sites.
 
-@Version 2.3.2.3
-* Added starter sites.
-
-@Version 2.3.2.2
+@Version 3.7.4
 * Added Outfit google font.
 
-@Version 2.3.2.1
-* Corrected some escaping and 404 page design issues.
+@Version 3.7.3
+* Fixed escaping, sanitization, text-domain and some design issues.
 
-@Version 2.3.2
+@Version 3.7.2
 * Added Gutenberg editor section functionality on business template.
 * Removed Gutenberg business template.
 
-@Version 2.3.1
-* Added Gutenberg business template.
-* Recommended the Spice Block plugin on the options page.
+@Version 3.7.1
+* Added gutenberg business template.
 
-@Version 2.3
+@Version 3.7
 * Updated bootstrap 5.3.3.
 * Fixed some style issues.
 
-@Version 2.2.2
-* Fixed error notice issue.
+@Version 3.6.6
+* Added allowed html for customizer repeater field.
 
-@Version 2.2.1
-* Fixed customizer styling issue.
+@Version 3.6.5
+* Updated freemius directory.
 
-@Version 2.2
-* Updated font-awesome library.
+@Version 3.6.4
+* Added spice post slider shortcode feature field in customizer.
 
-@Version 2.1.9
-* Added Post Navigation Feature.
-* Added correct demo link .
+@Version 3.6.3
+* Updated font-awesome library and freemius directory.
 
-@Version 2.1.8
-* Fixed chilly child theme slider issue.
+@Version 3.6.2
+1 Added Post Navigation Feature.
 
-@Version 2.1.7
-* Added Rank Math,Seo Yoast and NavXT Breadcrumbs Feature.
+@Version 3.6.1
+1 Added Rank Math,Seo Yoast and NavXT Breadcrumbs Feature.
 
-@Version 2.1.6
-* Added spice post slider shortcode field in customizer.
+@Version 3.6
+1. Updated freemius directory.
 
-@Version 2.1.5
-* Added Logo Width setting in Site Identity tab.
+@Version 3.5.3
+1. Added  Logo width setting inside Site Identity tab.
 
-@Version 2.1.4
-* Added Google font locally feature.
-* Recommended SEO optimized plugin.
+@Version 3.5.2
+1. Added google font locally.
 
-@Version 2.1.3
-* Fixed the warnings.
+@Version 3.5.1
+1. Fixed the warnings.
 
-@Version 2.1.2
-* Fixed escaping issues.
-* Removed unnecessary code.
+@Version 3.5
+1. Added freemius directory.
 
-@Version 2.1.1
-* Fixed some widget style issues.
+@version 3.4.1
+1. Fixed the issues with PHP 8.
 
-@Version 2.1
-* Recommended the Spice Social Share plugin on the options page.
+@version 3.4
+1. Added dark variation with a new predefined colors.
+2. Added service and testimonial section variations and templates.
+3. Fixed style and color & background setting issues.
 
-@Version 2.0
-* Fixed the issues with PHP 8.
-* Recommended the Spice Post Slider plugin on the options page.
+@version 3.3
+1. Fixed design issues with WordPress 5.8.
 
-@Version 1.9.9
-* Added the recommended plugin for WooCommerce on options page.
-* Removed changelog file and unnecessary code in theme.
-* Fixed prefix issue.
+@version 3.2
+1. Implemented the container layout and post navigation style features.
+2. Fixed shortcode, toggle search, dropdown, and 3rd level breadcrumb issues.
+3. Removed Google plus social icon.
+4. Fixed some settings and styling issues.
 
-@Version 1.9.8
-* Fixed blockquote anchor tag style issue.
+@version 3.1.2
+1. Fixed the "Open link in a new tab" checkbox issue.
+2. Fixed date format and portfolio error issues.
+3. Fixed center header variation design and footer copyright section design issues.
 
-@Version 1.9.7
-* Fixed blog style issues and correct plugin name.
-* Removed default custom background image.
+@version 3.1.1
+1. Added New Header Variation.
 
-@Version 1.9.6
-* Fixed design issues with WordPress 5.8.
+@version 3.1
+1. Tag updated.
 
-@Version 1.9.5
-* Updated the options page.
-* Fixed theme check warnings.
+@version 3.0.1
+1. jQuery compatiblity issue ressolved with WP 5.5
 
-@Version 1.9.4
-* Added prefix and closing tag in the custom css file.
+@Version 3.0
+1. Updated Typography setting.
+2. Added Colors & Background setting.
+3. Moved Colors and Background Image setting in Colors & Background setting.
+4. Added RTL language support.
 
-@Version 1.9.3
-* Fixed the woocommerce breadcrumb title issues.
-* Fixed the woocommerce and option page styling issues.
+@Version 2.9.2
+1. Add image alt text on client section.
 
-@Version 1.9.2
-* Added Colors and Typography.
-* Added Excerpt and Full Content.
-* Added Boxed and Wide Layout.
-* Fixed 3rd level breadcrumb issues and removed Google plus social icon.
-* Footer Credit not editable in the free version.
+@Version 2.9.1
+1. Change comment date and time format.
 
-@Version 1.9.1
-* Fixed footer empty markup issue.
-* Fixed contact form and latest news section design issues.
+@Version 2.9
+1. Fix click issue when link not found for mobile menu
 
-@Version 1.9
-* Fixed escaping, prefix, and translation issues.
-* Fixed the user comment issue.
+@Version 2.8.5
+1. Header Top bar added for each header variant.
+2. Add image alt text and title on gallery.
 
-@Version 1.8.9
-* Implemented "Links within content must be underlined" guideline.
-* Escaped the pingback_url().
-* Fixed keyboard navigation issue and error notice issue in comment section.
+@Version 2.8.4
+1. Fix headers already sent issue from functions/template-tags.php
 
-@Version 1.8.8
-* Dummy content updated & menu issue fixed.
+@Version 2.8.3
+1. CSS added for woocommerce page layout.
 
-@Version 1.8.7
-* Changed the screenshot image.
+@Version 2.8.2
+1. Added menu breakpoint setting.
 
-@Version 1.8.6
-* Fixed the js syntax error coming in Internet Explorer 11.
-
-@Version 1.8.5
-* Added skin color feature.
-
-@Version 1.8.4
-* Changed from the excerpt to full content for posts in blog pages and the latest news section.
-
-@Version 1.8.3
-* Moved custom controls from theme to the companion plugin.
-
-@Version 1.8.2
-* Fixed issues mentioned by the reviewer.
-
-@Version 1.8.1
-* Fixed the Accessibility in fallback menus.
-* Removed the support of custom-header.
-
-@Version 1.8
-* Implement the Accessibility including skip to content and keyboard navigation.
-* Declared all the licenses.
-* Changed the screenshot image.
-* Corrected the admin notice.
-* Fixed all the other issues.
-
-@Version 1.7
-* Added RTL language support.
-* Update option page.
-
-@Version 1.6.3.2
-1. Update Screenshot.
-
-@Version 1.5.9
-1. Added Menu breakpoint setting.
-
-@Version 1.5.8.1
-1. Added sanitize_callback function to add_setting.
-
-@Version 1.5.8
+@Version 2.8.1
 1. Added Header layout setting with logo placing.
 2. Fixed the translation issue of Home menu and search widget button text.
 
-@Version 1.5.7
-1. Added documentation link in customizer.
+@Version 2.8
+1. Fixed service module issue.
 
-@Version 1.5.6
-1. Fixed next page pagination issue on page.
+@Version 2.7.9
+1. Added nextpage tag supprot.
 
-@Version 1.5.5
-1. Fixed menu issue.
+@Version 2.7.8
+1. Fixed testimonial image and title markup issue.
 
-@Version 1.5.4
-1. Fixed escaping issues.
+@Version 2.7.7
+1. Added demo version with code snippet.
 
-@Version 1.5.3
-1. Recommended plugin Easy Instagram Feed By TGM.
+@Version 2.7.6
+1. Fixed menu issue on mobile.
 
-@Version 1.5.2
-1. Added Recommended plugin tab.
+@Version 2.7.5
+1. Fixed static front page pagination issue.
+2. Fixed page title layout broken issue on enable custom typography setting.
 
-@Version 1.5.1
-1. Fixed homepage title issue.
+@Version 2.7.4
+1. Remove title text appointment from project section or project shortcode.
 
-1.Updated String
-@Version 1.5
-1.Updated String
+@Version 2.7.3
+1. Fixed About us page responsiveness issue.
 
-@Version 1.4.9.1
-1. Updated String
+@Version 2.7.2
+1. Make image multilingual.
 
-@Version 1.4.9
-1. Added WooCommerce Gallery support
+@Version 2.7.1
+1. Fixed footer copyright translation issue.
 
-@Version 1.4.8
-* Update Theme Detail Page for child theme.
+@Version 2.7
+1. Added WooCommerce gallery support.
 
-@Version 1.4.7
-* Update String.
+@Version 2.6.9
+1. Added Child theme name.
 
-@Version 1.4.6
-* Fixed scrollup styling issue.
+@Version 2.6.8
+1. Added Child theme name.
 
-@Version 1.4.5
-* Update Link.
+@Version 2.6.7
+1. Added Google Font.
+2. Translation ready Testimonial link and Callout link.
+3. Fixed styling issues.
 
-@Version 1.4.4
-* Added setting for remove animation effects from mobile.
+@Version 2.6.6
+1. Added child theme name.
 
-@Version 1.4.3
-* Update pot file.
-* Added contact us and about us template
+@Version 2.6.5
+1. Added Slider Read more button link translation ready.
 
-@Version 1.4.2
-* Added breadcrumbs setting for archive page.
+ @Version 2.6.4
+1. Added custom background support.
+2. Added post type slug setting.
 
-@Version 1.4.1
-* Fixed View Theme Info link issue.
+@Version 2.6.3
+1. Strings Correction.
 
-@Version 1.4
-* Fixed Styling issue.
-* Added Overlay setting for slider and testimonial.
+@Version 2.6.2
+1. Added setting for remove animation effects from mobile.
 
-@Version 1.3
-* Change class name upgrade to upgrade-spicepress-pro.
+@Version 2.6.1
+1. Added Header & Footer Background color change setting.
 
-@Version 1.2
-* Update Theme Description.
+@Version 2.6
+1. Added Child theme name.
+
+@Version 2.5
+1. Added Child theme name.
+2. Added Overlay setting for slider and testimonial.
+
+@Version 2.4
+1. Fixed breducrumb color issue.
+
+@Version 2.3
+1. Fixed Index page breducrumb issue.
+
+@Version 2.2
+1. Added require wpml-pll folder.
+
+@Version 2.1
+1. Added Child theme name.
+
+@Version 2.0
+1. Update strings.
 
 @Version 1.1
-* Update strings.
-
-@Version 1.0.1
-* Added Upgrade to pro button.
+* Update Locals.
+* Change language name lang to languages.
 
 @Version 1.0
-* Update Theme URI.
+* release
 
-@Version 0.8
-* Update Strings.
-
-@Version 0.7
-* Update Theme URI and Links.
-
-@Version 0.6
-* Update Strings.
-
-@Version 0.5
-* Fixed Theme Review Issue.
-* Update Strings.
-
-@Version 0.4
-* Fixed Theme Review Issue.
-
-@Version 0.3
-* Update readme file.
-
-@Version 0.2
-* Update with homepage template.
-
-@Version 0.1
-* Initial release
 == Credits ==
 
-Bootstrap:
-Copyright: (c) Twitter
-License: MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-Source: http://getbootstrap.com
-
-Font Awesome:
-Copyright: (c) Dave Gandy
+- Font Awesome:
+Source: http://fontawesome.io/, (C) Dave Gandy
 License: (CSS)[MIT](http://opensource.org/licenses/MIT), (Fonts)[SIL OFL 1.1](http://scripts.sil.org/OFL)
-Source: https://fontawesome.com
 
-Glyphicons:
-Copyright: (c) Twitter, Bootstrap Authors, Neos21
-License: MIT License
-Source: https://github.com/Neos21/bootstrap3-glyphicons
 
-Customizer Notify:
-Copyright: (c) Mikesetzer
-License: Under GNU General Public License
-Source: https://github.com/mikesetzer/origintheme/tree/master/ti-customizer-notify
+== Images ==
 
-Alpha color picker
-Copyright: (c) 2016 Codeinwp cristian-ungureanu
-License: MIT license
-Source: https://github.com/Codeinwp/customizer-controls/tree/master/customizer-alpha-color-picker
+* Image used in screenshot, License CC0 Public Domain
+https://www.pexels.com/photo/group-of-people-in-dress-suits-776615/
 
-Customizer toggle control
-Copyright: (c) 2016 soderlind
-License: Under GNU General Public License v2.0
-Source: https://github.com/soderlind/class-customizer-toggle-control
-
-Animate:
-Copyright: (c) 2017 Daniel Eden
-License: MIT License
-Source: https://github.com/daneden/animate.css
-
-Wow:
-Copyright: (c) 2015 Matthieu Aussaguel
-License: Under GNU General Public License
-Source: https://github.com/matthieua/WOW/blob/master/dist/wow.js
-
-Image used in the Screenshot
-License - CC0 Public domain
-Source - https://stocksnap.io/photo/people-girls-Y2AHVPYB51
-
-* Images on /images folder
-Copyright (C) 2026, SpcieThemes and available as [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
+* Images on /assets/images folder
+Copyright (C) 2018, SpcieThemes and available as [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)

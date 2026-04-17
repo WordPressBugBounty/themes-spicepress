@@ -34,7 +34,11 @@ if (class_exists('WP_Customize_Control') && !class_exists('Spicepress_Plugin_Ins
 		public  function enqueue() {
 			wp_enqueue_script('plugin-install');
 			wp_enqueue_script('updates');
-			wp_enqueue_script('spicepress-companion-install', SPICEPRESS_ADMIN_URI . '/admin/assets/js/plugin-install.js', array('jquery'));
+			if ( function_exists( 'sp_fs' ) && sp_fs()->can_use_premium_code() ) {
+					wp_enqueue_script('spicepress-companion-install', ST_TEMPLATE_DIR_URI . '/admin/pro/assets/js/plugin-install-pro.js', array('jquery'));
+			}else{
+				wp_enqueue_script('spicepress-companion-install', ST_TEMPLATE_DIR_URI . '/admin/assets/js/plugin-install-free.js', array('jquery'));
+			}
 			wp_localize_script('spicepress-companion-install', 'spicepress_companion_install',
 				array(
 					'installing' => esc_html__('Installing', 'spicepress'),

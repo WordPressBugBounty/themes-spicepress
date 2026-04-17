@@ -1,0 +1,50 @@
+/*
+* Author: SpicePress
+* Created by: Shahid (Scientech IT)
+* Copyright (c) 2017 SpicePress
+* Date: 11 Nov, 2019
+* http://www.spicethemes.com
+*/
+
+
+
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+
+.slide-text-bg1 { padding: 10px 15px 13px; width: 100%; }
+/*About*/
+.about-img-area { margin: 0 0 25px; padding: 0px; position: relative; }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+.slide-text-bg1 { width: 100%; }
+
+/*Callout*/
+.sm-callout-btn { float: right; margin-top: 15px; }
+/*About*/
+.about-img-area { margin: 0 0 25px; padding: 0px; position: relative; }
+
+}	
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+/*Header Contact Info*/
+.header-contact-info { float: none; text-align: center !important; }
+.header-sidebar .col-md-6:nth-child(2) ul.header-contact-info { padding-top: 0px; }
+.header-contact-info li { padding: 0; }
+.slide-text-bg1 { width: 100%; }
+/*Testimonial*/
+.testmonial-area { padding: 0; }
+.testmonial-area h4 { text-align: center; }
+.author-box { float: none; margin: 0 auto 20px; }
+.description-box { padding: 15px; }
+.description-box:before { left: 0; right: 0; margin: 0 auto; }
+.author-description p { text-align: center; }
+/*Callout*/
+.sm-callout-btn { float: right; margin-top: 15px; }
+/*About*/
+.about-img-area { margin: 0 0 25px; padding: 0px; position: relative; }
+/*Top Book Button*/
+.sm-top-btn { float: right; padding: 25px 0 25px 20px; }
+	
+} 

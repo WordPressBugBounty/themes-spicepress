@@ -1,28 +1,10 @@
 <?php
 /**
- * The default template for displaying content
+ * Wrapper for content-page.php
  */
-?>
-<article class="post" id="post-<?php the_ID(); ?>" <?php post_class( 'post-content-area wow fadeInDown animated' ); ?> data-wow-delay="0.4s">
-			
-		<?php 
-		if(has_post_thumbnail()){
-		if ( is_single() ) {
-			echo '<div class="blog-featured-img">';
-			the_post_thumbnail( '', array( 'class'=>'img-responsive' ) );
-			echo '</div>';
-		}else{
-			echo '<div class="blog-featured-img">';
-			the_post_thumbnail( '', array( 'class'=>'img-responsive' ) );
-			echo '</div>';
-		}}?>
-		
-		
-		
-		<div class="post-content">					
-			<div class="entry-content">
-			<?php the_content( __('Read More','spicepress') );
-				wp_link_pages( ); ?>
-			</div>							
-		</div>
-</article>
+if ( function_exists( 'sp_fs' ) && sp_fs()->can_use_premium_code() ) {
+    require get_parent_theme_file_path( '/pro/content-page-pro.php' );
+} else {
+    require get_parent_theme_file_path( '/free/content-page-free.php' );
+}
+
