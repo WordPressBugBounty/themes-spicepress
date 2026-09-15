@@ -289,3 +289,52 @@ img.ing-responsive.img-tf-logo {
 }
 
 .panel-close{display:none;}
+
+/*Badge Css*/
+.sp-badge-container {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.sp-badge-text {
+  background: linear-gradient(135deg, #ff4757 0%, #2271b1 100%);
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(255, 71, 87, 0.4);
+  position: relative;
+  z-index: 2;
+}
+
+.sp-badge-ripple {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px;
+  background-color: #2271b1;
+  opacity: 0.4;
+  z-index: 1;
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    transform: scale(1.15);
+    opacity: 0;
+  }
+}
+.spicepress-tab-pane{margin-top: 1rem;}
+#getting_started p .button {line-height: 1.813 rem;}

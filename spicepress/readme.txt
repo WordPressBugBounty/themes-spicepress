@@ -2,8 +2,8 @@
 
 Contributors: SpicePress, freemius
 Requires at least: 4.5
-Tested up to: 6.9
-Stable tag: 3.8.2
+Tested up to: 7.0
+Stable tag: 3.8.3
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -27,6 +27,10 @@ SpicePress WordPress Theme, Copyright (C) 2026, SpiceThemes
 SpicePress is distributed under the terms of the GNU GPL
 
 == Changelog ==
+
+@Version 3.8.3
+* Redesigned the Options page.
+* Fixed the Spice Starter Site plugin installation and activation issue.
 
 @Version 3.8.2
 * Introduced Freemius opt-in and licensing system.

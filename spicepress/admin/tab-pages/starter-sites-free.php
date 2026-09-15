@@ -26,7 +26,7 @@ if(!class_exists('Spice_Starter_Sites')){
     if($hook_suffix==='toplevel_page_spicepress-welcome'){?>
         <div class="active-import-actions">
             <span><strong><?php echo esc_html('Activate Spice Starter Sites Demo Importer Now and Import any available demo in One Click','spicepress');?></strong></span>
-            <button id="install-import-plugin-button-options-page" data-plugin-slug="spice-starter-sites" data-plugin-url="<?php echo esc_url( 'https://spicethemes.com/extensions/spice-starter-sites.zip');?>"><?php echo esc_html__( 'Install', 'spicepress' ); ?>
+            <button id="install-import-plugin-button-options-page" data-plugin-slug="spice-starter-sites" data-plugin-url="<?php echo esc_url( 'https://downloads.spicethemes.com/extensions/spice-starter-sites.zip');?>"><?php echo esc_html__( 'Install', 'spicepress' ); ?>
             </button>
         </div>
 <?php } 

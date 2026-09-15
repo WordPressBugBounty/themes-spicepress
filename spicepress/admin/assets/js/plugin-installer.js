@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
     var importpluginSlug = 'spice-starter-sites'; // Adjust this based on your plugin slug
-    var importpluginUrl = 'https://spicethemes.com/extensions/spice-starter-sites.zip'; // The plugin URL
+    var importpluginUrl = 'https://downloads.spicethemes.com/extensions/spice-starter-sites.zip'; // The plugin URL
     var importbutton_id='#install-import-plugin-button-options-page';
     // Check the plugin status when the page loads
     $.ajax({
